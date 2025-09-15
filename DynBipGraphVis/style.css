@@ -1,0 +1,204 @@
+:root {
+    --main-color: rgba(219, 220, 241, 1);
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    /*grid-gap: 10px;*/
+    grid-template-columns: repeat(6, 1fr);
+    /*grid-template-columns: 4;*/
+    grid-template-rows: 10vh auto;
+    /*grid-template-rows: 10vh 90vh;*/
+    /*grid-auto-rows: auto;*/
+    /* Let the header follow horizontal scrolling */
+    overflow: auto;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: sticky;
+    width: 100%;
+    /*position: relative;*/
+    background-color: var(--main-color);
+    top: 0;
+    left: 0;
+
+    grid-row: 1 / 2;
+    grid-column: 1 / 7;
+
+    z-index: 1;
+}
+
+#general-info {
+    font-size: 20px;
+}
+
+#visualization {
+    position: relative;
+    /*grid-row: 2 / 5;*/
+    /*grid-column: 1 / 6;*/
+    grid-column: 1 / 7;
+    /*grid-column: 1 / 2;*/
+    border: 0px;
+}
+
+#aggregate-svg {
+    position: fixed;
+    /*position: sticky;*/
+    top: 6em;
+    /*top: 100px;*/
+    left: 0px;
+    z-index: 0;
+}
+
+#main-svg {
+    z-index: -2;
+}
+
+/* TABLES */
+
+#node-table-container {
+    /*height: 10%;*/
+    width: 100%;
+    /*background-color: #a8a8a8;*/
+    /*background-color: rgba(219, 220, 241, 0.6);*/
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0px;
+    /*z-index: -99;*/
+}
+
+
+td {
+    line-height: 12px;
+}
+
+/* Types of columns */
+.selection {
+    background-color: rgba(228, 214, 255, 0.6);
+}
+.property {
+    background-color: rgba(241, 255, 214, 0.6);
+}
+.computerProperty {
+    background-color: rgba(255, 239, 209, 0.6);
+}
+
+/*.tableNode {*/
+/*    grid-row: 1;*/
+/*    grid-column: 1 / 6;*/
+/*    background-color: #2c3e50;*/
+/*}*/
+
+
+#inside-panel {
+    position: fixed;
+    top: 12vh;
+    right: 3%;
+    /*right: 20%;*/
+    min-width: 100px;
+    max-width: 200px;
+    min-height: 200px;
+    border: 1px solid black;
+    background-color: white;
+    list-style: none;
+    padding: 10 pnu;
+
+    display: none;
+}
+
+/*#role-legend-panel {*/
+/*    position: fixed;*/
+/*    top: 36vh;*/
+/*    right: 20%;*/
+/*    min-width: 100px;*/
+/*    min-height: 40px;*/
+/*    border: 1px solid black;*/
+/*    background-color: white;*/
+/*    list-style: none;*/
+/*    padding: 10px*/
+/*}*/
+
+#inside-panel ul {
+    list-style: none;
+}
+
+
+/* MENU */
+#right-menu {
+    background-color: var(--main-color);
+    grid-column: 6 / 7;
+}
+
+#menu-fixed {
+    position: fixed;
+}
+
+.property-button {
+    margin: 1px 3px;
+}
+
+#clustering-options {
+    margin: 4px;
+}
+
+.cell {
+    border: 1px solid black;
+    /*position: relative;*/
+}
+
+.widget {
+    padding-left: 1%;
+    flex: 1;
+    /*height: 100%;*/
+}
+
+#person-attributes {
+    flex-grow: 2;
+}
+
+
+#documents-attributes {
+    flex-grow: 2;
+}
+
+/* Jquery Ui */
+.button-selected {
+    border: 3px solid black !important;
+}
+
+.option-button {
+    border: 1px solid black !important;
+    background-color: #003eff;
+}
+
+
+/*CSS CLASSES*/
+.occluded {
+    display: none
+}
+
+/* SVG */
+.person-label {
+    webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.selLabel {
+    webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

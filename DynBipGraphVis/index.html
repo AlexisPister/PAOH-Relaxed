@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>DynViz</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <!--    <link rel="stylesheet" href="./node_modules/jquery-ui-dist/jquery-ui.min.css" />-->
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div class="header cell">
+        <div id="data-import" class="widget"></div>
+        <div id="general-info" class="widget">
+            <div>Number of persons: <strong><span id="n-persons"></span></strong></div>
+            <div>Number of documents: <strong><span id="n-documents"></span></strong></div>
+        </div>
+        <div id="gap-slider" class="widget">
+            <div id="slider"></div>
+            <div id="gap-number"></div>
+        </div>
+        <div id="role-legend-panel" class="widget"></div>
+        <div id="team-legend-panel" class="widget"></div>
+        <div id="person-attributes" class="widget"></div>
+        <div id="documents-attributes" class="widget"></div>
+        <div id="property-plot" class="widget"></div>
+        <div id="show-labels" class="widget">
+            <label class="form-control">
+                <input id="show-labels-box" type="checkbox" name="checkbox-checked" checked />
+                Show Labels
+            </label>
+        </div>
+        <div id="show-table" class="widget">
+            <label class="form-control">
+                <input id="show-table-box" type="checkbox" name="checkbox-checked"/>
+                Show Table
+            </label>
+        </div>
+    </div>
+
+    <div id="visualization" class="cell">
+        <div id="inside-panel"></div>
+<!--        <div id="role-legend-panel"></div>-->
+        <!--        <div id=""-->
+
+        <svg id="aggregate-svg"></svg>
+        <svg id="main-svg">
+        </svg>
+
+        <div id="node-table-container">
+        </div>
+    </div>
+
+
+<!--    <div id="right-menu" class="cell">-->
+<!--        <div id="menu-fixed">-->
+<!--            <h3> Dataset </h3>-->
+<!--            <div id="dataset-selection" class="right-menu-section">-->
+<!--            </div>-->
+
+<!--            <h3> Persons </h3>-->
+<!--            <div id="persons-selection" class="right-menu-section">-->
+<!--            </div>-->
+
+
+<!--            <h3> Document Properties </h3>-->
+<!--            <div id="document-attributes" class="right-menu-section">-->
+<!--            </div>-->
+
+<!--            <h3> Clustering </h3>-->
+<!--            <div id="clustering-section">-->
+<!--                <div id="clustering-buttons">-->
+<!--                </div>-->
+<!--                <div id="clustering-options"></div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="tableNode cell">-->
+<!--dzd-->
+<!--    </div>-->
+
+    <!--<script src="https://ssvg.io/ssvg.js"></script>-->
+    <!--<script src="https://ssvg.io/ssvg-auto.js"></script>-->
+    <!--<script src="https://ssvg.io/ssvg.js"></script>-->
+
+    <script type="module">
+        import jQuery from "jquery";
+        window.$ = window.jQuery = jQuery;
+    </script>
+    <script type="module" src="/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "dynbipgraphvis",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "parcel ./index.html --port 3001",
+    "dev-nc": "parcel ./index.html --no-cache --port 3001",
+    "dev2": "parcel ./index.html --no-cache --port 3001 && parcel watch ./index.html && parcel watch ./main.js",
+    "build": "parcel build ./index.html",
+    "check": "tsc --noEmit",
+    "update": "npm i dynbipgraph"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@nobleclem/jquery-multiselect": "^2.4.21",
+    "@observablehq/plot": "^0.6.6",
+    "@types/d3": "^7.4.0",
+    "@types/jquery": "^3.5.16",
+    "@types/lodash": "^4.14.191",
+    "d3": "^7.3.0",
+    "datatables.net-jqui": "^1.13.4",
+    "dynbipgraph": "git+ssh://git@gitlab.inria.fr:apister/dynbipgraph-js.git",
+    "jquery": "^3.6.0",
+    "jquery-ui-dist": "^1.13.0",
+    "lodash": "^4.17.21",
+    "path-intersection": "^2.2.1",
+    "paths-js": "github:AlexisPister/paths",
+    "typescript": "^4.9.5",
+    "update": "^0.7.4"
+  }
+}
