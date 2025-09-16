@@ -25,7 +25,8 @@ dependencies:
   - xz=5.4.5
   - zlib=1.2.13
   - pip:
-      - git+https://gitlab.inria.fr/apister/bipdyngraph
+#      - git+https://gitlab.inria.fr/apister/bipdyngraph
+      - ../bipDynGraph
       - angelcommunity==2.0.0
       - beautifulsoup4==4.12.3
       - bimlpa==0.1.2
