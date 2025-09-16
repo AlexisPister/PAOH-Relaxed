@@ -1,5 +1,8 @@
 # README
 
+Paoh-Relaxed is a new dynamic hypergraph visualisation technique and system focused on scalability and a better visualisation of group-level patterns.
+The repo has been migrated from https://gitlab.inria.fr/apister/dynbipgraphviz
+
 ## Installation
 
 ### Backend
