@@ -1,0 +1,1346 @@
+graph 1 38.853 108.25
+node "1711_after" 3.7587 0.25 1.6971 0.5 "1711_after" solid ellipse black lightgrey
+node "1712_before" 6.5696 0.25 1.8957 0.5 "1712_before" solid ellipse black lightgrey
+node "1711_before" 0.94783 0.25 1.8957 0.5 "1711_before" solid ellipse black lightgrey
+node "1712_after" 9.3806 0.25 1.6971 0.5 "1712_after" solid ellipse black lightgrey
+node "1713_before" 12.191 0.25 1.8957 0.5 "1713_before" solid ellipse black lightgrey
+node "1713_after" 15.002 0.25 1.6971 0.5 "1713_after" solid ellipse black lightgrey
+node "1714_before" 17.813 0.25 1.8957 0.5 "1714_before" solid ellipse black lightgrey
+node "1714_after" 20.624 0.25 1.6971 0.5 "1714_after" solid ellipse black lightgrey
+node "1715_before" 23.435 0.25 1.8957 0.5 "1715_before" solid ellipse black lightgrey
+node "1715_after" 26.246 0.25 1.6971 0.5 "1715_after" solid ellipse black lightgrey
+node "1716_before" 29.057 0.25 1.8957 0.5 "1716_before" solid ellipse black lightgrey
+node "1716_after" 31.868 0.25 1.6971 0.5 "1716_after" solid ellipse black lightgrey
+node "1717_before" 34.679 0.25 1.8957 0.5 "1717_before" solid ellipse black lightgrey
+node "1717_after" 37.49 0.25 1.6971 0.5 "1717_after" solid ellipse black lightgrey
+node p384_1711_unique 3.7587 72 2.7261 0.5 p384_1711_unique solid ellipse black lightgrey
+node p384_1716_unique 31.868 71.278 2.7261 0.5 p384_1716_unique solid ellipse black lightgrey
+node p384_1717_unique 37.49 71.278 2.7261 0.5 p384_1717_unique solid ellipse black lightgrey
+node p187_1711_unique 3.7587 54.111 2.7261 0.5 p187_1711_unique solid ellipse black lightgrey
+node p187_1714_unique 20.624 57.667 2.7261 0.5 p187_1714_unique solid ellipse black lightgrey
+node p187_1716_unique 31.868 58.806 2.7261 0.5 p187_1716_unique solid ellipse black lightgrey
+node p187_1717_unique 37.49 57.667 2.7261 0.5 p187_1717_unique solid ellipse black lightgrey
+node p223_1711_unique 3.7587 54.917 2.7261 0.5 p223_1711_unique solid ellipse black lightgrey
+node p223_1712_unique 9.3806 54.833 2.7261 0.5 p223_1712_unique solid ellipse black lightgrey
+node p223_1713_unique 15.002 64.833 2.7261 0.5 p223_1713_unique solid ellipse black lightgrey
+node p223_1714_unique 20.624 65.528 2.7261 0.5 p223_1714_unique solid ellipse black lightgrey
+node p223_1715_unique 26.246 64.167 2.7261 0.5 p223_1715_unique solid ellipse black lightgrey
+node p223_1716_unique 31.868 63.139 2.7261 0.5 p223_1716_unique solid ellipse black lightgrey
+node p223_1717_unique 37.49 60.889 2.7261 0.5 p223_1717_unique solid ellipse black lightgrey
+node p275_1711_unique 3.7587 60.472 2.7261 0.5 p275_1711_unique solid ellipse black lightgrey
+node p275_1712_unique 9.3806 60.472 2.7261 0.5 p275_1712_unique solid ellipse black lightgrey
+node p275_1713_unique 15.002 68.861 2.7261 0.5 p275_1713_unique solid ellipse black lightgrey
+node p275_1714_unique 20.624 62 2.7261 0.5 p275_1714_unique solid ellipse black lightgrey
+node p275_1715_unique 26.246 60.889 2.7261 0.5 p275_1715_unique solid ellipse black lightgrey
+node p275_1716_unique 31.868 62.333 2.7261 0.5 p275_1716_unique solid ellipse black lightgrey
+node p275_1717_unique 37.49 63.778 2.7261 0.5 p275_1717_unique solid ellipse black lightgrey
+node p39_1711_unique 3.7587 26.778 2.5637 0.5 p39_1711_unique solid ellipse black lightgrey
+node p39_1712_unique 9.3806 25.972 2.5637 0.5 p39_1712_unique solid ellipse black lightgrey
+node p39_1713_unique 15.002 33.556 2.5637 0.5 p39_1713_unique solid ellipse black lightgrey
+node p40_1711_unique 3.7587 32.417 2.5637 0.5 p40_1711_unique solid ellipse black lightgrey
+node p40_1712_unique 9.3806 32.417 2.5637 0.5 p40_1712_unique solid ellipse black lightgrey
+node p40_1716_unique 31.868 54.111 2.5637 0.5 p40_1716_unique solid ellipse black lightgrey
+node p159_1711_unique 3.7587 29.194 2.7261 0.5 p159_1711_unique solid ellipse black lightgrey
+node p159_1712_unique 9.3806 29.194 2.7261 0.5 p159_1712_unique solid ellipse black lightgrey
+node p159_1717_unique 37.49 39.028 2.7261 0.5 p159_1717_unique solid ellipse black lightgrey
+node p27_1711_unique 3.7587 46.181 2.5637 0.5 p27_1711_unique solid ellipse black lightgrey
+node p27_1712_unique 9.3806 44.333 2.5637 0.5 p27_1712_unique solid ellipse black lightgrey
+node p27_1713_unique 15.002 44.333 2.5637 0.5 p27_1713_unique solid ellipse black lightgrey
+node p27_1714_unique 20.624 50.611 2.5637 0.5 p27_1714_unique solid ellipse black lightgrey
+node p175_1711_unique 3.7587 47.792 2.7261 0.5 p175_1711_unique solid ellipse black lightgrey
+node p175_1712_unique 9.3806 46.889 2.7261 0.5 p175_1712_unique solid ellipse black lightgrey
+node p175_1714_unique 20.624 51.417 2.7261 0.5 p175_1714_unique solid ellipse black lightgrey
+node p26_1711_unique 3.7587 48.597 2.5637 0.5 p26_1711_unique solid ellipse black lightgrey
+node p26_1714_unique 20.624 48.361 2.5637 0.5 p26_1714_unique solid ellipse black lightgrey
+node p80_1711_unique 3.7587 46.986 2.5637 0.5 p80_1711_unique solid ellipse black lightgrey
+node p80_1712_unique 9.3806 46.083 2.5637 0.5 p80_1712_unique solid ellipse black lightgrey
+node p80_1713_unique 15.002 60 2.5637 0.5 p80_1713_unique solid ellipse black lightgrey
+node p374_1711_unique 3.7587 45.375 2.7261 0.5 p374_1711_unique solid ellipse black lightgrey
+node p374_1712_unique 9.3806 19.222 2.7261 0.5 p374_1712_unique solid ellipse black lightgrey
+node p374_1713_unique 15.002 19.222 2.7261 0.5 p374_1713_unique solid ellipse black lightgrey
+node p374_1714_unique 20.624 22.028 2.7261 0.5 p374_1714_unique solid ellipse black lightgrey
+node p374_1716_unique 31.868 22.764 2.7261 0.5 p374_1716_unique solid ellipse black lightgrey
+node p62_1711_unique 3.7587 44.569 2.5637 0.5 p62_1711_unique solid ellipse black lightgrey
+node p62_1712_unique 9.3806 48.333 2.5637 0.5 p62_1712_unique solid ellipse black lightgrey
+node p62_1713_unique 15.002 49.139 2.5637 0.5 p62_1713_unique solid ellipse black lightgrey
+node p62_1714_unique 20.624 54.306 2.5637 0.5 p62_1714_unique solid ellipse black lightgrey
+node p62_1717_unique 37.49 51.917 2.5637 0.5 p62_1717_unique solid ellipse black lightgrey
+node p149_1711_unique 3.7587 42.958 2.7261 0.5 p149_1711_unique solid ellipse black lightgrey
+node p149_1713_unique 15.002 27.278 2.7261 0.5 p149_1713_unique solid ellipse black lightgrey
+node p361_1711_unique 3.7587 43.764 2.7261 0.5 p361_1711_unique solid ellipse black lightgrey
+node p361_1714_unique 20.624 37.417 2.7261 0.5 p361_1714_unique solid ellipse black lightgrey
+node p361_1715_unique 26.246 45.389 2.7261 0.5 p361_1715_unique solid ellipse black lightgrey
+node p361_1717_unique 37.49 46.278 2.7261 0.5 p361_1717_unique solid ellipse black lightgrey
+node p369_1711_unique 3.7587 25.972 2.7261 0.5 p369_1711_unique solid ellipse black lightgrey
+node p369_1712_unique 9.3806 26.778 2.7261 0.5 p369_1712_unique solid ellipse black lightgrey
+node p369_1713_unique 15.002 32.75 2.7261 0.5 p369_1713_unique solid ellipse black lightgrey
+node p369_1715_unique 26.246 32.75 2.7261 0.5 p369_1715_unique solid ellipse black lightgrey
+node p369_1717_unique 37.49 32.583 2.7261 0.5 p369_1717_unique solid ellipse black lightgrey
+node p108_1711_unique 3.7587 8.4444 2.7261 0.5 p108_1711_unique solid ellipse black lightgrey
+node p108_1712_unique 9.3806 8.4444 2.7261 0.5 p108_1712_unique solid ellipse black lightgrey
+node p108_1713_unique 15.002 8.4444 2.7261 0.5 p108_1713_unique solid ellipse black lightgrey
+node p108_1714_unique 20.624 5.6389 2.7261 0.5 p108_1714_unique solid ellipse black lightgrey
+node p108_1716_unique 31.868 15.944 2.7261 0.5 p108_1716_unique solid ellipse black lightgrey
+node p238_1711_unique 3.7587 4.1944 2.7261 0.5 p238_1711_unique solid ellipse black lightgrey
+node p238_1714_unique 20.624 4.8333 2.7261 0.5 p238_1714_unique solid ellipse black lightgrey
+node p341_1711_unique 3.7587 11.25 2.7261 0.5 p341_1711_unique solid ellipse black lightgrey
+node p341_1713_unique 15.002 12.944 2.7261 0.5 p341_1713_unique solid ellipse black lightgrey
+node p341_1714_unique 20.624 11.278 2.7261 0.5 p341_1714_unique solid ellipse black lightgrey
+node p332_1711_unique 3.7587 42.153 2.7261 0.5 p332_1711_unique solid ellipse black lightgrey
+node p332_1712_unique 9.3806 42.889 2.7261 0.5 p332_1712_unique solid ellipse black lightgrey
+node p332_1713_unique 15.002 43.528 2.7261 0.5 p332_1713_unique solid ellipse black lightgrey
+node p332_1715_unique 26.246 42.167 2.7261 0.5 p332_1715_unique solid ellipse black lightgrey
+node p331_1711_unique 3.7587 40.542 2.7261 0.5 p331_1711_unique solid ellipse black lightgrey
+node p331_1712_unique 9.3806 41.278 2.7261 0.5 p331_1712_unique solid ellipse black lightgrey
+node p331_1713_unique 15.002 42.722 2.7261 0.5 p331_1713_unique solid ellipse black lightgrey
+node p16_1712_unique 9.3806 16 2.5637 0.5 p16_1712_unique solid ellipse black lightgrey
+node p16_1717_unique 37.49 37.417 2.5637 0.5 p16_1717_unique solid ellipse black lightgrey
+node p51_1712_unique 9.3806 25.167 2.5637 0.5 p51_1712_unique solid ellipse black lightgrey
+node p51_1713_unique 15.002 48.333 2.5637 0.5 p51_1713_unique solid ellipse black lightgrey
+node p373_1712_unique 9.3806 14.389 2.7261 0.5 p373_1712_unique solid ellipse black lightgrey
+node p373_1714_unique 20.624 12.083 2.7261 0.5 p373_1714_unique solid ellipse black lightgrey
+node p272_1712_unique 9.3806 63.694 2.7261 0.5 p272_1712_unique solid ellipse black lightgrey
+node p272_1713_unique 15.002 59.194 2.7261 0.5 p272_1713_unique solid ellipse black lightgrey
+node p272_1714_unique 20.624 52.222 2.7261 0.5 p272_1714_unique solid ellipse black lightgrey
+node p272_1716_unique 31.868 56.389 2.7261 0.5 p272_1716_unique solid ellipse black lightgrey
+node p272_1717_unique 37.49 61.694 2.7261 0.5 p272_1717_unique solid ellipse black lightgrey
+node p279_1712_unique 9.3806 57.25 2.7261 0.5 p279_1712_unique solid ellipse black lightgrey
+node p279_1713_unique 15.002 52.111 2.7261 0.5 p279_1713_unique solid ellipse black lightgrey
+node p226_1712_unique 9.3806 56.444 2.7261 0.5 p226_1712_unique solid ellipse black lightgrey
+node p226_1713_unique 15.002 62.417 2.7261 0.5 p226_1713_unique solid ellipse black lightgrey
+node p226_1714_unique 20.624 61.194 2.7261 0.5 p226_1714_unique solid ellipse black lightgrey
+node p226_1715_unique 26.246 60.083 2.7261 0.5 p226_1715_unique solid ellipse black lightgrey
+node p226_1716_unique 31.868 60.403 2.7261 0.5 p226_1716_unique solid ellipse black lightgrey
+node p226_1717_unique 37.49 62.5 2.7261 0.5 p226_1717_unique solid ellipse black lightgrey
+node p281_1712_unique 9.3806 55.639 2.7261 0.5 p281_1712_unique solid ellipse black lightgrey
+node p281_1713_unique 15.002 52.917 2.7261 0.5 p281_1713_unique solid ellipse black lightgrey
+node p281_1714_unique 20.624 24.444 2.7261 0.5 p281_1714_unique solid ellipse black lightgrey
+node p281_1716_unique 31.868 25.181 2.7261 0.5 p281_1716_unique solid ellipse black lightgrey
+node p375_1712_unique 9.3806 27.583 2.7261 0.5 p375_1712_unique solid ellipse black lightgrey
+node p375_1713_unique 15.002 35.167 2.7261 0.5 p375_1713_unique solid ellipse black lightgrey
+node p375_1714_unique 20.624 16.111 2.7261 0.5 p375_1714_unique solid ellipse black lightgrey
+node p389_1712_unique 9.3806 31.611 2.7261 0.5 p389_1712_unique solid ellipse black lightgrey
+node p389_1713_unique 15.002 30.5 2.7261 0.5 p389_1713_unique solid ellipse black lightgrey
+node p389_1715_unique 26.246 29.833 2.7261 0.5 p389_1715_unique solid ellipse black lightgrey
+node p389_1717_unique 37.49 29.361 2.7261 0.5 p389_1717_unique solid ellipse black lightgrey
+node p385_1712_unique 9.3806 38.861 2.7261 0.5 p385_1712_unique solid ellipse black lightgrey
+node p385_1716_unique 31.868 17.542 2.7261 0.5 p385_1716_unique solid ellipse black lightgrey
+node p282_1712_unique 9.3806 53.389 2.7261 0.5 p282_1712_unique solid ellipse black lightgrey
+node p282_1715_unique 26.246 55.028 2.7261 0.5 p282_1715_unique solid ellipse black lightgrey
+node p200_1712_unique 9.3806 49.944 2.7261 0.5 p200_1712_unique solid ellipse black lightgrey
+node p200_1713_unique 15.002 49.944 2.7261 0.5 p200_1713_unique solid ellipse black lightgrey
+node p200_1715_unique 26.246 49.25 2.7261 0.5 p200_1715_unique solid ellipse black lightgrey
+node p278_1712_unique 9.3806 49.139 2.7261 0.5 p278_1712_unique solid ellipse black lightgrey
+node p278_1714_unique 20.624 38.222 2.7261 0.5 p278_1714_unique solid ellipse black lightgrey
+node p292_1712_unique 9.3806 51.778 2.7261 0.5 p292_1712_unique solid ellipse black lightgrey
+node p292_1713_unique 15.002 61.611 2.7261 0.5 p292_1713_unique solid ellipse black lightgrey
+node p292_1716_unique 31.868 33.528 2.7261 0.5 p292_1716_unique solid ellipse black lightgrey
+node p292_1717_unique 37.49 33.389 2.7261 0.5 p292_1717_unique solid ellipse black lightgrey
+node p316_1712_unique 9.3806 61.278 2.7261 0.5 p316_1712_unique solid ellipse black lightgrey
+node p316_1713_unique 15.002 55.972 2.7261 0.5 p316_1713_unique solid ellipse black lightgrey
+node p316_1714_unique 20.624 56.861 2.7261 0.5 p316_1714_unique solid ellipse black lightgrey
+node p316_1715_unique 26.246 61.694 2.7261 0.5 p316_1715_unique solid ellipse black lightgrey
+node p316_1717_unique 37.49 54.861 2.7261 0.5 p316_1717_unique solid ellipse black lightgrey
+node p302_1712_unique 9.3806 62.083 2.7261 0.5 p302_1712_unique solid ellipse black lightgrey
+node p302_1713_unique 15.002 69.667 2.7261 0.5 p302_1713_unique solid ellipse black lightgrey
+node p302_1714_unique 20.624 64.722 2.7261 0.5 p302_1714_unique solid ellipse black lightgrey
+node p302_1715_unique 26.246 71.278 2.7261 0.5 p302_1715_unique solid ellipse black lightgrey
+node p302_1717_unique 37.49 72.889 2.7261 0.5 p302_1717_unique solid ellipse black lightgrey
+node p202_1712_unique 9.3806 58.861 2.7261 0.5 p202_1712_unique solid ellipse black lightgrey
+node p202_1713_unique 15.002 55.167 2.7261 0.5 p202_1713_unique solid ellipse black lightgrey
+node p202_1714_unique 20.624 56.056 2.7261 0.5 p202_1714_unique solid ellipse black lightgrey
+node p202_1715_unique 26.246 57.028 2.7261 0.5 p202_1715_unique solid ellipse black lightgrey
+node p202_1717_unique 37.49 52.75 2.7261 0.5 p202_1717_unique solid ellipse black lightgrey
+node p315_1712_unique 9.3806 58.056 2.7261 0.5 p315_1712_unique solid ellipse black lightgrey
+node p315_1713_unique 15.002 54.361 2.7261 0.5 p315_1713_unique solid ellipse black lightgrey
+node p320_1712_unique 9.3806 7.6389 2.7261 0.5 p320_1712_unique solid ellipse black lightgrey
+node p320_1714_unique 20.624 8.0556 2.7261 0.5 p320_1714_unique solid ellipse black lightgrey
+node p109_1712_unique 9.3806 39.667 2.7261 0.5 p109_1712_unique solid ellipse black lightgrey
+node p109_1714_unique 20.624 41.917 2.7261 0.5 p109_1714_unique solid ellipse black lightgrey
+node p106_1712_unique 9.3806 15.194 2.7261 0.5 p106_1712_unique solid ellipse black lightgrey
+node p106_1713_unique 15.002 11.333 2.7261 0.5 p106_1713_unique solid ellipse black lightgrey
+node p106_1714_unique 20.624 6.4444 2.7261 0.5 p106_1714_unique solid ellipse black lightgrey
+node p319_1712_unique 9.3806 35.639 2.7261 0.5 p319_1712_unique solid ellipse black lightgrey
+node p319_1713_unique 15.002 12.139 2.7261 0.5 p319_1713_unique solid ellipse black lightgrey
+node p319_1714_unique 20.624 7.25 2.7261 0.5 p319_1714_unique solid ellipse black lightgrey
+node p319_1715_unique 26.246 7.25 2.7261 0.5 p319_1715_unique solid ellipse black lightgrey
+node p319_1716_unique 31.868 7.25 2.7261 0.5 p319_1716_unique solid ellipse black lightgrey
+node p236_1712_unique 9.3806 4.9167 2.7261 0.5 p236_1712_unique solid ellipse black lightgrey
+node p236_1714_unique 20.624 3.2222 2.7261 0.5 p236_1714_unique solid ellipse black lightgrey
+node p10_1712_unique 9.3806 36.444 2.5637 0.5 p10_1712_unique solid ellipse black lightgrey
+node p10_1713_unique 15.002 37.417 2.5637 0.5 p10_1713_unique solid ellipse black lightgrey
+node p10_1714_unique 20.624 39.028 2.5637 0.5 p10_1714_unique solid ellipse black lightgrey
+node p97_1712_unique 9.3806 34.833 2.5637 0.5 p97_1712_unique solid ellipse black lightgrey
+node p97_1713_unique 15.002 36.611 2.5637 0.5 p97_1713_unique solid ellipse black lightgrey
+node p97_1714_unique 20.624 35.806 2.5637 0.5 p97_1714_unique solid ellipse black lightgrey
+node p97_1717_unique 37.49 36.611 2.5637 0.5 p97_1717_unique solid ellipse black lightgrey
+node p288_1712_unique 9.3806 37.25 2.7261 0.5 p288_1712_unique solid ellipse black lightgrey
+node p288_1713_unique 15.002 39.028 2.7261 0.5 p288_1713_unique solid ellipse black lightgrey
+node p288_1714_unique 20.624 36.611 2.7261 0.5 p288_1714_unique solid ellipse black lightgrey
+node p288_1717_unique 37.49 38.222 2.7261 0.5 p288_1717_unique solid ellipse black lightgrey
+node p153_1713_unique 15.002 64.028 2.7261 0.5 p153_1713_unique solid ellipse black lightgrey
+node p153_1714_unique 20.624 66.333 2.7261 0.5 p153_1714_unique solid ellipse black lightgrey
+node p153_1715_unique 26.246 54.222 2.7261 0.5 p153_1715_unique solid ellipse black lightgrey
+node p153_1716_unique 31.868 57.194 2.7261 0.5 p153_1716_unique solid ellipse black lightgrey
+node p153_1717_unique 37.49 56.056 2.7261 0.5 p153_1717_unique solid ellipse black lightgrey
+node p139_1713_unique 15.002 60.806 2.7261 0.5 p139_1713_unique solid ellipse black lightgrey
+node p139_1715_unique 26.246 41.361 2.7261 0.5 p139_1715_unique solid ellipse black lightgrey
+node p266_1713_unique 15.002 66.444 2.7261 0.5 p266_1713_unique solid ellipse black lightgrey
+node p266_1714_unique 20.624 63.111 2.7261 0.5 p266_1714_unique solid ellipse black lightgrey
+node p266_1716_unique 31.868 61.208 2.7261 0.5 p266_1716_unique solid ellipse black lightgrey
+node p266_1717_unique 37.49 60.083 2.7261 0.5 p266_1717_unique solid ellipse black lightgrey
+node p390_1713_unique 15.002 20.028 2.7261 0.5 p390_1713_unique solid ellipse black lightgrey
+node p390_1714_unique 20.624 26.861 2.7261 0.5 p390_1714_unique solid ellipse black lightgrey
+node p390_1715_unique 26.246 31.194 2.7261 0.5 p390_1715_unique solid ellipse black lightgrey
+node p100_1713_unique 15.002 28.083 2.7261 0.5 p100_1713_unique solid ellipse black lightgrey
+node p100_1714_unique 20.624 28.472 2.7261 0.5 p100_1714_unique solid ellipse black lightgrey
+node p100_1715_unique 26.246 27.75 2.7261 0.5 p100_1715_unique solid ellipse black lightgrey
+node p100_1717_unique 37.49 27.75 2.7261 0.5 p100_1717_unique solid ellipse black lightgrey
+node p392_1713_unique 15.002 28.889 2.7261 0.5 p392_1713_unique solid ellipse black lightgrey
+node p392_1714_unique 20.624 26.056 2.7261 0.5 p392_1714_unique solid ellipse black lightgrey
+node p392_1715_unique 26.246 26.708 2.7261 0.5 p392_1715_unique solid ellipse black lightgrey
+node p392_1717_unique 37.49 26.708 2.7261 0.5 p392_1717_unique solid ellipse black lightgrey
+node p119_1713_unique 15.002 72.722 2.7261 0.5 p119_1713_unique solid ellipse black lightgrey
+node p119_1715_unique 26.246 72.722 2.7261 0.5 p119_1715_unique solid ellipse black lightgrey
+node p84_1713_unique 15.002 79.167 2.5637 0.5 p84_1713_unique solid ellipse black lightgrey
+node p84_1714_unique 20.624 79.167 2.5637 0.5 p84_1714_unique solid ellipse black lightgrey
+node p254_1713_unique 15.002 29.694 2.7261 0.5 p254_1713_unique solid ellipse black lightgrey
+node p254_1715_unique 26.246 29.028 2.7261 0.5 p254_1715_unique solid ellipse black lightgrey
+node p227_1713_unique 15.002 71.278 2.7261 0.5 p227_1713_unique solid ellipse black lightgrey
+node p227_1714_unique 20.624 70.556 2.7261 0.5 p227_1714_unique solid ellipse black lightgrey
+node p227_1715_unique 26.246 70.472 2.7261 0.5 p227_1715_unique solid ellipse black lightgrey
+node p227_1717_unique 37.49 70.472 2.7261 0.5 p227_1717_unique solid ellipse black lightgrey
+node p111_1713_unique 15.002 70.472 2.7261 0.5 p111_1713_unique solid ellipse black lightgrey
+node p111_1714_unique 20.624 69.75 2.7261 0.5 p111_1714_unique solid ellipse black lightgrey
+node p111_1716_unique 31.868 69.75 2.7261 0.5 p111_1716_unique solid ellipse black lightgrey
+node p342_1713_unique 15.002 16.806 2.7261 0.5 p342_1713_unique solid ellipse black lightgrey
+node p342_1714_unique 20.624 17.556 2.7261 0.5 p342_1714_unique solid ellipse black lightgrey
+node p329_1714_unique 20.624 27.667 2.7261 0.5 p329_1714_unique solid ellipse black lightgrey
+node p329_1717_unique 37.49 28.556 2.7261 0.5 p329_1717_unique solid ellipse black lightgrey
+node p283_1714_unique 20.624 25.25 2.7261 0.5 p283_1714_unique solid ellipse black lightgrey
+node p283_1716_unique 31.868 25.986 2.7261 0.5 p283_1716_unique solid ellipse black lightgrey
+node p283_1717_unique 37.49 51.111 2.7261 0.5 p283_1717_unique solid ellipse black lightgrey
+node p114_1714_unique 20.624 12.889 2.7261 0.5 p114_1714_unique solid ellipse black lightgrey
+node p114_1717_unique 37.49 12.889 2.7261 0.5 p114_1717_unique solid ellipse black lightgrey
+node p349_1714_unique 20.624 81.583 2.7261 0.5 p349_1714_unique solid ellipse black lightgrey
+node p349_1717_unique 37.49 81.583 2.7261 0.5 p349_1717_unique solid ellipse black lightgrey
+node p179_1714_unique 20.624 47.556 2.7261 0.5 p179_1714_unique solid ellipse black lightgrey
+node p179_1715_unique 26.246 40.556 2.7261 0.5 p179_1715_unique solid ellipse black lightgrey
+node p219_1714_unique 20.624 46.75 2.7261 0.5 p219_1714_unique solid ellipse black lightgrey
+node p219_1715_unique 26.246 38.944 2.7261 0.5 p219_1715_unique solid ellipse black lightgrey
+node p78_1714_unique 20.624 58.472 2.5637 0.5 p78_1714_unique solid ellipse black lightgrey
+node p78_1715_unique 26.246 58.472 2.5637 0.5 p78_1715_unique solid ellipse black lightgrey
+node p88_1714_unique 20.624 22.833 2.5637 0.5 p88_1714_unique solid ellipse black lightgrey
+node p88_1716_unique 31.868 23.569 2.5637 0.5 p88_1716_unique solid ellipse black lightgrey
+node p117_1715_unique 26.246 44.583 2.7261 0.5 p117_1715_unique solid ellipse black lightgrey
+node p117_1717_unique 37.49 44.667 2.7261 0.5 p117_1717_unique solid ellipse black lightgrey
+node p23_1715_unique 26.246 13.694 2.5637 0.5 p23_1715_unique solid ellipse black lightgrey
+node p23_1716_unique 31.868 13.694 2.5637 0.5 p23_1716_unique solid ellipse black lightgrey
+node p23_1717_unique 37.49 13.694 2.5637 0.5 p23_1717_unique solid ellipse black lightgrey
+node p35_1715_unique 26.246 16.486 2.5637 0.5 p35_1715_unique solid ellipse black lightgrey
+node p35_1716_unique 31.868 19.542 2.5637 0.5 p35_1716_unique solid ellipse black lightgrey
+node p130_1715_unique 26.246 48.444 2.7261 0.5 p130_1715_unique solid ellipse black lightgrey
+node p130_1717_unique 37.49 39.833 2.7261 0.5 p130_1717_unique solid ellipse black lightgrey
+node p301_1715_unique 26.246 52.222 2.7261 0.5 p301_1715_unique solid ellipse black lightgrey
+node p301_1717_unique 37.49 56.861 2.7261 0.5 p301_1717_unique solid ellipse black lightgrey
+node p50_1715_unique 26.246 50.694 2.5637 0.5 p50_1715_unique solid ellipse black lightgrey
+node p50_1717_unique 37.49 35.806 2.5637 0.5 p50_1717_unique solid ellipse black lightgrey
+node p129_1715_unique 26.246 83.917 2.7261 0.5 p129_1715_unique solid ellipse black lightgrey
+node p129_1717_unique 37.49 83.917 2.7261 0.5 p129_1717_unique solid ellipse black lightgrey
+node p28_1716_unique 31.868 15.139 2.5637 0.5 p28_1716_unique solid ellipse black lightgrey
+node p28_1717_unique 37.49 15.139 2.5637 0.5 p28_1717_unique solid ellipse black lightgrey
+node a1 0.94783 57.694 0.75 0.5 a1 solid ellipse black lightgrey
+node p243_1711_unique 3.7587 72.806 2.7261 0.5 p243_1711_unique solid ellipse black lightgrey
+node p224_1711_unique 3.7587 27.583 2.7261 0.5 p224_1711_unique solid ellipse black lightgrey
+node a2 0.94783 28.792 0.75 0.5 a2 solid ellipse black lightgrey
+node p20_1711_unique 3.7587 28.389 2.5637 0.5 p20_1711_unique solid ellipse black lightgrey
+node a3 0.94783 74.417 0.75 0.5 a3 solid ellipse black lightgrey
+node p249_1711_unique 3.7587 75.222 2.7261 0.5 p249_1711_unique solid ellipse black lightgrey
+node p383_1711_unique 3.7587 74.417 2.7261 0.5 p383_1711_unique solid ellipse black lightgrey
+node p250_1711_unique 3.7587 73.611 2.7261 0.5 p250_1711_unique solid ellipse black lightgrey
+node a4 0.94783 47.389 0.75 0.5 a4 solid ellipse black lightgrey
+node a5 0.94783 46.583 0.75 0.5 a5 solid ellipse black lightgrey
+node a6 0.94783 77.236 0.75 0.5 a6 solid ellipse black lightgrey
+node p145_1711_unique 3.7587 78.444 2.7261 0.5 p145_1711_unique solid ellipse black lightgrey
+node p260_1711_unique 3.7587 77.639 2.7261 0.5 p260_1711_unique solid ellipse black lightgrey
+node p64_1711_unique 3.7587 76.833 2.5637 0.5 p64_1711_unique solid ellipse black lightgrey
+node p244_1711_unique 3.7587 76.028 2.7261 0.5 p244_1711_unique solid ellipse black lightgrey
+node a7 0.94783 43.764 0.75 0.5 a7 solid ellipse black lightgrey
+node a8 0.94783 80.861 0.75 0.5 a8 solid ellipse black lightgrey
+node p146_1711_unique 3.7587 82.472 2.7261 0.5 p146_1711_unique solid ellipse black lightgrey
+node p171_1711_unique 3.7587 81.667 2.7261 0.5 p171_1711_unique solid ellipse black lightgrey
+node p85_1711_unique 3.7587 80.861 2.5637 0.5 p85_1711_unique solid ellipse black lightgrey
+node p239_1711_unique 3.7587 80.056 2.7261 0.5 p239_1711_unique solid ellipse black lightgrey
+node p368_1711_unique 3.7587 79.25 2.7261 0.5 p368_1711_unique solid ellipse black lightgrey
+node a9 0.94783 25.569 0.75 0.5 a9 solid ellipse black lightgrey
+node p293_1711_unique 3.7587 25.167 2.7261 0.5 p293_1711_unique solid ellipse black lightgrey
+node p296_1711_unique 3.7587 24.361 2.7261 0.5 p296_1711_unique solid ellipse black lightgrey
+node a10 0.94783 83.681 0.77632 0.5 a10 solid ellipse black lightgrey
+node p247_1711_unique 3.7587 84.083 2.7261 0.5 p247_1711_unique solid ellipse black lightgrey
+node p305_1711_unique 3.7587 83.278 2.7261 0.5 p305_1711_unique solid ellipse black lightgrey
+node a11 0.94783 6.3194 0.77632 0.5 a11 solid ellipse black lightgrey
+node p328_1711_unique 3.7587 6.3194 2.7261 0.5 p328_1711_unique solid ellipse black lightgrey
+node a12 0.94783 10.847 0.77632 0.5 a12 solid ellipse black lightgrey
+node p21_1711_unique 3.7587 10.444 2.5637 0.5 p21_1711_unique solid ellipse black lightgrey
+node a13 0.94783 41.347 0.77632 0.5 a13 solid ellipse black lightgrey
+node p185_1711_unique 3.7587 41.347 2.7261 0.5 p185_1711_unique solid ellipse black lightgrey
+node a14 6.5696 16 0.77632 0.5 a14 solid ellipse black lightgrey
+node p120_1712_unique 9.3806 13.583 2.7261 0.5 p120_1712_unique solid ellipse black lightgrey
+node p362_1712_unique 9.3806 12.778 2.7261 0.5 p362_1712_unique solid ellipse black lightgrey
+node p3_1712_unique 9.3806 11.972 2.4012 0.5 p3_1712_unique solid ellipse black lightgrey
+node a15 6.5696 64.097 0.77632 0.5 a15 solid ellipse black lightgrey
+node p267_1712_unique 9.3806 64.5 2.7261 0.5 p267_1712_unique solid ellipse black lightgrey
+node a16 6.5696 56.042 0.77632 0.5 a16 solid ellipse black lightgrey
+node a17 6.5696 27.972 0.77632 0.5 a17 solid ellipse black lightgrey
+node p59_1712_unique 9.3806 28.389 2.5637 0.5 p59_1712_unique solid ellipse black lightgrey
+node a18 6.5696 30 0.77632 0.5 a18 solid ellipse black lightgrey
+node p358_1712_unique 9.3806 30 2.7261 0.5 p358_1712_unique solid ellipse black lightgrey
+node p115_1712_unique 9.3806 30.806 2.7261 0.5 p115_1712_unique solid ellipse black lightgrey
+node a19 6.5696 31.611 0.77632 0.5 a19 solid ellipse black lightgrey
+node a20 6.5696 40.486 0.77632 0.5 a20 solid ellipse black lightgrey
+node p134_1712_unique 9.3806 40.472 2.7261 0.5 p134_1712_unique solid ellipse black lightgrey
+node a21 6.5696 52.986 0.77632 0.5 a21 solid ellipse black lightgrey
+node p201_1712_unique 9.3806 52.583 2.7261 0.5 p201_1712_unique solid ellipse black lightgrey
+node a22 6.5696 61.236 0.77632 0.5 a22 solid ellipse black lightgrey
+node p561_1712_unique 9.3806 62.889 2.7261 0.5 p561_1712_unique solid ellipse black lightgrey
+node a23 6.5696 59.264 0.77632 0.5 a23 solid ellipse black lightgrey
+node p313_1712_unique 9.3806 59.667 2.7261 0.5 p313_1712_unique solid ellipse black lightgrey
+node a24 6.5696 2.6667 0.77632 0.5 a24 solid ellipse black lightgrey
+node p25_1712_unique 9.3806 3.4722 2.5637 0.5 p25_1712_unique solid ellipse black lightgrey
+node p141_1712_unique 9.3806 2.6667 2.7261 0.5 p141_1712_unique solid ellipse black lightgrey
+node p140_1712_unique 9.3806 1.8611 2.7261 0.5 p140_1712_unique solid ellipse black lightgrey
+node p211_1712_unique 9.3806 1.0556 2.7261 0.5 p211_1712_unique solid ellipse black lightgrey
+node a25 6.5696 38.861 0.77632 0.5 a25 solid ellipse black lightgrey
+node p176_1712_unique 9.3806 38.056 2.7261 0.5 p176_1712_unique solid ellipse black lightgrey
+node a26 6.5696 49.944 0.77632 0.5 a26 solid ellipse black lightgrey
+node a27 6.5696 74.333 0.77632 0.5 a27 solid ellipse black lightgrey
+node p33_1712_unique 9.3806 75.944 2.5637 0.5 p33_1712_unique solid ellipse black lightgrey
+node p83_1712_unique 9.3806 75.139 2.5637 0.5 p83_1712_unique solid ellipse black lightgrey
+node p24_1712_unique 9.3806 74.333 2.5637 0.5 p24_1712_unique solid ellipse black lightgrey
+node p136_1712_unique 9.3806 73.528 2.7261 0.5 p136_1712_unique solid ellipse black lightgrey
+node p393_1712_unique 9.3806 72.722 2.7261 0.5 p393_1712_unique solid ellipse black lightgrey
+node a28 6.5696 9.1667 0.77632 0.5 a28 solid ellipse black lightgrey
+node a29 6.5696 34.833 0.77632 0.5 a29 solid ellipse black lightgrey
+node p34_1712_unique 9.3806 34.028 2.5637 0.5 p34_1712_unique solid ellipse black lightgrey
+node p99_1712_unique 9.3806 33.222 2.5637 0.5 p99_1712_unique solid ellipse black lightgrey
+node a30 6.5696 78.764 0.77632 0.5 a30 solid ellipse black lightgrey
+node p101_1712_unique 9.3806 80.778 2.7261 0.5 p101_1712_unique solid ellipse black lightgrey
+node p103_1712_unique 9.3806 79.972 2.7261 0.5 p103_1712_unique solid ellipse black lightgrey
+node p65_1712_unique 9.3806 79.167 2.5637 0.5 p65_1712_unique solid ellipse black lightgrey
+node p102_1712_unique 9.3806 78.361 2.7261 0.5 p102_1712_unique solid ellipse black lightgrey
+node p125_1712_unique 9.3806 77.556 2.7261 0.5 p125_1712_unique solid ellipse black lightgrey
+node p150_1712_unique 9.3806 76.75 2.7261 0.5 p150_1712_unique solid ellipse black lightgrey
+node a31 6.5696 42.083 0.77632 0.5 a31 solid ellipse black lightgrey
+node p212_1712_unique 9.3806 42.083 2.7261 0.5 p212_1712_unique solid ellipse black lightgrey
+node a32 12.191 42.806 0.77632 0.5 a32 solid ellipse black lightgrey
+node a33 12.191 63.222 0.77632 0.5 a33 solid ellipse black lightgrey
+node p81_1713_unique 15.002 63.222 2.5637 0.5 p81_1713_unique solid ellipse black lightgrey
+node a34 12.191 52.75 0.77632 0.5 a34 solid ellipse black lightgrey
+node a35 12.191 41.361 0.77632 0.5 a35 solid ellipse black lightgrey
+node p123_1713_unique 15.002 41.917 2.7261 0.5 p123_1713_unique solid ellipse black lightgrey
+node p291_1713_unique 15.002 41.111 2.7261 0.5 p291_1713_unique solid ellipse black lightgrey
+node a36 12.191 18.417 0.77632 0.5 a36 solid ellipse black lightgrey
+node p70_1713_unique 15.002 18.417 2.5637 0.5 p70_1713_unique solid ellipse black lightgrey
+node p69_1713_unique 15.002 17.611 2.5637 0.5 p69_1713_unique solid ellipse black lightgrey
+node a37 12.191 34.361 0.77632 0.5 a37 solid ellipse black lightgrey
+node p356_1713_unique 15.002 34.361 2.7261 0.5 p356_1713_unique solid ellipse black lightgrey
+node a38 12.191 50.667 0.77632 0.5 a38 solid ellipse black lightgrey
+node a39 12.191 10.528 0.77632 0.5 a39 solid ellipse black lightgrey
+node p326_1713_unique 15.002 10.528 2.7261 0.5 p326_1713_unique solid ellipse black lightgrey
+node a40 12.191 29.056 0.77632 0.5 a40 solid ellipse black lightgrey
+node a41 12.191 25.264 0.77632 0.5 a41 solid ellipse black lightgrey
+node p2_1713_unique 15.002 26.472 2.4012 0.5 p2_1713_unique solid ellipse black lightgrey
+node p231_1713_unique 15.002 25.667 2.7261 0.5 p231_1713_unique solid ellipse black lightgrey
+node p371_1713_unique 15.002 24.056 2.7261 0.5 p371_1713_unique solid ellipse black lightgrey
+node p381_1713_unique 15.002 23.25 2.7261 0.5 p381_1713_unique solid ellipse black lightgrey
+node p380_1713_unique 15.002 24.861 2.7261 0.5 p380_1713_unique solid ellipse black lightgrey
+node a42 12.191 23.653 0.77632 0.5 a42 solid ellipse black lightgrey
+node "p._1713_unique" 15.002 22.444 2.3109 0.5 "p._1713_unique" solid ellipse black lightgrey
+node a43 12.191 21.236 0.77632 0.5 a43 solid ellipse black lightgrey
+node p321_1713_unique 15.002 20.833 2.7261 0.5 p321_1713_unique solid ellipse black lightgrey
+node p218_1713_unique 15.002 21.639 2.7261 0.5 p218_1713_unique solid ellipse black lightgrey
+node a44 12.191 72.722 0.77632 0.5 a44 solid ellipse black lightgrey
+node a45 12.191 78.361 0.77632 0.5 a45 solid ellipse black lightgrey
+node p96_1713_unique 15.002 77.556 2.5637 0.5 p96_1713_unique solid ellipse black lightgrey
+node p297_1713_unique 15.002 78.361 2.7261 0.5 p297_1713_unique solid ellipse black lightgrey
+node a46 12.191 28.25 0.77632 0.5 a46 solid ellipse black lightgrey
+node a47 12.191 81.181 0.77632 0.5 a47 solid ellipse black lightgrey
+node p1_1713_unique 15.002 82.389 2.4012 0.5 p1_1713_unique solid ellipse black lightgrey
+node p363_1713_unique 15.002 81.583 2.7261 0.5 p363_1713_unique solid ellipse black lightgrey
+node p18_1713_unique 15.002 80.778 2.5637 0.5 p18_1713_unique solid ellipse black lightgrey
+node p242_1713_unique 15.002 79.972 2.7261 0.5 p242_1713_unique solid ellipse black lightgrey
+node a48 12.191 29.861 0.77632 0.5 a48 solid ellipse black lightgrey
+node a49 12.191 75.542 0.77632 0.5 a49 solid ellipse black lightgrey
+node p308_1713_unique 15.002 76.75 2.7261 0.5 p308_1713_unique solid ellipse black lightgrey
+node p58_1713_unique 15.002 75.944 2.5637 0.5 p58_1713_unique solid ellipse black lightgrey
+node p205_1713_unique 15.002 75.139 2.7261 0.5 p205_1713_unique solid ellipse black lightgrey
+node p228_1713_unique 15.002 74.333 2.7261 0.5 p228_1713_unique solid ellipse black lightgrey
+node p386_1713_unique 15.002 73.528 2.7261 0.5 p386_1713_unique solid ellipse black lightgrey
+node a50 12.191 66.042 0.77632 0.5 a50 solid ellipse black lightgrey
+node p194_1713_unique 15.002 65.639 2.7261 0.5 p194_1713_unique solid ellipse black lightgrey
+node a51 12.191 38.222 0.77632 0.5 a51 solid ellipse black lightgrey
+node p38_1713_unique 15.002 38.222 2.5637 0.5 p38_1713_unique solid ellipse black lightgrey
+node a52 12.191 68.139 0.77632 0.5 a52 solid ellipse black lightgrey
+node a53 12.191 67.056 0.77632 0.5 a53 solid ellipse black lightgrey
+node p357_1713_unique 15.002 67.25 2.7261 0.5 p357_1713_unique solid ellipse black lightgrey
+node p276_1713_unique 15.002 68.056 2.7261 0.5 p276_1713_unique solid ellipse black lightgrey
+node a54 12.191 15.764 0.77632 0.5 a54 solid ellipse black lightgrey
+node p304_1713_unique 15.002 15.194 2.7261 0.5 p304_1713_unique solid ellipse black lightgrey
+node p36_1713_unique 15.002 14.389 2.5637 0.5 p36_1713_unique solid ellipse black lightgrey
+node p294_1713_unique 15.002 16 2.7261 0.5 p294_1713_unique solid ellipse black lightgrey
+node a55 12.191 55.472 0.77632 0.5 a55 solid ellipse black lightgrey
+node a56 12.191 84.403 0.77632 0.5 a56 solid ellipse black lightgrey
+node p86_1713_unique 15.002 85.611 2.5637 0.5 p86_1713_unique solid ellipse black lightgrey
+node p325_1713_unique 15.002 84.806 2.7261 0.5 p325_1713_unique solid ellipse black lightgrey
+node p192_1713_unique 15.002 84 2.7261 0.5 p192_1713_unique solid ellipse black lightgrey
+node p193_1713_unique 15.002 83.194 2.7261 0.5 p193_1713_unique solid ellipse black lightgrey
+node a57 12.191 31.944 0.77632 0.5 a57 solid ellipse black lightgrey
+node p94_1713_unique 15.002 31.944 2.5637 0.5 p94_1713_unique solid ellipse black lightgrey
+node a58 12.191 57.986 0.77632 0.5 a58 solid ellipse black lightgrey
+node p161_1713_unique 15.002 58.389 2.7261 0.5 p161_1713_unique solid ellipse black lightgrey
+node p7_1713_unique 15.002 57.583 2.4012 0.5 p7_1713_unique solid ellipse black lightgrey
+node p169_1713_unique 15.002 56.778 2.7261 0.5 p169_1713_unique solid ellipse black lightgrey
+node a59 17.813 27.625 0.77632 0.5 a59 solid ellipse black lightgrey
+node a60 17.813 62.722 0.77632 0.5 a60 solid ellipse black lightgrey
+node a61 17.813 9.0833 0.77632 0.5 a61 solid ellipse black lightgrey
+node p198_1714_unique 20.624 8.8611 2.7261 0.5 p198_1714_unique solid ellipse black lightgrey
+node p199_1714_unique 20.624 10.472 2.7261 0.5 p199_1714_unique solid ellipse black lightgrey
+node p372_1714_unique 20.624 9.6667 2.7261 0.5 p372_1714_unique solid ellipse black lightgrey
+node a62 17.813 64.167 0.77632 0.5 a62 solid ellipse black lightgrey
+node p377_1714_unique 20.624 67.139 2.7261 0.5 p377_1714_unique solid ellipse black lightgrey
+node p299_1714_unique 20.624 63.917 2.7261 0.5 p299_1714_unique solid ellipse black lightgrey
+node a63 17.813 14.5 0.77632 0.5 a63 solid ellipse black lightgrey
+node p186_1714_unique 20.624 15.306 2.7261 0.5 p186_1714_unique solid ellipse black lightgrey
+node p12_1714_unique 20.624 14.5 2.5637 0.5 p12_1714_unique solid ellipse black lightgrey
+node p210_1714_unique 20.624 13.694 2.7261 0.5 p210_1714_unique solid ellipse black lightgrey
+node a64 17.813 49.778 0.77632 0.5 a64 solid ellipse black lightgrey
+node p4_1714_unique 20.624 49.806 2.4012 0.5 p4_1714_unique solid ellipse black lightgrey
+node a65 17.813 67.694 0.77632 0.5 a65 solid ellipse black lightgrey
+node a66 17.813 4.9167 0.77632 0.5 a66 solid ellipse black lightgrey
+node p318_1714_unique 20.624 4.0278 2.7261 0.5 p318_1714_unique solid ellipse black lightgrey
+node a67 17.813 6.3611 0.77632 0.5 a67 solid ellipse black lightgrey
+node a68 17.813 66.889 0.77632 0.5 a68 solid ellipse black lightgrey
+node a69 17.813 48.333 0.77632 0.5 a69 solid ellipse black lightgrey
+node a70 17.813 80.778 0.77632 0.5 a70 solid ellipse black lightgrey
+node p49_1714_unique 20.624 80.778 2.5637 0.5 p49_1714_unique solid ellipse black lightgrey
+node p158_1714_unique 20.624 79.972 2.7261 0.5 p158_1714_unique solid ellipse black lightgrey
+node a71 17.813 2.8333 0.77632 0.5 a71 solid ellipse black lightgrey
+node a72 17.813 45.542 0.77632 0.5 a72 solid ellipse black lightgrey
+node p351_1714_unique 20.624 45.139 2.7261 0.5 p351_1714_unique solid ellipse black lightgrey
+node p345_1714_unique 20.624 44.333 2.7261 0.5 p345_1714_unique solid ellipse black lightgrey
+node p346_1714_unique 20.624 43.528 2.7261 0.5 p346_1714_unique solid ellipse black lightgrey
+node p347_1714_unique 20.624 45.944 2.7261 0.5 p347_1714_unique solid ellipse black lightgrey
+node a73 17.813 58.472 0.77632 0.5 a73 solid ellipse black lightgrey
+node a74 17.813 43.028 0.77632 0.5 a74 solid ellipse black lightgrey
+node p177_1714_unique 20.624 41.111 2.7261 0.5 p177_1714_unique solid ellipse black lightgrey
+node a75 17.813 25.5 0.77632 0.5 a75 solid ellipse black lightgrey
+node a76 17.813 24.042 0.77632 0.5 a76 solid ellipse black lightgrey
+node p258_1714_unique 20.624 23.639 2.7261 0.5 p258_1714_unique solid ellipse black lightgrey
+node a77 17.813 37.333 0.77632 0.5 a77 solid ellipse black lightgrey
+node a78 17.813 44.333 0.77632 0.5 a78 solid ellipse black lightgrey
+node p348_1714_unique 20.624 42.722 2.7261 0.5 p348_1714_unique solid ellipse black lightgrey
+node a79 17.813 23.042 0.77632 0.5 a79 solid ellipse black lightgrey
+node a80 17.813 78.361 0.77632 0.5 a80 solid ellipse black lightgrey
+node p334_1714_unique 20.624 78.361 2.7261 0.5 p334_1714_unique solid ellipse black lightgrey
+node p95_1714_unique 20.624 77.556 2.5637 0.5 p95_1714_unique solid ellipse black lightgrey
+node a81 23.435 73.444 0.77632 0.5 a81 solid ellipse black lightgrey
+node a82 23.435 62.722 0.77632 0.5 a82 solid ellipse black lightgrey
+node a83 23.435 59.194 0.77632 0.5 a83 solid ellipse black lightgrey
+node p303_1715_unique 26.246 59.278 2.7261 0.5 p303_1715_unique solid ellipse black lightgrey
+node a84 23.435 56.389 0.77632 0.5 a84 solid ellipse black lightgrey
+node p89_1715_unique 26.246 56.222 2.5637 0.5 p89_1715_unique solid ellipse black lightgrey
+node a85 23.435 46.278 0.77632 0.5 a85 solid ellipse black lightgrey
+node p378_1715_unique 26.246 42.972 2.7261 0.5 p378_1715_unique solid ellipse black lightgrey
+node p387_1715_unique 26.246 43.778 2.7261 0.5 p387_1715_unique solid ellipse black lightgrey
+node a86 23.435 60.639 0.77632 0.5 a86 solid ellipse black lightgrey
+node a87 23.435 16.486 0.77632 0.5 a87 solid ellipse black lightgrey
+node p113_1715_unique 26.246 18.097 2.7261 0.5 p113_1715_unique solid ellipse black lightgrey
+node p14_1715_unique 26.246 17.292 2.5637 0.5 p14_1715_unique solid ellipse black lightgrey
+node p29_1715_unique 26.246 15.681 2.5637 0.5 p29_1715_unique solid ellipse black lightgrey
+node a88 23.435 39.667 0.77632 0.5 a88 solid ellipse black lightgrey
+node p110_1715_unique 26.246 39.75 2.7261 0.5 p110_1715_unique solid ellipse black lightgrey
+node a89 23.435 47.722 0.77632 0.5 a89 solid ellipse black lightgrey
+node p57_1715_unique 26.246 46.194 2.5637 0.5 p57_1715_unique solid ellipse black lightgrey
+node p22_1715_unique 26.246 47 2.5637 0.5 p22_1715_unique solid ellipse black lightgrey
+node a90 23.435 85.528 0.77632 0.5 a90 solid ellipse black lightgrey
+node p160_1715_unique 26.246 86.333 2.7261 0.5 p160_1715_unique solid ellipse black lightgrey
+node p232_1715_unique 26.246 85.528 2.7261 0.5 p232_1715_unique solid ellipse black lightgrey
+node p353_1715_unique 26.246 84.722 2.7261 0.5 p353_1715_unique solid ellipse black lightgrey
+node a91 23.435 28.472 0.77632 0.5 a91 solid ellipse black lightgrey
+node a92 23.435 30.556 0.77632 0.5 a92 solid ellipse black lightgrey
+node a93 23.435 52.222 0.77632 0.5 a93 solid ellipse black lightgrey
+node a94 23.435 83.111 0.77632 0.5 a94 solid ellipse black lightgrey
+node p327_1715_unique 26.246 83.111 2.7261 0.5 p327_1715_unique solid ellipse black lightgrey
+node p172_1715_unique 26.246 82.306 2.7261 0.5 p172_1715_unique solid ellipse black lightgrey
+node a95 23.435 6.5278 0.77632 0.5 a95 solid ellipse black lightgrey
+node a96 29.057 20.708 0.77632 0.5 a96 solid ellipse black lightgrey
+node p237_1716_unique 31.868 21.958 2.7261 0.5 p237_1716_unique solid ellipse black lightgrey
+node p180_1716_unique 31.868 21.153 2.7261 0.5 p180_1716_unique solid ellipse black lightgrey
+node p330_1716_unique 31.868 20.347 2.7261 0.5 p330_1716_unique solid ellipse black lightgrey
+node a97 29.057 60.806 0.77632 0.5 a97 solid ellipse black lightgrey
+node a98 29.057 61.611 0.77632 0.5 a98 solid ellipse black lightgrey
+node a99 29.057 86.653 0.77632 0.5 a99 solid ellipse black lightgrey
+node p589_1716_unique 31.868 88.667 2.7261 0.5 p589_1716_unique solid ellipse black lightgrey
+node p595_1716_unique 31.868 87.861 2.7261 0.5 p595_1716_unique solid ellipse black lightgrey
+node p596_1716_unique 31.868 87.056 2.7261 0.5 p596_1716_unique solid ellipse black lightgrey
+node p583_1716_unique 31.868 86.25 2.7261 0.5 p583_1716_unique solid ellipse black lightgrey
+node p587_1716_unique 31.868 85.444 2.7261 0.5 p587_1716_unique solid ellipse black lightgrey
+node p588_1716_unique 31.868 84.639 2.7261 0.5 p588_1716_unique solid ellipse black lightgrey
+node a100 29.057 57.028 0.93881 0.5 a100 solid ellipse black lightgrey
+node p225_1716_unique 31.868 55.583 2.7261 0.5 p225_1716_unique solid ellipse black lightgrey
+node p229_1716_unique 31.868 58 2.7261 0.5 p229_1716_unique solid ellipse black lightgrey
+node a101 29.057 89.875 0.93881 0.5 a101 solid ellipse black lightgrey
+node p613_1716_unique 31.868 90.278 2.7261 0.5 p613_1716_unique solid ellipse black lightgrey
+node p401_1716_unique 31.868 89.472 2.7261 0.5 p401_1716_unique solid ellipse black lightgrey
+node a102 29.057 15.139 0.93881 0.5 a102 solid ellipse black lightgrey
+node a103 29.057 5.0833 0.93881 0.5 a103 solid ellipse black lightgrey
+node a104 29.057 24.375 0.93881 0.5 a104 solid ellipse black lightgrey
+node p203_1716_unique 31.868 24.375 2.7261 0.5 p203_1716_unique solid ellipse black lightgrey
+node a105 29.057 91.889 0.93881 0.5 a105 solid ellipse black lightgrey
+node p620_1716_unique 31.868 92.694 2.7261 0.5 p620_1716_unique solid ellipse black lightgrey
+node p615_1716_unique 31.868 91.889 2.7261 0.5 p615_1716_unique solid ellipse black lightgrey
+node p452_1716_unique 31.868 91.083 2.7261 0.5 p452_1716_unique solid ellipse black lightgrey
+node a106 29.057 93.5 0.93881 0.5 a106 solid ellipse black lightgrey
+node p599_1716_unique 31.868 93.5 2.7261 0.5 p599_1716_unique solid ellipse black lightgrey
+node a107 34.679 85.444 0.93881 0.5 a107 solid ellipse black lightgrey
+node p564_1717_unique 37.49 85.444 2.7261 0.5 p564_1717_unique solid ellipse black lightgrey
+node a108 34.679 42.292 0.93881 0.5 a108 solid ellipse black lightgrey
+node p568_1717_unique 37.49 40.639 2.7261 0.5 p568_1717_unique solid ellipse black lightgrey
+node p575_1717_unique 37.49 43.056 2.7261 0.5 p575_1717_unique solid ellipse black lightgrey
+node p573_1717_unique 37.49 43.861 2.7261 0.5 p573_1717_unique solid ellipse black lightgrey
+node a109 34.679 58.889 0.93881 0.5 a109 solid ellipse black lightgrey
+node p501_1717_unique 37.49 59.278 2.7261 0.5 p501_1717_unique solid ellipse black lightgrey
+node p579_1717_unique 37.49 58.472 2.7261 0.5 p579_1717_unique solid ellipse black lightgrey
+node a110 34.679 36.889 0.93881 0.5 a110 solid ellipse black lightgrey
+node a111 34.679 48.611 0.93881 0.5 a111 solid ellipse black lightgrey
+node p248_1717_unique 37.49 50.306 2.7261 0.5 p248_1717_unique solid ellipse black lightgrey
+node p592_1717_unique 37.49 49.5 2.7261 0.5 p592_1717_unique solid ellipse black lightgrey
+node a112 34.679 88.667 0.93881 0.5 a112 solid ellipse black lightgrey
+node p42_1717_unique 37.49 90.278 2.5637 0.5 p42_1717_unique solid ellipse black lightgrey
+node p365_1717_unique 37.49 88.667 2.7261 0.5 p365_1717_unique solid ellipse black lightgrey
+node p44_1717_unique 37.49 87.861 2.5637 0.5 p44_1717_unique solid ellipse black lightgrey
+node p604_1717_unique 37.49 87.056 2.7261 0.5 p604_1717_unique solid ellipse black lightgrey
+node p314_1717_unique 37.49 86.25 2.7261 0.5 p314_1717_unique solid ellipse black lightgrey
+node p364_1717_unique 37.49 89.472 2.7261 0.5 p364_1717_unique solid ellipse black lightgrey
+node a113 34.679 51.958 0.93881 0.5 a113 solid ellipse black lightgrey
+node a114 34.679 63.056 0.93881 0.5 a114 solid ellipse black lightgrey
+node a115 34.679 90.681 0.93881 0.5 a115 solid ellipse black lightgrey
+node p608_1717_unique 37.49 91.083 2.7261 0.5 p608_1717_unique solid ellipse black lightgrey
+node a116 34.679 11.681 0.93881 0.5 a116 solid ellipse black lightgrey
+node p566_1717_unique 37.49 12.083 2.7261 0.5 p566_1717_unique solid ellipse black lightgrey
+node p591_1717_unique 37.49 11.278 2.7261 0.5 p591_1717_unique solid ellipse black lightgrey
+node p586_1717_unique 37.49 10.472 2.7261 0.5 p586_1717_unique solid ellipse black lightgrey
+node a117 34.679 93.097 0.93881 0.5 a117 solid ellipse black lightgrey
+node p430_1717_unique 37.49 94.306 2.7261 0.5 p430_1717_unique solid ellipse black lightgrey
+node p616_1717_unique 37.49 93.5 2.7261 0.5 p616_1717_unique solid ellipse black lightgrey
+node p611_1717_unique 37.49 92.694 2.7261 0.5 p611_1717_unique solid ellipse black lightgrey
+node p612_1717_unique 37.49 91.889 2.7261 0.5 p612_1717_unique solid ellipse black lightgrey
+node a118 34.679 72.042 0.93881 0.5 a118 solid ellipse black lightgrey
+node p580_1717_unique 37.49 72.083 2.7261 0.5 p580_1717_unique solid ellipse black lightgrey
+node a119 34.679 34.167 0.93881 0.5 a119 solid ellipse black lightgrey
+node p593_1717_unique 37.49 34.194 2.7261 0.5 p593_1717_unique solid ellipse black lightgrey
+node p298_1717_unique 37.49 35 2.7261 0.5 p298_1717_unique solid ellipse black lightgrey
+node a120 34.679 84.639 0.93881 0.5 a120 solid ellipse black lightgrey
+node a121 34.679 47.806 0.93881 0.5 a121 solid ellipse black lightgrey
+node p578_1717_unique 37.49 48.694 2.7261 0.5 p578_1717_unique solid ellipse black lightgrey
+node a122 34.679 31.278 0.93881 0.5 a122 solid ellipse black lightgrey
+node p590_1717_unique 37.49 30.167 2.7261 0.5 p590_1717_unique solid ellipse black lightgrey
+node a123 34.679 95.917 0.93881 0.5 a123 solid ellipse black lightgrey
+node p576_1717_unique 37.49 96.722 2.7261 0.5 p576_1717_unique solid ellipse black lightgrey
+node p584_1717_unique 37.49 95.917 2.7261 0.5 p584_1717_unique solid ellipse black lightgrey
+node p585_1717_unique 37.49 95.111 2.7261 0.5 p585_1717_unique solid ellipse black lightgrey
+node a124 34.679 97.528 0.93881 0.5 a124 solid ellipse black lightgrey
+node p569_1717_unique 37.49 97.528 2.7261 0.5 p569_1717_unique solid ellipse black lightgrey
+node a125 34.679 98.736 0.93881 0.5 a125 solid ellipse black lightgrey
+node p570_1717_unique 37.49 99.139 2.7261 0.5 p570_1717_unique solid ellipse black lightgrey
+node p545_1717_unique 37.49 98.333 2.7261 0.5 p545_1717_unique solid ellipse black lightgrey
+node a126 34.679 28.514 0.93881 0.5 a126 solid ellipse black lightgrey
+node a127 34.679 47 0.93881 0.5 a127 solid ellipse black lightgrey
+node p567_1717_unique 37.49 47.083 2.7261 0.5 p567_1717_unique solid ellipse black lightgrey
+node p546_1717_unique 37.49 47.889 2.7261 0.5 p546_1717_unique solid ellipse black lightgrey
+node a128 34.679 32.083 0.93881 0.5 a128 solid ellipse black lightgrey
+node p572_1717_unique 37.49 31.778 2.7261 0.5 p572_1717_unique solid ellipse black lightgrey
+node p594_1717_unique 37.49 30.972 2.7261 0.5 p594_1717_unique solid ellipse black lightgrey
+node a129 34.679 99.944 0.93881 0.5 a129 solid ellipse black lightgrey
+node p565_1717_unique 37.49 99.944 2.7261 0.5 p565_1717_unique solid ellipse black lightgrey
+node a130 34.679 43.903 0.93881 0.5 a130 solid ellipse black lightgrey
+node p399_1717_unique 37.49 45.472 2.7261 0.5 p399_1717_unique solid ellipse black lightgrey
+node a131 34.679 60.333 0.93881 0.5 a131 solid ellipse black lightgrey
+node a132 34.679 43.097 0.93881 0.5 a132 solid ellipse black lightgrey
+node p436_1717_unique 37.49 41.444 2.7261 0.5 p436_1717_unique solid ellipse black lightgrey
+node p253_1717_unique 37.49 42.25 2.7261 0.5 p253_1717_unique solid ellipse black lightgrey
+node a133 34.679 87.861 0.93881 0.5 a133 solid ellipse black lightgrey
+node a134 34.679 100.75 0.93881 0.5 a134 solid ellipse black lightgrey
+node p571_1717_unique 37.49 100.75 2.7261 0.5 p571_1717_unique solid ellipse black lightgrey
+node a135 34.679 86.25 0.93881 0.5 a135 solid ellipse black lightgrey
+node a136 34.679 101.56 0.93881 0.5 a136 solid ellipse black lightgrey
+node p577_1717_unique 37.49 101.56 2.7261 0.5 p577_1717_unique solid ellipse black lightgrey
+node a137 34.679 82.306 0.93881 0.5 a137 solid ellipse black lightgrey
+node a138 34.679 104.78 0.93881 0.5 a138 solid ellipse black lightgrey
+node p562_1717_unique 37.49 106.39 2.7261 0.5 p562_1717_unique solid ellipse black lightgrey
+node p563_1717_unique 37.49 105.58 2.7261 0.5 p563_1717_unique solid ellipse black lightgrey
+node p133_1717_unique 37.49 104.78 2.7261 0.5 p133_1717_unique solid ellipse black lightgrey
+node p574_1717_unique 37.49 103.97 2.7261 0.5 p574_1717_unique solid ellipse black lightgrey
+node p534_1717_unique 37.49 103.17 2.7261 0.5 p534_1717_unique solid ellipse black lightgrey
+node p581_1717_unique 37.49 108 2.7261 0.5 p581_1717_unique solid ellipse black lightgrey
+node p582_1717_unique 37.49 107.19 2.7261 0.5 p582_1717_unique solid ellipse black lightgrey
+node p537_1717_unique 37.49 102.36 2.7261 0.5 p537_1717_unique solid ellipse black lightgrey
+node a139 34.679 105.58 0.93881 0.5 a139 solid ellipse black lightgrey
+node a140 34.679 14.417 0.93881 0.5 a140 solid ellipse black lightgrey
+node a141 34.679 87.056 0.93881 0.5 a141 solid ellipse black lightgrey
+edge "1711_after" "1712_before" 4 4.6077 0.25 4.9263 0.25 5.2915 0.25 5.619 0.25 solid black
+edge "1712_before" "1712_after" 4 7.518 0.25 7.8449 0.25 8.2096 0.25 8.5282 0.25 solid black
+edge "1711_before" "1711_after" 4 1.8962 0.25 2.2231 0.25 2.5878 0.25 2.9064 0.25 solid black
+edge "1712_after" "1713_before" 4 10.229 0.25 10.548 0.25 10.913 0.25 11.241 0.25 solid black
+edge "1713_before" "1713_after" 4 13.14 0.25 13.467 0.25 13.831 0.25 14.15 0.25 solid black
+edge "1713_after" "1714_before" 4 15.851 0.25 16.17 0.25 16.535 0.25 16.863 0.25 solid black
+edge "1714_before" "1714_after" 4 18.762 0.25 19.089 0.25 19.453 0.25 19.772 0.25 solid black
+edge "1714_after" "1715_before" 4 21.473 0.25 21.792 0.25 22.157 0.25 22.484 0.25 solid black
+edge "1715_before" "1715_after" 4 24.383 0.25 24.71 0.25 25.075 0.25 25.394 0.25 solid black
+edge "1715_after" "1716_before" 4 27.095 0.25 27.414 0.25 27.779 0.25 28.106 0.25 solid black
+edge "1716_before" "1716_after" 4 30.005 0.25 30.332 0.25 30.697 0.25 31.015 0.25 solid black
+edge "1716_after" "1717_before" 4 32.717 0.25 33.035 0.25 33.401 0.25 33.728 0.25 solid black
+edge "1717_before" "1717_after" 4 35.627 0.25 35.954 0.25 36.319 0.25 36.637 0.25 solid black
+edge p384_1711_unique p384_1716_unique 4 5.1098 71.965 9.8604 71.843 25.766 71.435 30.517 71.312 dotted black
+edge p384_1716_unique p384_1717_unique 4 33.232 71.278 34.11 71.278 35.246 71.278 36.123 71.278 dotted black
+edge p187_1711_unique p187_1714_unique 4 4.6536 54.3 7.5734 54.915 16.802 56.861 19.726 57.477 dotted black
+edge p187_1714_unique p187_1716_unique 4 21.822 57.788 23.984 58.007 28.512 58.466 30.672 58.684 dotted black
+edge p187_1716_unique p187_1717_unique 4 32.784 58.62 33.829 58.408 35.529 58.064 36.574 57.852 dotted black
+edge p223_1711_unique p223_1712_unique 4 5.1196 54.896 5.9986 54.883 7.1382 54.867 8.0176 54.854 dotted black
+edge p223_1712_unique p223_1713_unique 4 9.5223 55.086 10.304 56.476 14.08 63.193 14.861 64.582 dotted black
+edge p223_1713_unique p223_1714_unique 4 16.133 64.973 17.11 65.094 18.513 65.267 19.49 65.388 dotted black
+edge p223_1714_unique p223_1715_unique 4 21.448 65.328 22.512 65.071 24.355 64.625 25.42 64.367 dotted black
+edge p223_1715_unique p223_1716_unique 4 27.212 63.99 28.244 63.801 29.868 63.504 30.9 63.316 dotted black
+edge p223_1716_unique p223_1717_unique 4 32.438 62.911 33.515 62.48 35.839 61.549 36.918 61.118 dotted black
+edge p275_1711_unique p275_1712_unique 4 5.1232 60.472 6.0007 60.472 7.1366 60.472 8.0144 60.472 dotted black
+edge p275_1712_unique p275_1713_unique 4 9.5488 60.723 10.376 61.958 14.009 67.378 14.835 68.611 dotted black
+edge p275_1713_unique p275_1714_unique 4 15.206 68.613 16.084 67.541 19.544 63.319 20.421 62.248 dotted black
+edge p275_1714_unique p275_1715_unique 4 21.553 61.817 22.594 61.611 24.274 61.279 25.316 61.073 dotted black
+edge p275_1715_unique p275_1716_unique 4 27.04 61.093 28.109 61.368 30.004 61.854 31.074 62.129 dotted black
+edge p275_1716_unique p275_1717_unique 4 32.661 62.537 33.731 62.812 35.625 63.299 36.696 63.574 dotted black
+edge p39_1711_unique p39_1712_unique 4 4.7964 26.629 5.8069 26.484 7.3341 26.265 8.3442 26.121 dotted black
+edge p39_1712_unique p39_1713_unique 4 9.5644 26.22 10.415 27.368 13.963 32.154 14.817 33.306 dotted black
+edge p40_1711_unique p40_1712_unique 4 5.0414 32.417 5.9569 32.417 7.1832 32.417 8.0985 32.417 dotted black
+edge p40_1712_unique p40_1716_unique 4 9.637 32.664 11.957 34.902 29.285 51.62 31.61 53.863 dotted black
+edge p159_1711_unique p159_1712_unique 4 5.1232 29.194 6.0007 29.194 7.1366 29.194 8.0144 29.194 dotted black
+edge p159_1712_unique p159_1717_unique 4 10.014 29.416 13.771 30.73 33.098 37.492 36.856 38.806 dotted black
+edge p27_1711_unique p27_1712_unique 4 4.4146 45.965 5.4965 45.61 7.6426 44.904 8.7245 44.549 dotted black
+edge p27_1712_unique p27_1713_unique 4 10.663 44.333 11.579 44.333 12.805 44.333 13.72 44.333 dotted black
+edge p27_1713_unique p27_1714_unique 4 15.226 44.583 16.129 45.591 19.496 49.351 20.4 50.36 dotted black
+edge p175_1711_unique p175_1712_unique 4 4.7899 47.626 5.8026 47.463 7.3391 47.217 8.3512 47.054 dotted black
+edge p175_1712_unique p175_1714_unique 4 9.9458 47.117 11.867 47.89 18.135 50.414 20.058 51.189 dotted black
+edge p26_1711_unique p26_1714_unique 4 5.0402 48.579 8.1766 48.535 16.21 48.423 19.345 48.379 dotted black
+edge p80_1711_unique p80_1712_unique 4 4.7509 46.827 5.7753 46.662 7.3646 46.407 8.3889 46.243 dotted black
+edge p80_1712_unique p80_1713_unique 4 9.4829 46.337 10.179 48.059 14.206 58.028 14.9 59.747 dotted black
+edge p374_1711_unique p374_1712_unique 4 3.8126 45.125 4.3525 42.613 8.7829 22.002 9.326 19.476 dotted black
+edge p374_1712_unique p374_1713_unique 4 10.745 19.222 11.622 19.222 12.758 19.222 13.636 19.222 dotted black
+edge p374_1713_unique p374_1714_unique 4 15.477 19.459 16.538 19.989 19.095 21.264 20.153 21.793 dotted black
+edge p374_1714_unique p374_1716_unique 4 21.908 22.112 24.072 22.254 28.419 22.538 30.583 22.68 dotted black
+edge p62_1711_unique p62_1712_unique 4 4.119 44.811 5.1332 45.49 8.0047 47.412 9.0197 48.092 dotted black
+edge p62_1712_unique p62_1713_unique 4 10.418 48.482 11.429 48.627 12.956 48.846 13.966 48.99 dotted black
+edge p62_1713_unique p62_1714_unique 4 15.27 49.385 16.217 50.255 19.406 53.186 20.355 54.058 dotted black
+edge p62_1714_unique p62_1717_unique 4 21.666 54.158 24.688 53.73 33.429 52.492 36.449 52.064 dotted black
+edge p149_1711_unique p149_1713_unique 4 3.9399 42.706 5.2689 40.852 13.497 29.377 14.822 27.529 dotted black
+edge p361_1711_unique p361_1714_unique 4 4.359 43.538 6.9805 42.551 17.411 38.626 20.027 37.642 dotted black
+edge p361_1714_unique p361_1715_unique 4 20.802 37.668 21.643 38.862 25.227 43.943 26.068 45.137 dotted black
+edge p361_1715_unique p361_1717_unique 4 27.503 45.488 29.668 45.659 34.074 46.008 36.236 46.179 dotted black
+edge p369_1711_unique p369_1712_unique 4 4.836 26.127 5.8324 26.269 7.3054 26.48 8.3021 26.623 dotted black
+edge p369_1712_unique p369_1713_unique 4 9.615 27.027 10.529 27.998 13.851 31.527 14.767 32.5 dotted black
+edge p369_1713_unique p369_1715_unique 4 16.37 32.75 18.532 32.75 22.717 32.75 24.879 32.75 dotted black
+edge p369_1715_unique p369_1717_unique 4 27.608 32.73 29.771 32.698 33.968 32.636 36.13 32.603 dotted black
+edge p108_1711_unique p108_1712_unique 4 5.1232 8.4444 6.0007 8.4444 7.1366 8.4444 8.0144 8.4444 dotted black
+edge p108_1712_unique p108_1713_unique 4 10.745 8.4444 11.622 8.4444 12.758 8.4444 13.636 8.4444 dotted black
+edge p108_1713_unique p108_1714_unique 4 15.477 8.2077 16.538 7.6779 19.095 6.4023 20.153 5.874 dotted black
+edge p108_1714_unique p108_1716_unique 4 20.897 5.8885 22.439 7.3025 30.066 14.293 31.599 15.698 dotted black
+edge p238_1711_unique p238_1714_unique 4 5.0962 4.2451 8.2516 4.3646 16.131 4.6631 19.287 4.7827 dotted black
+edge p341_1711_unique p341_1713_unique 4 4.8165 11.409 6.9622 11.733 11.804 12.462 13.947 12.785 dotted black
+edge p341_1713_unique p341_1714_unique 4 15.72 12.732 16.799 12.412 18.827 11.811 19.906 11.491 dotted black
+edge p332_1711_unique p332_1712_unique 4 4.8694 42.298 5.8534 42.427 7.2826 42.614 8.2674 42.743 dotted black
+edge p332_1712_unique p332_1713_unique 4 10.545 43.021 11.51 43.131 12.875 43.286 13.839 43.396 dotted black
+edge p332_1713_unique p332_1715_unique 4 16.142 43.39 18.299 43.129 22.952 42.565 25.107 42.305 dotted black
+edge p331_1711_unique p331_1712_unique 4 4.8694 40.687 5.8534 40.816 7.2826 41.003 8.2674 41.132 dotted black
+edge p331_1712_unique p331_1713_unique 4 10.174 41.482 11.244 41.757 13.138 42.243 14.208 42.518 dotted black
+edge p16_1712_unique p16_1717_unique 4 9.7011 16.244 12.601 18.453 34.262 34.957 37.168 37.171 dotted black
+edge p51_1712_unique p51_1713_unique 4 9.4418 25.419 10.011 27.765 14.373 45.74 14.941 48.082 dotted black
+edge p373_1712_unique p373_1714_unique 4 10.291 14.202 12.401 13.77 17.603 12.703 19.713 12.27 dotted black
+edge p272_1712_unique p272_1713_unique 4 9.6868 63.449 10.665 62.666 13.709 60.23 14.692 59.443 dotted black
+edge p272_1713_unique p272_1714_unique 4 15.202 58.946 16.076 57.863 19.549 53.555 20.424 52.471 dotted black
+edge p272_1714_unique p272_1716_unique 4 21.233 52.448 23.189 53.173 29.306 55.44 31.261 56.164 dotted black
+edge p272_1716_unique p272_1717_unique 4 32.131 56.638 33.076 57.529 36.283 60.556 37.227 61.446 dotted black
+edge p279_1712_unique p279_1713_unique 4 9.6517 57.002 10.604 56.132 13.786 53.223 14.734 52.356 dotted black
+edge p226_1712_unique p226_1713_unique 4 9.615 56.693 10.529 57.665 13.851 61.193 14.767 62.167 dotted black
+edge p226_1713_unique p226_1714_unique 4 15.887 62.224 16.941 61.995 18.693 61.614 19.745 61.386 dotted black
+edge p226_1714_unique p226_1715_unique 4 21.553 61.011 22.594 60.805 24.274 60.473 25.316 60.267 dotted black
+edge p226_1715_unique p226_1716_unique 4 27.55 60.157 28.455 60.209 29.656 60.277 30.561 60.329 dotted black
+edge p226_1716_unique p226_1717_unique 4 32.469 60.627 33.55 61.03 35.807 61.872 36.888 62.276 dotted black
+edge p281_1712_unique p281_1713_unique 4 9.8647 55.404 10.927 54.89 13.454 53.666 14.517 53.152 dotted black
+edge p281_1713_unique p281_1714_unique 4 15.052 52.666 15.573 50.026 20.051 27.345 20.574 24.697 dotted black
+edge p281_1714_unique p281_1716_unique 4 21.908 24.529 24.072 24.67 28.419 24.955 30.583 25.096 dotted black
+edge p375_1712_unique p375_1713_unique 4 9.5644 27.831 10.415 28.979 13.963 33.765 14.817 34.917 dotted black
+edge p375_1713_unique p375_1714_unique 4 15.077 34.915 15.691 32.832 19.931 18.46 20.549 16.365 dotted black
+edge p389_1712_unique p389_1713_unique 4 10.309 31.428 11.351 31.222 13.03 30.89 14.073 30.684 dotted black
+edge p389_1713_unique p389_1715_unique 4 16.303 30.423 18.468 30.295 22.785 30.039 24.948 29.91 dotted black
+edge p389_1715_unique p389_1717_unique 4 27.58 29.777 29.744 29.686 33.995 29.508 36.157 29.417 dotted black
+edge p385_1712_unique p385_1716_unique 4 9.6409 38.614 11.975 36.402 29.27 20.005 31.607 17.789 dotted black
+edge p282_1712_unique p282_1715_unique 4 10.587 53.506 13.691 53.808 21.93 54.608 25.037 54.91 dotted black
+edge p200_1712_unique p200_1713_unique 4 10.745 49.944 11.622 49.944 12.758 49.944 13.636 49.944 dotted black
+edge p200_1713_unique p200_1715_unique 4 16.298 49.864 18.462 49.731 22.787 49.464 24.951 49.33 dotted black
+edge p278_1712_unique p278_1714_unique 4 9.6365 48.89 11.145 47.426 18.861 39.934 20.369 38.47 dotted black
+edge p292_1712_unique p292_1713_unique 4 9.5252 52.031 10.312 53.408 14.074 59.987 14.859 61.36 dotted black
+edge p292_1713_unique p292_1716_unique 4 15.153 61.36 16.729 58.736 30.137 36.409 31.716 33.78 dotted black
+edge p292_1716_unique p292_1717_unique 4 33.222 33.494 34.105 33.473 35.255 33.444 36.138 33.422 dotted black
+edge p316_1712_unique p316_1713_unique 4 9.6442 61.029 10.588 60.138 13.796 57.111 14.739 56.22 dotted black
+edge p316_1713_unique p316_1714_unique 4 16.04 56.136 17.051 56.296 18.578 56.538 19.588 56.697 dotted black
+edge p316_1714_unique p316_1715_unique 4 20.911 57.107 21.875 57.937 24.997 60.62 25.96 61.449 dotted black
+edge p316_1715_unique p316_1717_unique 4 26.646 61.451 28.395 60.388 35.355 56.158 37.094 55.101 dotted black
+edge p302_1712_unique p302_1713_unique 4 9.5644 62.331 10.415 63.479 13.963 68.265 14.817 69.417 dotted black
+edge p302_1713_unique p302_1714_unique 4 15.281 69.421 16.238 68.58 19.384 65.813 20.344 64.969 dotted black
+edge p302_1714_unique p302_1715_unique 4 20.838 64.971 21.728 66.01 25.141 69.99 26.032 71.029 dotted black
+edge p302_1715_unique p302_1717_unique 4 27.324 71.432 29.473 71.74 34.268 72.427 36.415 72.735 dotted black
+edge p202_1712_unique p202_1713_unique 4 9.7494 58.619 10.769 57.948 13.619 56.076 14.636 55.408 dotted black
+edge p202_1713_unique p202_1714_unique 4 16.04 55.331 17.051 55.491 18.578 55.732 19.588 55.892 dotted black
+edge p202_1714_unique p202_1715_unique 4 21.616 56.227 22.639 56.404 24.225 56.678 25.25 56.855 dotted black
+edge p202_1715_unique p202_1717_unique 4 26.839 56.802 28.782 56.063 34.946 53.718 36.894 52.977 dotted black
+edge p315_1712_unique p315_1713_unique 4 9.7494 57.813 10.769 57.143 13.619 55.27 14.636 54.602 dotted black
+edge p320_1712_unique p320_1714_unique 4 10.72 7.6885 12.883 7.7687 17.122 7.9258 19.285 8.0059 dotted black
+edge p109_1712_unique p109_1714_unique 4 10.305 39.852 12.42 40.275 17.587 41.309 19.7 41.732 dotted black
+edge p106_1712_unique p106_1713_unique 4 9.7365 14.95 10.749 14.255 13.637 12.271 14.648 11.577 dotted black
+edge p106_1713_unique p106_1714_unique 4 15.285 11.088 16.245 10.253 19.372 7.5333 20.338 6.6936 dotted black
+edge p319_1712_unique p319_1713_unique 4 9.4408 35.387 10.007 33.022 14.377 14.753 14.942 12.39 dotted black
+edge p319_1713_unique p319_1714_unique 4 15.285 11.893 16.245 11.059 19.372 8.3388 20.338 7.4992 dotted black
+edge p319_1714_unique p319_1715_unique 4 21.989 7.25 22.866 7.25 24.002 7.25 24.88 7.25 dotted black
+edge p319_1715_unique p319_1716_unique 4 27.61 7.25 28.488 7.25 29.624 7.25 30.502 7.25 dotted black
+edge p236_1712_unique p236_1714_unique 4 10.438 4.7573 12.584 4.4339 17.426 3.7042 19.569 3.3812 dotted black
+edge p10_1712_unique p10_1713_unique 4 10.341 36.61 11.374 36.789 13.008 37.072 14.042 37.251 dotted black
+edge p10_1713_unique p10_1714_unique 4 15.726 37.624 16.804 37.933 18.82 38.511 19.899 38.82 dotted black
+edge p97_1712_unique p97_1713_unique 4 10.059 35.048 11.141 35.39 13.245 36.056 14.326 36.397 dotted black
+edge p97_1713_unique p97_1714_unique 4 16.04 36.462 17.051 36.318 18.578 36.099 19.588 35.954 dotted black
+edge p97_1714_unique p97_1717_unique 4 21.871 35.865 24.994 36.014 33.121 36.402 36.243 36.552 dotted black
+edge p288_1712_unique p288_1713_unique 4 10.07 37.468 11.152 37.81 13.236 38.469 14.316 38.811 dotted black
+edge p288_1713_unique p288_1714_unique 4 15.541 38.796 16.616 38.334 19.014 37.303 20.087 36.842 dotted black
+edge p288_1714_unique p288_1717_unique 4 21.837 36.727 24.945 37.024 33.168 37.809 36.276 38.106 dotted black
+edge p153_1713_unique p153_1714_unique 4 15.562 64.257 16.64 64.699 18.991 65.664 20.067 66.105 dotted black
+edge p153_1714_unique p153_1715_unique 4 20.742 66.08 21.473 64.504 25.399 56.046 26.129 54.474 dotted black
+edge p153_1715_unique p153_1716_unique 4 26.697 54.46 27.75 55.018 30.367 56.401 31.419 56.957 dotted black
+edge p153_1716_unique p153_1717_unique 4 32.784 57.009 33.829 56.797 35.529 56.453 36.574 56.241 dotted black
+edge p139_1713_unique p139_1715_unique 4 15.147 60.556 16.362 58.455 24.875 43.731 26.1 41.614 dotted black
+edge p266_1713_unique p266_1714_unique 4 15.407 66.205 16.443 65.59 19.184 63.965 20.22 63.351 dotted black
+edge p266_1714_unique p266_1716_unique 4 21.627 62.941 23.761 62.58 28.731 61.739 30.865 61.378 dotted black
+edge p266_1716_unique p266_1717_unique 4 32.79 61.024 33.833 60.815 35.523 60.477 36.567 60.268 dotted black
+edge p390_1713_unique p390_1714_unique 4 15.206 20.275 16.083 21.341 19.536 25.538 20.418 26.611 dotted black
+edge p390_1714_unique p390_1715_unique 4 20.943 27.107 21.931 27.868 24.939 30.187 25.928 30.949 dotted black
+edge p100_1713_unique p100_1714_unique 4 16.278 28.172 17.196 28.235 18.43 28.32 19.349 28.384 dotted black
+edge p100_1714_unique p100_1715_unique 4 21.742 28.329 22.723 28.203 24.144 28.02 25.126 27.894 dotted black
+edge p100_1715_unique p100_1717_unique 4 27.613 27.75 29.776 27.75 33.961 27.75 36.123 27.75 dotted black
+edge p392_1713_unique p392_1714_unique 4 15.472 28.652 16.532 28.118 19.098 26.825 20.156 26.292 dotted black
+edge p392_1714_unique p392_1715_unique 4 21.782 26.19 22.751 26.303 24.127 26.462 25.094 26.575 dotted black
+edge p392_1715_unique p392_1717_unique 4 27.613 26.708 29.776 26.708 33.961 26.708 36.123 26.708 dotted black
+edge p119_1713_unique p119_1715_unique 4 16.37 72.722 18.532 72.722 22.717 72.722 24.879 72.722 dotted black
+edge p84_1713_unique p84_1714_unique 4 16.285 79.167 17.201 79.167 18.427 79.167 19.342 79.167 dotted black
+edge p254_1713_unique p254_1715_unique 4 16.303 29.617 18.468 29.489 22.785 29.233 24.948 29.105 dotted black
+edge p227_1713_unique p227_1714_unique 4 16.12 71.134 17.101 71.008 18.522 70.826 19.504 70.699 dotted black
+edge p227_1714_unique p227_1715_unique 4 21.985 70.535 22.864 70.522 24.004 70.505 24.883 70.492 dotted black
+edge p227_1715_unique p227_1717_unique 4 27.613 70.472 29.776 70.472 33.961 70.472 36.123 70.472 dotted black
+edge p111_1713_unique p111_1714_unique 4 16.12 70.329 17.101 70.203 18.522 70.02 19.504 69.894 dotted black
+edge p111_1714_unique p111_1716_unique 4 21.992 69.75 24.154 69.75 28.339 69.75 30.501 69.75 dotted black
+edge p342_1713_unique p342_1714_unique 4 16.106 16.953 17.093 17.084 18.531 17.276 19.518 17.408 dotted black
+edge p329_1714_unique p329_1717_unique 4 21.937 27.736 25.084 27.902 33.028 28.32 36.176 28.486 dotted black
+edge p283_1714_unique p283_1716_unique 4 21.908 25.334 24.072 25.476 28.419 25.76 30.583 25.902 dotted black
+edge p283_1716_unique p283_1717_unique 4 31.924 26.239 32.476 28.703 36.885 48.407 37.434 50.861 dotted black
+edge p114_1714_unique p114_1717_unique 4 21.99 12.889 25.154 12.889 32.958 12.889 36.123 12.889 dotted black
+edge p349_1714_unique p349_1717_unique 4 21.99 81.583 25.154 81.583 32.958 81.583 36.123 81.583 dotted black
+edge p179_1714_unique p179_1715_unique 4 20.824 47.306 21.698 46.219 25.171 41.894 26.045 40.805 dotted black
+edge p219_1714_unique p219_1715_unique 4 20.805 46.499 21.652 45.324 25.221 40.368 26.066 39.194 dotted black
+edge p78_1714_unique p78_1715_unique 4 21.907 58.472 22.822 58.472 24.049 58.472 24.964 58.472 dotted black
+edge p88_1714_unique p88_1716_unique 4 21.843 22.913 24.007 23.055 28.491 23.348 30.652 23.49 dotted black
+edge p117_1715_unique p117_1717_unique 4 27.613 44.593 29.777 44.61 33.967 44.641 36.127 44.657 dotted black
+edge p23_1715_unique p23_1716_unique 4 27.529 13.694 28.444 13.694 29.67 13.694 30.586 13.694 dotted black
+edge p23_1716_unique p23_1717_unique 4 33.151 13.694 34.066 13.694 35.292 13.694 36.208 13.694 dotted black
+edge p35_1715_unique p35_1716_unique 4 26.682 16.723 27.731 17.293 30.383 18.735 31.432 19.305 dotted black
+edge p130_1715_unique p130_1717_unique 4 26.564 48.201 28.189 46.957 35.538 41.328 37.169 40.079 dotted black
+edge p301_1715_unique p301_1717_unique 4 26.8 52.451 28.711 53.239 35.021 55.843 36.935 56.632 dotted black
+edge p50_1715_unique p50_1717_unique 4 26.436 50.442 27.791 48.648 35.956 37.837 37.302 36.054 dotted black
+edge p129_1715_unique p129_1717_unique 4 27.613 83.917 29.776 83.917 33.961 83.917 36.123 83.917 dotted black
+edge p28_1716_unique p28_1717_unique 4 33.151 15.139 34.066 15.139 35.292 15.139 36.208 15.139 dotted black
+edge a1 p384_1711_unique 4 1.01 57.943 1.3478 59.679 3.3531 69.986 3.6952 71.745 solid black
+edge a1 p187_1711_unique 4 1.1316 57.476 1.6214 56.845 3.0341 55.026 3.5517 54.36 solid black
+edge a1 p223_1711_unique 4 1.1664 57.49 1.6672 56.99 2.9534 55.707 3.4967 55.164 solid black
+edge a1 p275_1711_unique 4 1.1664 57.899 1.6672 58.399 2.9534 59.682 3.4967 60.225 solid black
+edge a1 p243_1711_unique 4 1.0077 57.944 1.3395 59.746 3.3644 70.74 3.6983 72.553 solid black
+edge a1 p224_1711_unique 4 0.98495 57.443 1.2375 54.711 3.4697 30.561 3.7217 27.834 solid black
+edge a2 p39_1711_unique 4 1.2136 28.609 1.7167 28.245 2.846 27.428 3.4104 27.02 solid black
+edge a2 p40_1711_unique 4 1.1316 29.013 1.6214 29.651 3.0341 31.491 3.5517 32.165 solid black
+edge a2 p159_1711_unique 4 1.3199 28.843 1.6634 28.893 2.1995 28.971 2.6803 29.04 solid black
+edge a2 p20_1711_unique 4 1.3199 28.74 1.6737 28.689 2.2317 28.608 2.7233 28.537 solid black
+edge a3 p249_1711_unique 4 1.2974 74.514 1.721 74.636 2.4613 74.851 3.0171 75.012 solid black
+edge a3 p383_1711_unique 4 1.3256 74.417 1.6011 74.417 1.9981 74.417 2.3911 74.417 solid black
+edge a3 p250_1711_unique 4 1.2974 74.319 1.721 74.197 2.4613 73.983 3.0171 73.822 solid black
+edge a4 p27_1711_unique 4 1.2702 47.255 1.7415 47.05 2.6465 46.657 3.2217 46.408 solid black
+edge a4 p175_1711_unique 4 1.3199 47.441 1.6634 47.49 2.1995 47.568 2.6803 47.638 solid black
+edge a4 p26_1711_unique 4 1.2702 47.523 1.7415 47.727 2.6465 48.12 3.2217 48.37 solid black
+edge a4 p80_1711_unique 4 1.3199 47.337 1.6737 47.286 2.2317 47.205 2.7233 47.134 solid black
+edge a4 p374_1711_unique 4 1.2136 47.207 1.7167 46.843 2.846 46.025 3.4104 45.617 solid black
+edge a5 p27_1711_unique 4 1.3199 46.532 1.6737 46.48 2.2317 46.4 2.7233 46.328 solid black
+edge a5 p175_1711_unique 4 1.2702 46.717 1.7387 46.921 2.6357 47.31 3.2113 47.56 solid black
+edge a5 p26_1711_unique 4 1.2136 46.766 1.7167 47.13 2.846 47.947 3.4104 48.355 solid black
+edge a5 p80_1711_unique 4 1.3199 46.635 1.6737 46.686 2.2317 46.767 2.7233 46.838 solid black
+edge a5 p374_1711_unique 4 1.2702 46.449 1.7387 46.246 2.6357 45.857 3.2113 45.607 solid black
+edge a6 p145_1711_unique 4 1.2702 77.37 1.7387 77.573 2.6357 77.963 3.2113 78.213 solid black
+edge a6 p260_1711_unique 4 1.3199 77.288 1.6634 77.338 2.1995 77.415 2.6803 77.485 solid black
+edge a6 p64_1711_unique 4 1.3199 77.184 1.6737 77.133 2.2317 77.052 2.7233 76.981 solid black
+edge a6 p244_1711_unique 4 1.2702 77.102 1.7387 76.899 2.6357 76.509 3.2113 76.259 solid black
+edge a7 p62_1711_unique 4 1.2974 43.861 1.7239 43.985 2.4714 44.201 3.0284 44.362 solid black
+edge a7 p149_1711_unique 4 1.2974 43.667 1.721 43.544 2.4613 43.33 3.0171 43.169 solid black
+edge a7 p361_1711_unique 4 1.3256 43.764 1.6011 43.764 1.9981 43.764 2.3911 43.764 solid black
+edge a8 p146_1711_unique 4 1.2388 81.021 1.7296 81.306 2.7544 81.899 3.3298 82.232 solid black
+edge a8 p171_1711_unique 4 1.2974 80.958 1.721 81.081 2.4613 81.295 3.0171 81.456 solid black
+edge a8 p85_1711_unique 4 1.3256 80.861 1.6203 80.861 2.0539 80.861 2.4729 80.861 solid black
+edge a8 p239_1711_unique 4 1.2974 80.764 1.721 80.641 2.4613 80.427 3.0171 80.266 solid black
+edge a8 p368_1711_unique 4 1.2388 80.701 1.7296 80.417 2.7544 79.823 3.3298 79.49 solid black
+edge a9 p369_1711_unique 4 1.3199 25.621 1.6634 25.671 2.1995 25.749 2.6803 25.818 solid black
+edge a9 p224_1711_unique 4 1.2136 25.752 1.7167 26.116 2.846 26.933 3.4104 27.341 solid black
+edge a9 p293_1711_unique 4 1.3199 25.518 1.6634 25.468 2.1995 25.39 2.6803 25.321 solid black
+edge a9 p296_1711_unique 4 1.2702 25.436 1.7387 25.232 2.6357 24.843 3.2113 24.593 solid black
+edge a10 p247_1711_unique 4 1.3313 83.734 1.6758 83.784 2.2066 83.861 2.6828 83.93 solid black
+edge a10 p305_1711_unique 4 1.3313 83.627 1.6758 83.577 2.2066 83.5 2.6828 83.431 solid black
+edge a11 p108_1711_unique 4 1.2087 6.508 1.7142 6.894 2.8664 7.7737 3.4269 8.2017 solid black
+edge a11 p238_1711_unique 4 1.2087 6.1309 1.7142 5.7449 2.8664 4.8652 3.4269 4.4372 solid black
+edge a11 p328_1711_unique 4 1.3371 6.3194 1.613 6.3194 2.0063 6.3194 2.3951 6.3194 solid black
+edge a12 p341_1711_unique 4 1.3313 10.901 1.6758 10.951 2.2066 11.027 2.6828 11.096 solid black
+edge a12 p21_1711_unique 4 1.3313 10.794 1.6847 10.743 2.2341 10.663 2.7195 10.593 solid black
+edge a13 p332_1711_unique 4 1.3086 41.448 1.7341 41.571 2.4666 41.783 3.0176 41.942 solid black
+edge a13 p331_1711_unique 4 1.3086 41.247 1.7341 41.124 2.4666 40.912 3.0176 40.752 solid black
+edge a13 p185_1711_unique 4 1.3371 41.347 1.613 41.347 2.0063 41.347 2.3951 41.347 solid black
+edge a14 p39_1712_unique 4 6.6523 16.247 7.0361 17.622 8.9093 24.333 9.2965 25.721 solid black
+edge a14 p159_1712_unique 4 6.6366 16.252 6.9868 17.912 8.9611 27.272 9.313 28.94 solid black
+edge a14 p374_1712_unique 4 6.7705 16.216 7.2677 16.792 8.6211 18.359 9.1504 18.972 solid black
+edge a14 p16_1712_unique 4 6.9589 16 7.2541 16 7.6836 16 8.0984 16 solid black
+edge a14 p51_1712_unique 4 6.658 16.245 7.0522 17.544 8.8928 23.606 9.2907 24.916 solid black
+edge a14 p373_1712_unique 4 6.8657 15.837 7.3591 15.551 8.3803 14.96 8.9535 14.628 solid black
+edge a14 p120_1712_unique 4 6.8113 15.802 7.3163 15.364 8.529 14.311 9.0825 13.83 solid black
+edge a14 p362_1712_unique 4 6.7705 15.784 7.2677 15.208 8.6211 13.641 9.1504 13.028 solid black
+edge a14 p3_1712_unique 4 6.7411 15.772 7.2253 15.071 8.6884 12.954 9.1932 12.223 solid black
+edge a15 p272_1712_unique 4 6.9531 64.044 7.2976 63.994 7.8284 63.917 8.3046 63.848 solid black
+edge a15 p267_1712_unique 4 6.9531 64.151 7.2976 64.201 7.8284 64.277 8.3046 64.346 solid black
+edge a16 p223_1712_unique 4 6.8974 55.905 7.3679 55.701 8.2621 55.313 8.8355 55.064 solid black
+edge a16 p279_1712_unique 4 6.8974 56.178 7.3679 56.382 8.2621 56.77 8.8355 57.019 solid black
+edge a16 p226_1712_unique 4 6.9531 56.095 7.2976 56.145 7.8284 56.222 8.3046 56.291 solid black
+edge a16 p281_1712_unique 4 6.9531 55.988 7.2976 55.938 7.8284 55.862 8.3046 55.793 solid black
+edge a17 p39_1712_unique 4 6.8404 27.788 7.345 27.425 8.4656 26.62 9.0292 26.215 solid black
+edge a17 p159_1712_unique 4 6.8974 28.11 7.3694 28.317 8.2675 28.712 8.8407 28.963 solid black
+edge a17 p51_1712_unique 4 6.7927 27.761 7.2984 27.252 8.585 25.955 9.1236 25.412 solid black
+edge a17 p375_1712_unique 4 6.9531 27.921 7.2932 27.873 7.8148 27.8 8.2862 27.734 solid black
+edge a17 p59_1712_unique 4 6.9531 28.028 7.3095 28.081 7.8651 28.164 8.3534 28.237 solid black
+edge a18 p39_1712_unique 4 6.7411 29.772 7.2253 29.071 8.6884 26.954 9.1932 26.223 solid black
+edge a18 p40_1712_unique 4 6.8113 30.198 7.3163 30.636 8.529 31.689 9.0825 32.17 solid black
+edge a18 p159_1712_unique 4 6.9304 29.9 7.3559 29.776 8.0885 29.564 8.6395 29.405 solid black
+edge a18 p358_1712_unique 4 6.9589 30 7.2349 30 7.6281 30 8.0169 30 solid black
+edge a18 p115_1712_unique 4 6.9304 30.1 7.3559 30.224 8.0885 30.436 8.6395 30.595 solid black
+edge a19 p80_1712_unique 4 6.6318 31.862 6.97 33.621 8.9792 44.068 9.3181 45.831 solid black
+edge a19 p369_1712_unique 4 6.7178 31.378 7.1847 30.567 8.7357 27.874 9.2205 27.032 solid black
+edge a19 p389_1712_unique 4 6.9589 31.611 7.2349 31.611 7.6281 31.611 8.0169 31.611 solid black
+edge a20 p332_1712_unique 4 6.8113 40.683 7.3163 41.119 8.529 42.166 9.0825 42.644 solid black
+edge a20 p331_1712_unique 4 6.9304 40.585 7.353 40.705 8.0784 40.911 8.6281 41.068 solid black
+edge a20 p385_1712_unique 4 6.8657 40.321 7.3604 40.032 8.3861 39.434 8.9583 39.1 solid black
+edge a20 p134_1712_unique 4 6.9589 40.484 7.2349 40.483 7.6281 40.481 8.0169 40.479 solid black
+edge a21 p223_1712_unique 4 6.8504 53.163 7.3511 53.496 8.4319 54.213 9.0003 54.59 solid black
+edge a21 p275_1712_unique 4 6.6746 53.231 7.0952 54.362 8.8484 59.078 9.2735 60.222 solid black
+edge a21 p226_1712_unique 4 6.7619 53.208 7.2574 53.823 8.6483 55.552 9.1677 56.197 solid black
+edge a21 p282_1712_unique 4 6.9531 53.04 7.2976 53.089 7.8284 53.166 8.3046 53.235 solid black
+edge a21 p200_1712_unique 4 6.7792 52.772 7.2803 52.225 8.6077 50.774 9.1405 50.192 solid black
+edge a21 p278_1712_unique 4 6.7452 52.763 7.2313 52.091 8.6774 50.092 9.1867 49.388 solid black
+edge a21 p292_1712_unique 4 6.8974 52.85 7.3679 52.646 8.2621 52.257 8.8355 52.008 solid black
+edge a21 p201_1712_unique 4 6.9531 52.933 7.2976 52.883 7.8284 52.806 8.3046 52.737 solid black
+edge a22 p275_1712_unique 4 6.9304 61.141 7.3486 61.026 8.0635 60.83 8.611 60.68 solid black
+edge a22 p279_1712_unique 4 6.7411 61.01 7.2253 60.317 8.6884 58.221 9.1932 57.498 solid black
+edge a22 p226_1712_unique 4 6.7178 61.005 7.1847 60.201 8.7357 57.531 9.2205 56.696 solid black
+edge a22 p316_1712_unique 4 6.9589 61.242 7.2349 61.246 7.6281 61.252 8.0169 61.258 solid black
+edge a22 p302_1712_unique 4 6.9248 61.34 7.3559 61.471 8.1085 61.7 8.6646 61.87 solid black
+edge a22 p561_1712_unique 4 6.8657 61.404 7.3618 61.698 8.3918 62.31 8.9631 62.649 solid black
+edge a23 p275_1712_unique 4 6.8974 59.4 7.3679 59.604 8.2621 59.993 8.8355 60.242 solid black
+edge a23 p226_1712_unique 4 6.7882 59.057 7.2903 58.548 8.5816 57.24 9.1226 56.692 solid black
+edge a23 p302_1712_unique 4 6.7882 59.471 7.2903 59.98 8.5816 61.288 9.1226 61.836 solid black
+edge a23 p202_1712_unique 4 6.9531 59.21 7.2976 59.161 7.8284 59.084 8.3046 59.015 solid black
+edge a23 p315_1712_unique 4 6.8974 59.128 7.3679 58.923 8.2621 58.535 8.8355 58.286 solid black
+edge a23 p313_1712_unique 4 6.9531 59.317 7.2976 59.367 7.8284 59.444 8.3046 59.513 solid black
+edge a24 p320_1712_unique 4 6.714 2.8998 7.1783 3.7292 8.7476 6.5328 9.2266 7.3887 solid black
+edge a24 p25_1712_unique 4 6.9304 2.7671 7.3588 2.8911 8.0985 3.1052 8.6508 3.265 solid black
+edge a24 p141_1712_unique 4 6.9589 2.6667 7.2349 2.6667 7.6281 2.6667 8.0169 2.6667 solid black
+edge a24 p140_1712_unique 4 6.9304 2.5663 7.3559 2.4431 8.0885 2.2311 8.6395 2.0716 solid black
+edge a24 p211_1712_unique 4 6.8657 2.5033 7.3591 2.2177 8.3803 1.6265 8.9535 1.2948 solid black
+edge a25 p27_1712_unique 4 6.7031 39.096 7.1568 39.988 8.7693 43.159 9.238 44.08 solid black
+edge a25 p175_1712_unique 4 6.6683 39.106 7.0797 40.292 8.8639 45.439 9.2798 46.638 solid black
+edge a25 p109_1712_unique 4 6.9304 38.962 7.3559 39.085 8.0885 39.297 8.6395 39.456 solid black
+edge a25 p106_1712_unique 4 6.6129 38.611 6.891 36.246 9.0567 17.83 9.3368 15.448 solid black
+edge a25 p319_1712_unique 4 6.7705 38.645 7.2677 38.069 8.6211 36.502 9.1504 35.889 solid black
+edge a25 p176_1712_unique 4 6.9304 38.761 7.3559 38.638 8.0885 38.426 8.6395 38.266 solid black
+edge a26 p62_1712_unique 4 6.8657 49.781 7.3604 49.495 8.3861 48.901 8.9583 48.57 solid black
+edge a26 p226_1712_unique 4 6.6859 50.183 7.1208 51.199 8.8137 55.153 9.2589 56.193 solid black
+edge a26 p200_1712_unique 4 6.9589 49.944 7.2349 49.944 7.6281 49.944 8.0169 49.944 solid black
+edge a27 p33_1712_unique 4 6.8657 74.497 7.3604 74.783 8.3861 75.377 8.9583 75.708 solid black
+edge a27 p83_1712_unique 4 6.9304 74.434 7.3588 74.558 8.0985 74.772 8.6508 74.932 solid black
+edge a27 p24_1712_unique 4 6.9589 74.333 7.2541 74.333 7.6836 74.333 8.0984 74.333 solid black
+edge a27 p136_1712_unique 4 6.9304 74.233 7.3559 74.11 8.0885 73.898 8.6395 73.738 solid black
+edge a27 p393_1712_unique 4 6.8657 74.17 7.3591 73.884 8.3803 73.293 8.9535 72.961 solid black
+edge a28 p108_1712_unique 4 6.936 9.0752 7.347 8.9685 8.039 8.789 8.5798 8.6486 solid black
+edge a28 p106_1712_unique 4 6.6944 9.4067 7.1392 10.37 8.793 13.952 9.2494 14.94 solid black
+edge a28 p236_1712_unique 4 6.7332 8.9382 7.2119 8.2071 8.7038 5.929 9.2024 5.1674 solid black
+edge a29 p10_1712_unique 4 6.8657 34.997 7.3604 35.283 8.3861 35.877 8.9583 36.208 solid black
+edge a29 p97_1712_unique 4 6.9589 34.833 7.2541 34.833 7.6836 34.833 8.0984 34.833 solid black
+edge a29 p288_1712_unique 4 6.8113 35.031 7.3163 35.47 8.529 36.523 9.0825 37.003 solid black
+edge a29 p34_1712_unique 4 6.9304 34.733 7.3588 34.609 8.0985 34.395 8.6508 34.235 solid black
+edge a29 p99_1712_unique 4 6.8657 34.67 7.3604 34.384 8.3861 33.79 8.9583 33.459 solid black
+edge a30 p101_1712_unique 4 6.8354 78.946 7.3385 79.31 8.4678 80.127 9.0322 80.536 solid black
+edge a30 p103_1712_unique 4 6.8974 78.9 7.3679 79.104 8.2621 79.493 8.8355 79.742 solid black
+edge a30 p65_1712_unique 4 6.9531 78.817 7.3065 78.869 7.8559 78.948 8.3413 79.018 solid black
+edge a30 p102_1712_unique 4 6.9531 78.71 7.2976 78.661 7.8284 78.584 8.3046 78.515 solid black
+edge a30 p125_1712_unique 4 6.8974 78.628 7.3679 78.423 8.2621 78.035 8.8355 77.786 solid black
+edge a30 p150_1712_unique 4 6.8354 78.582 7.3385 78.218 8.4678 77.4 9.0322 76.992 solid black
+edge a31 p332_1712_unique 4 6.9304 42.184 7.3559 42.307 8.0885 42.519 8.6395 42.678 solid black
+edge a31 p331_1712_unique 4 6.9304 41.983 7.3559 41.86 8.0885 41.648 8.6395 41.488 solid black
+edge a31 p212_1712_unique 4 6.9589 42.083 7.2349 42.083 7.6281 42.083 8.0169 42.083 solid black
+edge a32 p27_1713_unique 4 12.493 42.963 12.983 43.232 13.984 43.782 14.558 44.097 solid black
+edge a32 p332_1713_unique 4 12.558 42.897 12.969 43.004 13.661 43.183 14.202 43.324 solid black
+edge a32 p331_1713_unique 4 12.581 42.794 12.86 42.786 13.258 42.774 13.651 42.762 solid black
+edge a33 p223_1713_unique 4 12.488 63.386 12.981 63.671 14.002 64.262 14.575 64.594 solid black
+edge a33 p275_1713_unique 4 12.323 63.461 12.775 64.377 14.397 67.663 14.863 68.606 solid black
+edge a33 p80_1713_unique 4 12.392 63.006 12.89 62.43 14.243 60.863 14.772 60.25 solid black
+edge a33 p272_1713_unique 4 12.363 62.994 12.847 62.294 14.31 60.176 14.815 59.445 solid black
+edge a33 p226_1713_unique 4 12.552 63.122 12.978 62.999 13.71 62.787 14.261 62.627 solid black
+edge a33 p153_1713_unique 4 12.552 63.323 12.978 63.446 13.71 63.658 14.261 63.817 solid black
+edge a33 p139_1713_unique 4 12.433 63.024 12.938 62.586 14.151 61.533 14.704 61.052 solid black
+edge a33 p266_1713_unique 4 12.392 63.439 12.89 64.014 14.243 65.581 14.772 66.194 solid black
+edge a33 p81_1713_unique 4 12.581 63.222 12.876 63.222 13.305 63.222 13.72 63.222 solid black
+edge a34 p51_1713_unique 4 12.351 52.519 12.828 51.763 14.337 49.367 14.831 48.584 solid black
+edge a34 p279_1713_unique 4 12.563 52.668 12.96 52.577 13.613 52.427 14.141 52.306 solid black
+edge a34 p281_1713_unique 4 12.581 52.772 12.872 52.79 13.293 52.815 13.701 52.84 solid black
+edge a34 p200_1713_unique 4 12.415 52.539 12.919 52.031 14.2 50.739 14.741 50.194 solid black
+edge a34 p316_1713_unique 4 12.392 52.966 12.89 53.542 14.243 55.109 14.772 55.722 solid black
+edge a34 p202_1713_unique 4 12.433 52.948 12.938 53.386 14.151 54.439 14.704 54.92 solid black
+edge a34 p315_1713_unique 4 12.488 52.913 12.981 53.199 14.002 53.79 14.575 54.122 solid black
+edge a35 p332_1713_unique 4 12.447 41.55 12.951 41.942 14.112 42.846 14.674 43.283 solid black
+edge a35 p331_1713_unique 4 12.508 41.509 12.99 41.745 13.935 42.207 14.509 42.488 solid black
+edge a35 p123_1713_unique 4 12.563 41.433 12.942 41.508 13.555 41.631 14.07 41.733 solid black
+edge a35 p291_1713_unique 4 12.581 41.327 12.888 41.3 13.34 41.259 13.77 41.221 solid black
+edge a36 p390_1713_unique 4 12.488 18.58 12.981 18.866 14.002 19.457 14.575 19.789 solid black
+edge a36 p70_1713_unique 4 12.581 18.417 12.876 18.417 13.305 18.417 13.72 18.417 solid black
+edge a36 p69_1713_unique 4 12.552 18.316 12.981 18.192 13.72 17.978 14.273 17.818 solid black
+edge a37 p39_1713_unique 4 12.552 34.261 12.981 34.137 13.72 33.923 14.273 33.763 solid black
+edge a37 p375_1713_unique 4 12.552 34.462 12.978 34.585 13.71 34.797 14.261 34.956 solid black
+edge a37 p356_1713_unique 4 12.581 34.361 12.857 34.361 13.25 34.361 13.639 34.361 solid black
+edge a38 p62_1713_unique 4 12.493 50.509 12.983 50.24 13.984 49.691 14.558 49.375 solid black
+edge a38 p279_1713_unique 4 12.503 50.821 12.99 51.074 13.958 51.576 14.532 51.874 solid black
+edge a38 p200_1713_unique 4 12.558 50.575 12.969 50.469 13.661 50.289 14.202 50.149 solid black
+edge a39 p108_1713_unique 4 12.457 10.339 12.963 9.9606 14.102 9.1083 14.663 8.6881 solid black
+edge a39 p106_1713_unique 4 12.552 10.628 12.978 10.751 13.71 10.963 14.261 11.123 solid black
+edge a39 p319_1713_unique 4 12.488 10.691 12.981 10.977 14.002 11.568 14.575 11.9 solid black
+edge a39 p326_1713_unique 4 12.581 10.528 12.857 10.528 13.25 10.528 13.639 10.528 solid black
+edge a40 p389_1713_unique 4 12.503 29.21 12.99 29.463 13.958 29.965 14.532 30.263 solid black
+edge a40 p100_1713_unique 4 12.541 28.938 12.989 28.782 13.792 28.501 14.355 28.304 solid black
+edge a40 p392_1713_unique 4 12.581 29.033 12.872 29.016 13.293 28.99 13.701 28.966 solid black
+edge a41 p149_1713_unique 4 12.457 25.446 12.96 25.81 14.09 26.627 14.654 27.036 solid black
+edge a41 p2_1713_unique 4 12.519 25.4 12.993 25.606 13.895 25.997 14.468 26.246 solid black
+edge a41 p231_1713_unique 4 12.575 25.317 12.919 25.367 13.45 25.444 13.926 25.513 solid black
+edge a41 p371_1713_unique 4 12.519 25.128 12.99 24.923 13.884 24.535 14.457 24.286 solid black
+edge a41 p381_1713_unique 4 12.457 25.082 12.96 24.718 14.09 23.9 14.654 23.492 solid black
+edge a41 p380_1713_unique 4 12.575 25.21 12.919 25.161 13.45 25.084 13.926 25.015 solid black
+edge a42 p371_1713_unique 4 12.575 23.706 12.919 23.756 13.45 23.833 13.926 23.902 solid black
+edge a42 p381_1713_unique 4 12.575 23.599 12.919 23.549 13.45 23.473 13.926 23.404 solid black
+edge a42 p380_1713_unique 4 12.519 23.789 12.99 23.993 13.884 24.382 14.457 24.63 solid black
+edge a42 "p._1713_unique" 4 12.519 23.517 12.994 23.31 13.9 22.917 14.473 22.668 solid black
+edge a43 p374_1713_unique 4 12.457 21.054 12.96 20.69 14.09 19.873 14.654 19.464 solid black
+edge a43 p149_1713_unique 4 12.316 21.477 12.761 22.442 14.415 26.033 14.871 27.023 solid black
+edge a43 p321_1713_unique 4 12.575 21.183 12.919 21.133 13.45 21.056 13.926 20.987 solid black
+edge a43 p218_1713_unique 4 12.575 21.29 12.919 21.339 13.45 21.416 13.926 21.485 solid black
+edge a44 p119_1713_unique 4 12.581 72.722 12.857 72.722 13.25 72.722 13.639 72.722 solid black
+edge a45 p84_1713_unique 4 12.552 78.462 12.981 78.586 13.72 78.8 14.273 78.959 solid black
+edge a45 p96_1713_unique 4 12.552 78.261 12.981 78.137 13.72 77.923 14.273 77.763 solid black
+edge a45 p297_1713_unique 4 12.581 78.361 12.857 78.361 13.25 78.361 13.639 78.361 solid black
+edge a46 p389_1713_unique 4 12.443 28.442 12.947 28.85 14.127 29.804 14.685 30.255 solid black
+edge a46 p100_1713_unique 4 12.581 28.228 12.872 28.21 13.293 28.185 13.701 28.16 solid black
+edge a46 p392_1713_unique 4 12.563 28.332 12.96 28.423 13.613 28.573 14.141 28.694 solid black
+edge a47 p1_1713_unique 4 12.519 81.317 12.993 81.522 13.895 81.914 14.468 82.163 solid black
+edge a47 p363_1713_unique 4 12.575 81.234 12.919 81.284 13.45 81.361 13.926 81.43 solid black
+edge a47 p18_1713_unique 4 12.575 81.127 12.928 81.076 13.478 80.996 13.963 80.926 solid black
+edge a47 p242_1713_unique 4 12.519 81.044 12.99 80.84 13.884 80.452 14.457 80.203 solid black
+edge a48 p389_1713_unique 4 12.563 29.943 12.96 30.034 13.613 30.184 14.141 30.305 solid black
+edge a48 p392_1713_unique 4 12.541 29.744 12.989 29.587 13.792 29.307 14.355 29.11 solid black
+edge a48 p254_1713_unique 4 12.581 29.839 12.872 29.821 13.293 29.796 13.701 29.772 solid black
+edge a49 p96_1713_unique 4 12.457 75.724 12.96 76.088 14.09 76.905 14.654 77.314 solid black
+edge a49 p308_1713_unique 4 12.519 75.678 12.99 75.882 13.884 76.27 14.457 76.519 solid black
+edge a49 p58_1713_unique 4 12.575 75.595 12.928 75.646 13.478 75.726 13.963 75.796 solid black
+edge a49 p205_1713_unique 4 12.575 75.488 12.919 75.438 13.45 75.362 13.926 75.293 solid black
+edge a49 p228_1713_unique 4 12.519 75.405 12.99 75.201 13.884 74.813 14.457 74.564 solid black
+edge a49 p386_1713_unique 4 12.457 75.359 12.96 74.995 14.09 74.178 14.654 73.77 solid black
+edge a50 p266_1713_unique 4 12.575 66.095 12.919 66.145 13.45 66.222 13.926 66.291 solid black
+edge a50 p194_1713_unique 4 12.575 65.988 12.919 65.938 13.45 65.862 13.926 65.793 solid black
+edge a51 p27_1713_unique 4 12.314 38.462 12.758 39.435 14.421 43.088 14.874 44.082 solid black
+edge a51 p10_1713_unique 4 12.552 38.122 12.981 37.998 13.72 37.784 14.273 37.624 solid black
+edge a51 p97_1713_unique 4 12.488 38.059 12.982 37.772 14.008 37.179 14.58 36.848 solid black
+edge a51 p288_1713_unique 4 12.552 38.323 12.978 38.446 13.71 38.658 14.261 38.817 solid black
+edge a51 p38_1713_unique 4 12.581 38.222 12.876 38.222 13.305 38.222 13.72 38.222 solid black
+edge a52 p223_1713_unique 4 12.388 67.922 12.884 67.333 14.253 65.707 14.779 65.082 solid black
+edge a52 p275_1713_unique 4 12.558 68.23 12.969 68.337 13.661 68.517 14.202 68.657 solid black
+edge a52 p302_1713_unique 4 12.493 68.297 12.983 68.566 13.984 69.115 14.558 69.43 solid black
+edge a52 p153_1713_unique 4 12.359 67.912 12.84 67.202 14.314 65.024 14.818 64.28 solid black
+edge a52 p266_1713_unique 4 12.482 67.97 12.979 67.668 14.021 67.033 14.593 66.685 solid black
+edge a52 p227_1713_unique 4 12.397 68.355 12.896 68.918 14.239 70.433 14.769 71.031 solid black
+edge a52 p111_1713_unique 4 12.438 68.334 12.943 68.758 14.142 69.763 14.697 70.228 solid black
+edge a53 p223_1713_unique 4 12.447 66.862 12.954 66.458 14.125 65.523 14.682 65.078 solid black
+edge a53 p292_1713_unique 4 12.327 66.818 12.783 65.926 14.392 62.777 14.86 61.862 solid black
+edge a53 p302_1713_unique 4 12.424 67.26 12.93 67.735 14.182 68.91 14.727 69.422 solid black
+edge a53 p266_1713_unique 4 12.563 66.977 12.954 66.891 13.593 66.751 14.117 66.636 solid black
+edge a53 p357_1713_unique 4 12.581 67.082 12.877 67.103 13.31 67.133 13.726 67.162 solid black
+edge a53 p276_1713_unique 4 12.536 67.174 12.986 67.336 13.803 67.629 14.369 67.833 solid black
+edge a54 p374_1713_unique 4 12.384 15.985 12.879 16.601 14.27 18.33 14.79 18.975 solid black
+edge a54 p341_1713_unique 4 12.41 15.557 12.912 15.048 14.203 13.74 14.744 13.192 solid black
+edge a54 p342_1713_unique 4 12.536 15.887 12.992 16.058 13.824 16.37 14.391 16.582 solid black
+edge a54 p304_1713_unique 4 12.563 15.691 12.945 15.613 13.565 15.486 14.082 15.38 solid black
+edge a54 p36_1713_unique 4 12.508 15.614 12.993 15.375 13.946 14.904 14.519 14.621 solid black
+edge a54 p294_1713_unique 4 12.581 15.796 12.885 15.822 13.331 15.859 13.758 15.896 solid black
+edge a55 p223_1713_unique 4 12.278 55.718 12.67 57.035 14.518 63.25 14.914 64.582 solid black
+edge a55 p200_1713_unique 4 12.325 55.235 12.78 54.332 14.398 51.116 14.863 50.194 solid black
+edge a55 p202_1713_unique 4 12.575 55.432 12.896 55.396 13.378 55.343 13.828 55.294 solid black
+edge a55 p315_1713_unique 4 12.53 55.343 12.993 55.158 13.85 54.815 14.42 54.588 solid black
+edge a55 p153_1713_unique 4 12.286 55.719 12.69 56.962 14.498 62.522 14.907 63.776 solid black
+edge a56 p86_1713_unique 4 12.519 84.539 12.991 84.744 13.889 85.134 14.462 85.383 solid black
+edge a56 p325_1713_unique 4 12.575 84.456 12.919 84.506 13.45 84.583 13.926 84.652 solid black
+edge a56 p192_1713_unique 4 12.575 84.349 12.919 84.299 13.45 84.223 13.926 84.154 solid black
+edge a56 p193_1713_unique 4 12.519 84.267 12.99 84.062 13.884 83.674 14.457 83.425 solid black
+edge a57 p369_1713_unique 4 12.552 32.045 12.978 32.168 13.71 32.38 14.261 32.54 solid black
+edge a57 p389_1713_unique 4 12.503 31.79 12.99 31.537 13.958 31.035 14.532 30.737 solid black
+edge a57 p94_1713_unique 4 12.581 31.944 12.876 31.944 13.305 31.944 13.72 31.944 solid black
+edge a58 p272_1713_unique 4 12.519 58.122 12.99 58.327 13.884 58.715 14.457 58.964 solid black
+edge a58 p161_1713_unique 4 12.575 58.04 12.919 58.089 13.45 58.166 13.926 58.235 solid black
+edge a58 p7_1713_unique 4 12.575 57.933 12.94 57.88 13.515 57.797 14.012 57.725 solid black
+edge a58 p169_1713_unique 4 12.519 57.85 12.99 57.646 13.884 57.257 14.457 57.008 solid black
+edge a59 p390_1714_unique 4 18.174 27.53 18.592 27.415 19.307 27.219 19.855 27.069 solid black
+edge a59 p100_1714_unique 4 18.168 27.729 18.6 27.86 19.352 28.089 19.908 28.259 solid black
+edge a59 p392_1714_unique 4 18.115 27.463 18.608 27.185 19.617 26.616 20.189 26.293 solid black
+edge a59 p329_1714_unique 4 18.203 27.631 18.478 27.635 18.872 27.641 19.261 27.646 solid black
+edge a60 p223_1714_unique 4 18.036 62.933 18.541 63.442 19.822 64.733 20.363 65.279 solid black
+edge a60 p275_1714_unique 4 18.18 62.631 18.591 62.524 19.283 62.345 19.823 62.204 solid black
+edge a60 p226_1714_unique 4 18.115 62.564 18.605 62.295 19.605 61.746 20.18 61.431 solid black
+edge a60 p302_1714_unique 4 18.084 62.907 18.589 63.269 19.709 64.075 20.273 64.48 solid black
+edge a60 p266_1714_unique 4 18.197 62.774 18.537 62.821 19.058 62.894 19.53 62.96 solid black
+edge a60 p283_1714_unique 4 17.846 62.473 18.075 59.387 20.36 28.621 20.591 25.504 solid black
+edge a61 p374_1714_unique 4 17.88 9.3304 18.23 10.957 20.2 20.122 20.555 21.773 solid black
+edge a61 p341_1714_unique 4 18.069 9.2742 18.574 9.6726 19.74 10.592 20.3 11.033 solid black
+edge a61 p373_1714_unique 4 18.023 9.2943 18.523 9.8331 19.845 11.258 20.38 11.835 solid black
+edge a61 p342_1714_unique 4 17.907 9.3278 18.312 10.558 20.12 16.064 20.528 17.306 solid black
+edge a61 p198_1714_unique 4 18.203 9.0534 18.504 9.0293 18.945 8.9941 19.367 8.9604 solid black
+edge a61 p199_1714_unique 4 18.13 9.2346 18.615 9.4765 19.568 9.952 20.141 10.238 solid black
+edge a61 p372_1714_unique 4 18.185 9.1584 18.57 9.239 19.196 9.3702 19.716 9.4791 solid black
+edge a62 p187_1714_unique 4 17.93 63.928 18.364 62.912 20.057 58.958 20.503 57.918 solid black
+edge a62 p223_1714_unique 4 18.13 64.315 18.612 64.551 19.557 65.013 20.131 65.293 solid black
+edge a62 p275_1714_unique 4 18.069 63.978 18.573 63.586 19.734 62.682 20.295 62.245 solid black
+edge a62 p226_1714_unique 4 18.027 63.953 18.53 63.416 19.841 62.016 20.377 61.443 solid black
+edge a62 p302_1714_unique 4 18.185 64.238 18.564 64.314 19.177 64.436 19.692 64.539 solid black
+edge a62 p266_1714_unique 4 18.152 64.044 18.608 63.871 19.446 63.553 20.015 63.337 solid black
+edge a62 p111_1714_unique 4 17.945 64.403 18.397 65.31 20.019 68.564 20.485 69.498 solid black
+edge a62 p377_1714_unique 4 18.027 64.38 18.53 64.917 19.841 66.318 20.377 66.89 solid black
+edge a62 p299_1714_unique 4 18.203 64.133 18.51 64.105 18.962 64.065 19.392 64.026 solid black
+edge a63 p361_1714_unique 4 17.857 14.75 18.139 17.069 20.296 34.833 20.58 37.164 solid black
+edge a63 p375_1714_unique 4 18.109 14.663 18.603 14.949 19.624 15.54 20.197 15.872 solid black
+edge a63 p320_1714_unique 4 17.931 14.259 18.368 13.247 20.055 9.3421 20.501 8.308 solid black
+edge a63 p114_1714_unique 4 18.109 14.337 18.603 14.051 19.624 13.46 20.197 13.128 solid black
+edge a63 p186_1714_unique 4 18.174 14.6 18.6 14.724 19.332 14.936 19.883 15.095 solid black
+edge a63 p12_1714_unique 4 18.203 14.5 18.498 14.5 18.927 14.5 19.342 14.5 solid black
+edge a63 p210_1714_unique 4 18.174 14.4 18.6 14.276 19.332 14.064 19.883 13.905 solid black
+edge a64 p27_1714_unique 4 18.168 49.88 18.601 50.009 19.357 50.236 19.914 50.403 solid black
+edge a64 p175_1714_unique 4 18.109 49.944 18.604 50.235 19.63 50.839 20.202 51.176 solid black
+edge a64 p272_1714_unique 4 18.055 49.978 18.561 50.423 19.779 51.492 20.33 51.976 solid black
+edge a64 p4_1714_unique 4 18.203 49.782 18.517 49.785 18.984 49.789 19.423 49.794 solid black
+edge a65 p223_1714_unique 4 18.069 67.506 18.573 67.114 19.734 66.21 20.295 65.773 solid black
+edge a65 p153_1714_unique 4 18.13 67.546 18.612 67.311 19.557 66.849 20.131 66.568 solid black
+edge a65 p227_1714_unique 4 18.032 67.905 18.535 68.422 19.832 69.755 20.37 70.309 solid black
+edge a65 p377_1714_unique 4 18.185 67.623 18.564 67.547 19.177 67.425 19.692 67.322 solid black
+edge a66 p108_1714_unique 4 18.18 5.0081 18.591 5.1148 19.283 5.2944 19.823 5.4347 solid black
+edge a66 p238_1714_unique 4 18.203 4.9054 18.481 4.8971 18.88 4.8851 19.273 4.8734 solid black
+edge a66 p106_1714_unique 4 18.115 5.0744 18.605 5.3435 19.605 5.8928 20.18 6.208 solid black
+edge a66 p318_1714_unique 4 18.168 4.8077 18.605 4.6681 19.372 4.4231 19.931 4.2449 solid black
+edge a67 p108_1714_unique 4 18.18 6.2696 18.591 6.163 19.283 5.9834 19.823 5.8431 solid black
+edge a67 p238_1714_unique 4 18.115 6.2034 18.605 5.9342 19.605 5.385 20.18 5.0698 solid black
+edge a67 p319_1714_unique 4 18.168 6.4701 18.605 6.6096 19.372 6.8547 19.931 7.0329 solid black
+edge a68 p223_1714_unique 4 18.13 66.741 18.612 66.505 19.557 66.043 20.131 65.762 solid black
+edge a68 p153_1714_unique 4 18.185 66.817 18.564 66.742 19.177 66.619 19.692 66.517 solid black
+edge a68 p111_1714_unique 4 18.032 67.099 18.535 67.617 19.832 68.95 20.37 69.503 solid black
+edge a68 p377_1714_unique 4 18.203 66.923 18.51 66.95 18.962 66.991 19.392 67.029 solid black
+edge a69 p175_1714_unique 4 18.023 48.55 18.524 49.105 19.851 50.576 20.384 51.166 solid black
+edge a69 p26_1714_unique 4 18.203 48.337 18.498 48.34 18.927 48.344 19.342 48.348 solid black
+edge a69 p272_1714_unique 4 17.989 48.559 18.475 49.238 19.921 51.259 20.43 51.971 solid black
+edge a69 p109_1714_unique 4 17.931 48.094 18.368 47.086 20.055 43.198 20.501 42.168 solid black
+edge a69 p4_1714_unique 4 18.12 48.488 18.61 48.747 19.598 49.27 20.172 49.574 solid black
+edge a70 p349_1714_unique 4 18.174 80.878 18.6 81.001 19.332 81.213 19.883 81.373 solid black
+edge a70 p49_1714_unique 4 18.203 80.778 18.498 80.778 18.927 80.778 19.342 80.778 solid black
+edge a70 p158_1714_unique 4 18.174 80.677 18.6 80.554 19.332 80.342 19.883 80.183 solid black
+edge a71 p236_1714_unique 4 18.197 2.885 18.537 2.9325 19.058 3.0054 19.53 3.0712 solid black
+edge a72 p179_1714_unique 4 18.079 45.724 18.582 46.088 19.711 46.905 20.276 47.314 solid black
+edge a72 p219_1714_unique 4 18.141 45.678 18.612 45.882 19.506 46.27 20.079 46.519 solid black
+edge a72 p351_1714_unique 4 18.197 45.488 18.541 45.438 19.072 45.362 19.548 45.293 solid black
+edge a72 p345_1714_unique 4 18.141 45.405 18.612 45.201 19.506 44.813 20.079 44.564 solid black
+edge a72 p346_1714_unique 4 18.079 45.359 18.582 44.995 19.711 44.178 20.276 43.77 solid black
+edge a72 p347_1714_unique 4 18.197 45.595 18.541 45.645 19.072 45.722 19.548 45.791 solid black
+edge a73 p187_1714_unique 4 18.174 58.372 18.6 58.249 19.332 58.037 19.883 57.877 solid black
+edge a73 p223_1714_unique 4 17.923 58.715 18.35 59.797 20.076 64.173 20.511 65.275 solid black
+edge a73 p275_1714_unique 4 18.001 58.693 18.494 59.317 19.896 61.094 20.414 61.752 solid black
+edge a73 p62_1714_unique 4 17.981 58.242 18.463 57.521 19.943 55.304 20.443 54.556 solid black
+edge a73 p226_1714_unique 4 18.036 58.677 18.539 59.169 19.816 60.417 20.359 60.949 solid black
+edge a73 p316_1714_unique 4 18.109 58.309 18.603 58.023 19.624 57.432 20.197 57.1 solid black
+edge a73 p202_1714_unique 4 18.055 58.274 18.56 57.836 19.773 56.783 20.326 56.302 solid black
+edge a73 p153_1714_unique 4 17.914 58.716 18.327 59.884 20.101 64.894 20.521 66.081 solid black
+edge a73 p78_1714_unique 4 18.203 58.472 18.498 58.472 18.927 58.472 19.342 58.472 solid black
+edge a74 p109_1714_unique 4 18.152 42.898 18.615 42.713 19.472 42.371 20.042 42.144 solid black
+edge a74 p4_1714_unique 4 17.926 43.269 18.358 44.32 20.07 48.491 20.508 49.557 solid black
+edge a74 p177_1714_unique 4 18.089 42.847 18.591 42.502 19.689 41.745 20.256 41.355 solid black
+edge a75 p392_1714_unique 4 18.185 25.571 18.564 25.647 19.177 25.769 19.692 25.872 solid black
+edge a76 p374_1714_unique 4 18.079 23.859 18.582 23.495 19.711 22.678 20.276 22.27 solid black
+edge a76 p373_1714_unique 4 17.885 23.792 18.247 22.237 20.187 13.902 20.551 12.337 solid black
+edge a76 p281_1714_unique 4 18.197 24.095 18.541 24.145 19.072 24.222 19.548 24.291 solid black
+edge a76 p278_1714_unique 4 17.877 24.294 18.218 26.033 20.219 36.23 20.561 37.97 solid black
+edge a76 p392_1714_unique 4 18.079 24.224 18.582 24.588 19.711 25.405 20.276 25.814 solid black
+edge a76 p342_1714_unique 4 17.93 23.803 18.364 22.79 20.057 18.844 20.503 17.807 solid black
+edge a76 p283_1714_unique 4 18.141 24.178 18.612 24.382 19.506 24.77 20.079 25.019 solid black
+edge a76 p258_1714_unique 4 18.197 23.988 18.541 23.938 19.072 23.862 19.548 23.793 solid black
+edge a77 p10_1714_unique 4 18.104 37.502 18.602 37.805 19.649 38.442 20.219 38.79 solid black
+edge a77 p97_1714_unique 4 18.115 37.176 18.605 36.906 19.605 36.357 20.18 36.042 solid black
+edge a77 p288_1714_unique 4 18.18 37.242 18.591 37.135 19.283 36.956 19.823 36.815 solid black
+edge a78 p10_1714_unique 4 17.95 44.099 18.408 43.226 20.008 40.176 20.479 39.278 solid black
+edge a78 p219_1714_unique 4 18.055 44.531 18.56 44.97 19.773 46.023 20.326 46.503 solid black
+edge a78 p351_1714_unique 4 18.174 44.434 18.6 44.557 19.332 44.769 19.883 44.928 solid black
+edge a78 p345_1714_unique 4 18.203 44.333 18.478 44.333 18.872 44.333 19.261 44.333 solid black
+edge a78 p346_1714_unique 4 18.174 44.233 18.6 44.11 19.332 43.898 19.883 43.738 solid black
+edge a78 p347_1714_unique 4 18.109 44.497 18.603 44.782 19.624 45.373 20.197 45.705 solid black
+edge a78 p348_1714_unique 4 18.109 44.17 18.603 43.884 19.624 43.293 20.197 42.961 solid black
+edge a79 p374_1714_unique 4 18.157 22.921 18.609 22.757 19.43 22.458 19.996 22.251 solid black
+edge a79 p341_1714_unique 4 17.885 22.796 18.247 21.268 20.183 13.085 20.55 11.532 solid black
+edge a79 p281_1714_unique 4 18.125 23.192 18.609 23.436 19.569 23.92 20.144 24.209 solid black
+edge a79 p283_1714_unique 4 18.069 23.234 18.574 23.635 19.74 24.56 20.3 25.004 solid black
+edge a79 p88_1714_unique 4 18.203 23.014 18.517 22.99 18.984 22.955 19.423 22.922 solid black
+edge a79 p258_1714_unique 4 18.185 23.119 18.573 23.202 19.206 23.337 19.727 23.449 solid black
+edge a80 p84_1714_unique 4 18.174 78.462 18.602 78.586 19.342 78.8 19.894 78.959 solid black
+edge a80 p334_1714_unique 4 18.203 78.361 18.478 78.361 18.872 78.361 19.261 78.361 solid black
+edge a80 p95_1714_unique 4 18.174 78.261 18.602 78.137 19.342 77.923 19.894 77.763 solid black
+edge a81 p119_1715_unique 4 23.801 73.353 24.212 73.246 24.904 73.067 25.445 72.926 solid black
+edge a82 p223_1715_unique 4 23.747 62.877 24.233 63.129 25.202 63.632 25.776 63.93 solid black
+edge a82 p275_1715_unique 4 23.716 62.546 24.217 62.217 25.297 61.505 25.866 61.13 solid black
+edge a82 p226_1715_unique 4 23.663 62.52 24.166 62.043 25.422 60.852 25.97 60.332 solid black
+edge a82 p316_1715_unique 4 23.779 62.6 24.233 62.433 25.057 62.129 25.624 61.919 solid black
+edge a82 p302_1715_unique 4 23.529 62.969 23.933 64.212 25.742 69.772 26.15 71.026 solid black
+edge a83 p275_1715_unique 4 23.726 59.363 24.222 59.665 25.265 60.3 25.836 60.648 solid black
+edge a83 p226_1715_unique 4 23.79 59.303 24.227 59.443 24.994 59.688 25.552 59.866 solid black
+edge a83 p202_1715_unique 4 23.691 59.006 24.195 58.614 25.356 57.71 25.917 57.273 solid black
+edge a83 p78_1715_unique 4 23.801 59.103 24.217 58.995 24.919 58.813 25.462 58.672 solid black
+edge a83 p303_1715_unique 4 23.824 59.206 24.103 59.214 24.502 59.226 24.895 59.238 solid black
+edge a84 p275_1715_unique 4 23.591 56.618 24.064 57.383 25.585 59.843 26.077 60.638 solid black
+edge a84 p226_1715_unique 4 23.619 56.614 24.11 57.266 25.528 59.149 26.043 59.832 solid black
+edge a84 p282_1715_unique 4 23.752 56.241 24.234 56.005 25.179 55.543 25.753 55.262 solid black
+edge a84 p202_1715_unique 4 23.807 56.471 24.204 56.562 24.856 56.712 25.385 56.833 solid black
+edge a84 p153_1715_unique 4 23.691 56.2 24.195 55.808 25.356 54.904 25.917 54.467 solid black
+edge a84 p89_1715_unique 4 23.824 56.366 24.131 56.348 24.584 56.321 25.014 56.295 solid black
+edge a85 p332_1715_unique 4 23.603 46.051 24.083 45.341 25.558 43.162 26.061 42.419 solid black
+edge a85 p117_1715_unique 4 23.726 46.109 24.222 45.807 25.265 45.172 25.836 44.824 solid black
+edge a85 p378_1715_unique 4 23.632 46.061 24.127 45.472 25.497 43.846 26.023 43.221 solid black
+edge a85 p387_1715_unique 4 23.672 46.077 24.178 45.623 25.41 44.517 25.959 44.023 solid black
+edge a86 p226_1715_unique 4 23.807 60.567 24.186 60.492 24.799 60.369 25.313 60.267 solid black
+edge a86 p316_1715_unique 4 23.774 60.762 24.23 60.935 25.068 61.253 25.637 61.469 solid black
+edge a86 p390_1715_unique 4 23.473 60.389 23.727 57.698 25.953 34.152 26.208 31.447 solid black
+edge a86 p227_1715_unique 4 23.519 60.887 23.906 62.253 25.772 68.845 26.161 70.22 solid black
+edge a87 p23_1715_unique 4 23.658 16.276 24.163 15.77 25.444 14.485 25.985 13.942 solid black
+edge a87 p35_1715_unique 4 23.824 16.486 24.12 16.486 24.549 16.486 24.964 16.486 solid black
+edge a87 p113_1715_unique 4 23.731 16.649 24.224 16.935 25.246 17.526 25.819 17.858 solid black
+edge a87 p14_1715_unique 4 23.796 16.587 24.224 16.711 24.964 16.925 25.516 17.084 solid black
+edge a87 p29_1715_unique 4 23.796 16.386 24.224 16.262 24.964 16.048 25.516 15.888 solid black
+edge a88 p139_1715_unique 4 23.726 39.835 24.222 40.138 25.265 40.772 25.836 41.12 solid black
+edge a88 p179_1715_unique 4 23.79 39.776 24.227 39.915 24.994 40.16 25.552 40.338 solid black
+edge a88 p219_1715_unique 4 23.801 39.575 24.212 39.469 24.904 39.289 25.445 39.149 solid black
+edge a88 p110_1715_unique 4 23.824 39.678 24.103 39.686 24.502 39.698 24.895 39.71 solid black
+edge a89 p361_1715_unique 4 23.681 47.527 24.187 47.103 25.386 46.099 25.941 45.633 solid black
+edge a89 p117_1715_unique 4 23.64 47.506 24.14 46.943 25.483 45.428 26.013 44.831 solid black
+edge a89 p130_1715_unique 4 23.801 47.814 24.212 47.92 24.904 48.1 25.445 48.24 solid black
+edge a89 p57_1715_unique 4 23.736 47.564 24.227 47.295 25.227 46.746 25.801 46.431 solid black
+edge a89 p22_1715_unique 4 23.801 47.631 24.217 47.523 24.919 47.341 25.462 47.2 solid black
+edge a90 p160_1715_unique 4 23.796 85.628 24.221 85.751 24.954 85.963 25.505 86.123 solid black
+edge a90 p232_1715_unique 4 23.824 85.528 24.1 85.528 24.494 85.528 24.882 85.528 solid black
+edge a90 p353_1715_unique 4 23.796 85.427 24.221 85.304 24.954 85.092 25.505 84.933 solid black
+edge a91 p389_1715_unique 4 23.752 28.62 24.234 28.856 25.179 29.318 25.753 29.599 solid black
+edge a91 p100_1715_unique 4 23.801 28.381 24.212 28.274 24.904 28.095 25.445 27.954 solid black
+edge a91 p392_1715_unique 4 23.721 28.3 24.22 27.983 25.284 27.309 25.853 26.948 solid black
+edge a91 p254_1715_unique 4 23.807 28.544 24.186 28.619 24.799 28.742 25.313 28.844 solid black
+edge a92 p369_1715_unique 4 23.691 30.746 24.196 31.145 25.362 32.064 25.922 32.505 solid black
+edge a92 p389_1715_unique 4 23.801 30.464 24.212 30.357 24.904 30.178 25.445 30.038 solid black
+edge a92 p390_1715_unique 4 23.807 30.638 24.204 30.729 24.856 30.879 25.385 31 solid black
+edge a93 p226_1715_unique 4 23.535 52.466 23.949 53.634 25.722 58.644 26.143 59.831 solid black
+edge a93 p200_1715_unique 4 23.649 52.008 24.151 51.472 25.463 50.071 25.999 49.499 solid black
+edge a93 p153_1715_unique 4 23.706 52.407 24.21 52.769 25.331 53.575 25.895 53.98 solid black
+edge a93 p301_1715_unique 4 23.824 52.222 24.1 52.222 24.494 52.222 24.882 52.222 solid black
+edge a93 p50_1715_unique 4 23.736 52.064 24.227 51.795 25.227 51.246 25.801 50.931 solid black
+edge a94 p129_1715_unique 4 23.796 83.212 24.221 83.335 24.954 83.547 25.505 83.706 solid black
+edge a94 p327_1715_unique 4 23.824 83.111 24.1 83.111 24.494 83.111 24.882 83.111 solid black
+edge a94 p172_1715_unique 4 23.796 83.011 24.221 82.888 24.954 82.676 25.505 82.516 solid black
+edge a95 p319_1715_unique 4 23.801 6.6192 24.212 6.7259 24.904 6.9055 25.445 7.0458 solid black
+edge a96 p108_1716_unique 4 29.209 20.472 29.68 19.665 31.226 17.02 31.708 16.194 solid black
+edge a96 p292_1716_unique 4 29.125 20.959 29.478 22.586 31.445 31.644 31.799 33.276 solid black
+edge a96 p35_1716_unique 4 29.39 20.575 29.86 20.378 30.743 20.007 31.315 19.768 solid black
+edge a96 p237_1716_unique 4 29.385 20.849 29.859 21.063 30.766 21.47 31.338 21.727 solid black
+edge a96 p180_1716_unique 4 29.435 20.766 29.788 20.823 30.342 20.911 30.83 20.989 solid black
+edge a96 p330_1716_unique 4 29.44 20.66 29.775 20.617 30.284 20.551 30.749 20.491 solid black
+edge a97 p187_1716_unique 4 29.328 60.621 29.832 60.258 30.953 59.453 31.516 59.048 solid black
+edge a97 p223_1716_unique 4 29.303 61 29.809 61.424 31.007 62.429 31.562 62.895 solid black
+edge a97 p275_1716_unique 4 29.358 60.963 29.848 61.232 30.849 61.782 31.423 62.097 solid black
+edge a97 p40_1716_unique 4 29.171 60.563 29.605 59.52 31.311 55.416 31.75 54.36 solid black
+edge a97 p272_1716_unique 4 29.216 60.574 29.693 59.818 31.202 57.423 31.696 56.639 solid black
+edge a97 p226_1716_unique 4 29.44 60.752 29.785 60.702 30.316 60.625 30.792 60.556 solid black
+edge a97 p266_1716_unique 4 29.44 60.859 29.785 60.909 30.316 60.986 30.792 61.055 solid black
+edge a97 p111_1716_unique 4 29.147 61.049 29.543 62.323 31.373 68.204 31.775 69.498 solid black
+edge a98 p384_1716_unique 4 29.142 61.86 29.532 63.212 31.39 69.667 31.782 71.026 solid black
+edge a98 p187_1716_unique 4 29.28 61.4 29.784 60.892 31.066 59.6 31.607 59.055 solid black
+edge a98 p223_1716_unique 4 29.358 61.769 29.848 62.038 30.849 62.587 31.423 62.902 solid black
+edge a98 p275_1716_unique 4 29.423 61.703 29.834 61.809 30.526 61.989 31.067 62.129 solid black
+edge a98 p226_1716_unique 4 29.385 61.475 29.855 61.271 30.749 60.882 31.323 60.633 solid black
+edge a98 p153_1716_unique 4 29.216 61.38 29.693 60.624 31.202 58.228 31.696 57.445 solid black
+edge a98 p266_1716_unique 4 29.44 61.558 29.785 61.508 30.316 61.431 30.792 61.362 solid black
+edge a99 p589_1716_unique 4 29.323 86.835 29.826 87.199 30.955 88.016 31.519 88.425 solid black
+edge a99 p595_1716_unique 4 29.385 86.789 29.855 86.993 30.749 87.382 31.323 87.63 solid black
+edge a99 p596_1716_unique 4 29.44 86.706 29.785 86.756 30.316 86.833 30.792 86.902 solid black
+edge a99 p583_1716_unique 4 29.44 86.599 29.785 86.549 30.316 86.473 30.792 86.404 solid black
+edge a99 p587_1716_unique 4 29.385 86.517 29.855 86.312 30.749 85.924 31.323 85.675 solid black
+edge a99 p588_1716_unique 4 29.323 86.471 29.826 86.106 30.955 85.289 31.519 84.881 solid black
+edge a100 p187_1716_unique 4 29.369 57.218 29.878 57.543 30.914 58.205 31.474 58.563 solid black
+edge a100 p226_1716_unique 4 29.258 57.254 29.759 57.862 31.128 59.523 31.649 60.154 solid black
+edge a100 p153_1716_unique 4 29.524 57.055 29.809 57.072 30.192 57.095 30.566 57.117 solid black
+edge a100 p266_1716_unique 4 29.228 57.265 29.715 57.995 31.19 60.21 31.688 60.958 solid black
+edge a100 p225_1716_unique 4 29.401 56.856 29.898 56.599 30.839 56.11 31.4 55.819 solid black
+edge a100 p229_1716_unique 4 29.458 57.163 29.913 57.322 30.676 57.589 31.219 57.778 solid black
+edge a101 p613_1716_unique 4 29.512 89.939 29.855 89.989 30.346 90.06 30.79 90.124 solid black
+edge a101 p401_1716_unique 4 29.512 89.811 29.855 89.761 30.346 89.69 30.79 89.626 solid black
+edge a102 p385_1716_unique 4 29.318 15.352 29.834 15.798 31.024 16.825 31.571 17.297 solid black
+edge a102 p23_1716_unique 4 29.401 14.968 29.899 14.709 30.844 14.218 31.405 13.928 solid black
+edge a102 p28_1716_unique 4 29.53 15.139 29.819 15.139 30.207 15.139 30.583 15.139 solid black
+edge a103 p319_1716_unique 4 29.333 5.2872 29.847 5.6875 30.987 6.5748 31.54 7.0057 solid black
+edge a104 p374_1716_unique 4 29.385 24.193 29.889 23.901 30.881 23.327 31.442 23.002 solid black
+edge a104 p281_1716_unique 4 29.475 24.492 29.907 24.617 30.598 24.817 31.125 24.97 solid black
+edge a104 p283_1716_unique 4 29.385 24.557 29.889 24.849 30.881 25.423 31.442 25.748 solid black
+edge a104 p88_1716_unique 4 29.475 24.258 29.911 24.132 30.613 23.929 31.141 23.776 solid black
+edge a104 p203_1716_unique 4 29.53 24.375 29.799 24.375 30.153 24.375 30.504 24.375 solid black
+edge a105 p620_1716_unique 4 29.475 92.006 29.907 92.131 30.598 92.331 31.125 92.483 solid black
+edge a105 p615_1716_unique 4 29.53 91.889 29.799 91.889 30.153 91.889 30.504 91.889 solid black
+edge a105 p452_1716_unique 4 29.475 91.772 29.907 91.647 30.598 91.447 31.125 91.294 solid black
+edge a106 p599_1716_unique 4 29.53 93.5 29.799 93.5 30.153 93.5 30.504 93.5 solid black
+edge a107 p564_1717_unique 4 35.152 85.444 35.421 85.444 35.775 85.444 36.126 85.444 solid black
+edge a108 p159_1717_unique 4 34.888 42.062 35.394 41.469 36.743 39.887 37.265 39.275 solid black
+edge a108 p16_1717_unique 4 34.831 42.05 35.303 41.222 36.855 38.505 37.334 37.666 solid black
+edge a108 p117_1717_unique 4 34.94 42.502 35.454 42.942 36.64 43.953 37.188 44.421 solid black
+edge a108 p130_1717_unique 4 34.935 42.078 35.449 41.623 36.649 40.564 37.195 40.081 solid black
+edge a108 p568_1717_unique 4 35.001 42.108 35.506 41.808 36.51 41.212 37.072 40.879 solid black
+edge a108 p575_1717_unique 4 35.103 42.404 35.528 42.521 36.201 42.706 36.722 42.849 solid black
+edge a108 p573_1717_unique 4 35.012 42.472 35.514 42.755 36.491 43.306 37.052 43.622 solid black
+edge a109 p187_1717_unique 4 35.051 58.732 35.532 58.52 36.392 58.143 36.948 57.898 solid black
+edge a109 p223_1717_unique 4 34.97 59.088 35.482 59.457 36.578 60.244 37.135 60.644 solid black
+edge a109 p153_1717_unique 4 34.911 58.667 35.422 58.146 36.694 56.851 37.231 56.305 solid black
+edge a109 p266_1717_unique 4 35.051 59.043 35.529 59.248 36.382 59.614 36.938 59.852 solid black
+edge a109 p227_1717_unique 4 34.752 59.136 35.117 60.654 37.049 68.697 37.416 70.222 solid black
+edge a109 p501_1717_unique 4 35.14 58.951 35.479 58.999 35.961 59.066 36.399 59.127 solid black
+edge a109 p579_1717_unique 4 35.134 58.823 35.48 58.771 35.977 58.697 36.424 58.63 solid black
+edge a110 p97_1717_unique 4 35.146 36.844 35.471 36.811 35.924 36.766 36.344 36.724 solid black
+edge a110 p288_1717_unique 4 35.034 37.052 35.523 37.287 36.426 37.719 36.986 37.988 solid black
+edge a111 p369_1717_unique 4 34.736 48.359 35.062 46.484 37.107 34.708 37.432 32.835 solid black
+edge a111 p248_1717_unique 4 34.996 48.796 35.502 49.104 36.517 49.722 37.079 50.064 solid black
+edge a111 p592_1717_unique 4 35.085 48.737 35.529 48.878 36.259 49.111 36.795 49.283 solid black
+edge a112 p42_1717_unique 4 35.006 88.848 35.511 89.14 36.503 89.715 37.064 90.039 solid black
+edge a112 p365_1717_unique 4 35.152 88.667 35.421 88.667 35.775 88.667 36.126 88.667 solid black
+edge a112 p44_1717_unique 4 35.097 88.55 35.533 88.423 36.235 88.22 36.763 88.067 solid black
+edge a112 p604_1717_unique 4 35.006 88.485 35.511 88.193 36.503 87.619 37.064 87.294 solid black
+edge a112 p314_1717_unique 4 34.935 88.456 35.448 88.011 36.643 86.974 37.191 86.497 solid black
+edge a112 p364_1717_unique 4 35.097 88.784 35.528 88.909 36.22 89.109 36.747 89.261 solid black
+edge a113 p62_1717_unique 4 35.152 51.951 35.442 51.947 35.833 51.941 36.211 51.936 solid black
+edge a113 p316_1717_unique 4 34.906 52.181 35.417 52.714 36.704 54.056 37.238 54.613 solid black
+edge a113 p202_1717_unique 4 35.097 52.073 35.527 52.196 36.215 52.391 36.741 52.541 solid black
+edge a113 p283_1717_unique 4 35.091 51.837 35.529 51.704 36.239 51.488 36.771 51.326 solid black
+edge a114 p275_1717_unique 4 35.109 63.164 35.526 63.272 36.178 63.441 36.692 63.574 solid black
+edge a114 p272_1717_unique 4 35.034 62.889 35.526 62.648 36.437 62.203 36.996 61.929 solid black
+edge a114 p226_1717_unique 4 35.121 62.97 35.503 62.894 36.073 62.78 36.557 62.683 solid black
+edge a114 p227_1717_unique 4 34.785 63.302 35.208 64.43 36.955 69.084 37.381 70.221 solid black
+edge a115 p42_1717_unique 4 35.134 90.617 35.488 90.565 35.999 90.491 36.454 90.426 solid black
+edge a115 p608_1717_unique 4 35.134 90.744 35.477 90.794 35.968 90.865 36.412 90.929 solid black
+edge a116 p114_1717_unique 4 35.051 11.836 35.531 12.044 36.387 12.416 36.943 12.657 solid black
+edge a116 p566_1717_unique 4 35.134 11.744 35.477 11.794 35.968 11.865 36.412 11.929 solid black
+edge a116 p591_1717_unique 4 35.134 11.617 35.477 11.567 35.968 11.496 36.412 11.432 solid black
+edge a116 p586_1717_unique 4 35.051 11.525 35.531 11.317 36.387 10.945 36.943 10.704 solid black
+edge a117 p430_1717_unique 4 35.051 93.253 35.531 93.461 36.387 93.833 36.943 94.074 solid black
+edge a117 p616_1717_unique 4 35.134 93.161 35.477 93.211 35.968 93.282 36.412 93.346 solid black
+edge a117 p611_1717_unique 4 35.134 93.033 35.477 92.984 35.968 92.913 36.412 92.848 solid black
+edge a117 p612_1717_unique 4 35.051 92.942 35.531 92.733 36.387 92.362 36.943 92.12 solid black
+edge a118 p384_1717_unique 4 35.103 71.929 35.528 71.812 36.201 71.628 36.722 71.485 solid black
+edge a118 p302_1717_unique 4 35.091 72.163 35.529 72.296 36.239 72.512 36.771 72.674 solid black
+edge a118 p227_1717_unique 4 35.012 71.862 35.514 71.578 36.491 71.028 37.052 70.711 solid black
+edge a118 p580_1717_unique 4 35.152 72.049 35.421 72.053 35.775 72.058 36.126 72.063 solid black
+edge a119 p292_1717_unique 4 35.103 34.052 35.53 33.933 36.206 33.744 36.728 33.598 solid black
+edge a119 p153_1717_unique 4 34.724 34.416 35.011 36.674 37.156 53.542 37.444 55.805 solid black
+edge a119 p50_1717_unique 4 35.006 34.351 35.514 34.65 36.514 35.239 37.073 35.569 solid black
+edge a119 p593_1717_unique 4 35.152 34.171 35.421 34.174 35.775 34.177 36.126 34.181 solid black
+edge a119 p298_1717_unique 4 35.091 34.286 35.527 34.417 36.234 34.628 36.765 34.787 solid black
+edge a120 p129_1717_unique 4 35.109 84.531 35.526 84.423 36.178 84.253 36.692 84.12 solid black
+edge a121 p288_1717_unique 4 34.764 47.559 35.153 46.22 37.008 39.833 37.402 38.476 solid black
+edge a121 p592_1717_unique 4 34.996 47.99 35.502 48.298 36.517 48.916 37.079 49.259 solid black
+edge a121 p578_1717_unique 4 35.085 47.931 35.529 48.073 36.259 48.306 36.795 48.477 solid black
+edge a122 p369_1717_unique 4 35.039 31.44 35.528 31.669 36.42 32.088 36.979 32.35 solid black
+edge a122 p389_1717_unique 4 34.975 31.083 35.486 30.731 36.564 29.989 37.123 29.604 solid black
+edge a122 p590_1717_unique 4 35.062 31.13 35.534 30.942 36.355 30.614 36.906 30.394 solid black
+edge a123 p576_1717_unique 4 35.097 96.034 35.528 96.159 36.22 96.359 36.747 96.511 solid black
+edge a123 p584_1717_unique 4 35.152 95.917 35.421 95.917 35.775 95.917 36.126 95.917 solid black
+edge a123 p585_1717_unique 4 35.097 95.8 35.528 95.675 36.22 95.475 36.747 95.322 solid black
+edge a124 p569_1717_unique 4 35.152 97.528 35.421 97.528 35.775 97.528 36.126 97.528 solid black
+edge a125 p570_1717_unique 4 35.134 98.8 35.477 98.85 35.968 98.921 36.412 98.985 solid black
+edge a125 p545_1717_unique 4 35.134 98.672 35.477 98.623 35.968 98.552 36.412 98.487 solid black
+edge a126 p389_1717_unique 4 35.091 28.635 35.529 28.768 36.239 28.985 36.771 29.147 solid black
+edge a126 p100_1717_unique 4 35.103 28.401 35.528 28.285 36.201 28.1 36.722 27.957 solid black
+edge a126 p392_1717_unique 4 34.985 28.324 35.495 27.994 36.543 27.313 37.104 26.95 solid black
+edge a126 p329_1717_unique 4 35.152 28.521 35.421 28.525 35.775 28.53 36.126 28.535 solid black
+edge a127 p578_1717_unique 4 34.996 47.185 35.502 47.492 36.517 48.111 37.079 48.453 solid black
+edge a127 p567_1717_unique 4 35.152 47.014 35.424 47.022 35.783 47.033 36.138 47.043 solid black
+edge a127 p546_1717_unique 4 35.085 47.125 35.529 47.267 36.259 47.5 36.795 47.672 solid black
+edge a128 p369_1717_unique 4 35.127 32.161 35.496 32.228 36.038 32.325 36.508 32.41 solid black
+edge a128 p572_1717_unique 4 35.14 32.034 35.458 31.999 35.901 31.951 36.315 31.905 solid black
+edge a128 p594_1717_unique 4 35.062 31.936 35.534 31.747 36.355 31.42 36.906 31.199 solid black
+edge a129 p565_1717_unique 4 35.152 99.944 35.421 99.944 35.775 99.944 36.126 99.944 solid black
+edge a130 p361_1717_unique 4 34.94 44.114 35.454 44.553 36.64 45.565 37.188 46.032 solid black
+edge a130 p117_1717_unique 4 35.103 44.015 35.528 44.132 36.201 44.317 36.722 44.46 solid black
+edge a130 p575_1717_unique 4 35.091 43.781 35.529 43.648 36.239 43.432 36.771 43.27 solid black
+edge a130 p573_1717_unique 4 35.152 43.896 35.421 43.892 35.775 43.887 36.126 43.881 solid black
+edge a130 p399_1717_unique 4 35.012 44.083 35.514 44.366 36.491 44.917 37.052 45.233 solid black
+edge a131 p223_1717_unique 4 35.121 60.419 35.503 60.495 36.073 60.609 36.557 60.705 solid black
+edge a131 p275_1717_unique 4 34.88 60.565 35.382 61.186 36.757 62.888 37.275 63.529 solid black
+edge a131 p62_1717_unique 4 34.774 60.086 35.181 58.856 36.983 53.407 37.393 52.168 solid black
+edge a131 p272_1717_unique 4 35.034 60.5 35.526 60.741 36.437 61.186 36.996 61.46 solid black
+edge a131 p226_1717_unique 4 34.954 60.537 35.469 60.937 36.608 61.825 37.162 62.256 solid black
+edge a131 p266_1717_unique 4 35.146 60.293 35.449 60.265 35.864 60.228 36.26 60.193 solid black
+edge a131 p301_1717_unique 4 34.875 60.106 35.375 59.482 36.76 57.754 37.278 57.108 solid black
+edge a132 p117_1717_unique 4 35.012 43.277 35.514 43.561 36.491 44.111 37.052 44.427 solid black
+edge a132 p573_1717_unique 4 35.103 43.21 35.528 43.327 36.201 43.511 36.722 43.654 solid black
+edge a132 p436_1717_unique 4 35.001 42.914 35.506 42.614 36.51 42.018 37.072 41.684 solid black
+edge a132 p253_1717_unique 4 35.091 42.976 35.529 42.843 36.239 42.626 36.771 42.465 solid black
+edge a133 p44_1717_unique 4 35.152 87.861 35.441 87.861 35.829 87.861 36.205 87.861 solid black
+edge a134 p571_1717_unique 4 35.152 100.75 35.421 100.75 35.775 100.75 36.126 100.75 solid black
+edge a135 p314_1717_unique 4 35.152 86.25 35.421 86.25 35.775 86.25 36.126 86.25 solid black
+edge a136 p577_1717_unique 4 35.152 101.56 35.421 101.56 35.775 101.56 36.126 101.56 solid black
+edge a137 p349_1717_unique 4 35.109 82.197 35.526 82.089 36.178 81.92 36.692 81.787 solid black
+edge a138 p562_1717_unique 4 35.006 104.96 35.511 105.25 36.503 105.83 37.064 106.15 solid black
+edge a138 p563_1717_unique 4 35.097 104.89 35.528 105.02 36.22 105.22 36.747 105.37 solid black
+edge a138 p133_1717_unique 4 35.152 104.78 35.421 104.78 35.775 104.78 36.126 104.78 solid black
+edge a138 p574_1717_unique 4 35.097 104.66 35.528 104.54 36.22 104.34 36.747 104.18 solid black
+edge a138 p534_1717_unique 4 35.006 104.6 35.511 104.3 36.503 103.73 37.064 103.41 solid black
+edge a138 p581_1717_unique 4 34.888 105 35.393 105.59 36.736 107.14 37.261 107.75 solid black
+edge a138 p582_1717_unique 4 34.935 104.99 35.448 105.43 36.643 106.47 37.191 106.95 solid black
+edge a138 p537_1717_unique 4 34.935 104.57 35.448 104.12 36.643 103.08 37.191 102.61 solid black
+edge a139 p562_1717_unique 4 35.097 105.7 35.528 105.83 36.22 106.03 36.747 106.18 solid black
+edge a139 p563_1717_unique 4 35.152 105.58 35.421 105.58 35.775 105.58 36.126 105.58 solid black
+edge a139 p133_1717_unique 4 35.097 105.47 35.528 105.34 36.22 105.14 36.747 104.99 solid black
+edge a139 p574_1717_unique 4 35.006 105.4 35.511 105.11 36.503 104.54 37.064 104.21 solid black
+edge a139 p534_1717_unique 4 34.935 105.37 35.448 104.93 36.643 103.89 37.191 103.41 solid black
+edge a139 p581_1717_unique 4 34.935 105.79 35.448 106.24 36.643 107.28 37.191 107.75 solid black
+edge a139 p582_1717_unique 4 35.006 105.77 35.511 106.06 36.503 106.63 37.064 106.96 solid black
+edge a140 p23_1717_unique 4 35.109 14.309 35.531 14.199 36.192 14.028 36.709 13.893 solid black
+edge a140 p28_1717_unique 4 35.109 14.525 35.531 14.634 36.192 14.806 36.709 14.94 solid black
+edge a141 p604_1717_unique 4 35.152 87.056 35.421 87.056 35.775 87.056 36.126 87.056 solid black
+stop

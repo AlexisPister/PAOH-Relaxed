@@ -1,0 +1,3 @@
+# About
+
+Path abstraction library

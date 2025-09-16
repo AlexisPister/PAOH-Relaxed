@@ -1,0 +1,768 @@
+{
+  "metadata": {
+    "format": "2.1.0",
+    "name": "name",
+    "graph type": "bipartite",
+    "nodes": "nodes",
+    "links": "links",
+    "time_slot": "ts",
+    "entity_type": "entity_type",
+    "source_entity_type": "contract",
+    "target_entity_type": "person",
+    "community": [
+      "family",
+      "value",
+      "_agg_value"
+    ]
+  },
+  "nodes": [
+    {
+      "id": 9,
+      "entity_type": "person",
+      "name": "Claude",
+      "family": "CG company",
+      "value": [
+        null,
+        null,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 10,
+      "entity_type": "person",
+      "name": "Guillaume",
+      "family": "CG company",
+      "value": [
+        null,
+        null,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 11,
+      "entity_type": "person",
+      "name": "Madeleine",
+      "family": "CG company",
+      "value": [
+        null,
+        null,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 12,
+      "entity_type": "person",
+      "name": "Renexent",
+      "family": "CG company",
+      "value": [
+        null,
+        null,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 2,
+      "entity_type": "person",
+      "name": "Hubert",
+      "family": "Dupont",
+      "value": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 6,
+      "entity_type": "person",
+      "name": "Joseph",
+      "family": "Dupont",
+      "value": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 0,
+      "entity_type": "person",
+      "name": "Elise",
+      "family": "Legrand",
+      "value": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 5,
+      "entity_type": "person",
+      "name": "John",
+      "family": "Legrand",
+      "value": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 7,
+      "entity_type": "person",
+      "name": "Antoine",
+      "family": "Legrand",
+      "value": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 1,
+      "entity_type": "person",
+      "name": "Jacques",
+      "family": "Legrand",
+      "value": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 3,
+      "entity_type": "person",
+      "name": "Roze",
+      "family": "Legrand",
+      "value": [
+        null,
+        1,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 4,
+      "entity_type": "person",
+      "name": "Vallet",
+      "family": "Legrand",
+      "value": [
+        null,
+        1,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 8,
+      "entity_type": "person",
+      "name": "Philippe",
+      "family": "Legrand",
+      "value": [
+        null,
+        null,
+        1,
+        1
+      ],
+      "_agg_value": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "_e_0",
+      "ts": "1802",
+      "raw_ts": "1802",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_1",
+      "ts": "1802",
+      "raw_ts": "1802",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_2",
+      "ts": "1802",
+      "raw_ts": "1802",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_3",
+      "ts": "1802",
+      "raw_ts": "1802",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_4",
+      "ts": "1802",
+      "raw_ts": "1802",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_5",
+      "ts": "1802",
+      "raw_ts": "1802",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_6",
+      "ts": "1802",
+      "raw_ts": "1802",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_7",
+      "ts": "1803",
+      "raw_ts": "1803",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_8",
+      "ts": "1803",
+      "raw_ts": "1803",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_9",
+      "ts": "1803",
+      "raw_ts": "1803",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_10",
+      "ts": "1803",
+      "raw_ts": "1803",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_11",
+      "ts": "1803",
+      "raw_ts": "1803",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_12",
+      "ts": "1803",
+      "raw_ts": "1803",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_13",
+      "ts": "1803",
+      "raw_ts": "1803",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_14",
+      "ts": "1803",
+      "raw_ts": "1803",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_15",
+      "ts": "1801",
+      "raw_ts": "1801",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_16",
+      "ts": "1801",
+      "raw_ts": "1801",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_17",
+      "ts": "1801",
+      "raw_ts": "1801",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_18",
+      "ts": "1801",
+      "raw_ts": "1801",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_19",
+      "ts": "1804",
+      "raw_ts": "1804",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_20",
+      "ts": "1804",
+      "raw_ts": "1804",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_21",
+      "ts": "1804",
+      "raw_ts": "1804",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_22",
+      "ts": "1804",
+      "raw_ts": "1804",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_23",
+      "ts": "1804",
+      "raw_ts": "1804",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_24",
+      "ts": "1804",
+      "raw_ts": "1804",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_25",
+      "ts": "1804",
+      "raw_ts": "1804",
+      "entity_type": "contract"
+    },
+    {
+      "id": "_e_26",
+      "ts": "1804",
+      "raw_ts": "1804",
+      "entity_type": "contract"
+    }
+  ],
+  "links": [
+    {
+      "source": "_e_0",
+      "target": 0,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_0",
+      "target": 2,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_1",
+      "target": 5,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_1",
+      "target": 6,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_2",
+      "target": 0,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_2",
+      "target": 1,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_3",
+      "target": 0,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_3",
+      "target": 3,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_4",
+      "target": 0,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_4",
+      "target": 4,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_5",
+      "target": 5,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_5",
+      "target": 7,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_6",
+      "target": 4,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_6",
+      "target": 5,
+      "ts": "1802"
+    },
+    {
+      "source": "_e_7",
+      "target": 9,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_7",
+      "target": 10,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_8",
+      "target": 0,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_8",
+      "target": 5,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_8",
+      "target": 7,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_8",
+      "target": 8,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_8",
+      "target": 9,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_9",
+      "target": 10,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_9",
+      "target": 11,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_10",
+      "target": 10,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_10",
+      "target": 11,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_10",
+      "target": 12,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_11",
+      "target": 0,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_11",
+      "target": 2,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_11",
+      "target": 3,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_11",
+      "target": 4,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_11",
+      "target": 5,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_12",
+      "target": 0,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_12",
+      "target": 5,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_12",
+      "target": 6,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_13",
+      "target": 0,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_13",
+      "target": 1,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_14",
+      "target": 0,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_14",
+      "target": 3,
+      "ts": "1803"
+    },
+    {
+      "source": "_e_15",
+      "target": 0,
+      "ts": "1801"
+    },
+    {
+      "source": "_e_15",
+      "target": 2,
+      "ts": "1801"
+    },
+    {
+      "source": "_e_16",
+      "target": 5,
+      "ts": "1801"
+    },
+    {
+      "source": "_e_16",
+      "target": 6,
+      "ts": "1801"
+    },
+    {
+      "source": "_e_17",
+      "target": 0,
+      "ts": "1801"
+    },
+    {
+      "source": "_e_17",
+      "target": 1,
+      "ts": "1801"
+    },
+    {
+      "source": "_e_18",
+      "target": 5,
+      "ts": "1801"
+    },
+    {
+      "source": "_e_18",
+      "target": 7,
+      "ts": "1801"
+    },
+    {
+      "source": "_e_19",
+      "target": 9,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_19",
+      "target": 10,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_20",
+      "target": 0,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_20",
+      "target": 11,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_20",
+      "target": 9,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_21",
+      "target": 0,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_21",
+      "target": 9,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_21",
+      "target": 10,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_21",
+      "target": 12,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_22",
+      "target": 2,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_22",
+      "target": 3,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_22",
+      "target": 4,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_22",
+      "target": 5,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_22",
+      "target": 7,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_22",
+      "target": 8,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_22",
+      "target": 9,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_23",
+      "target": 0,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_23",
+      "target": 10,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_24",
+      "target": 2,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_24",
+      "target": 3,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_25",
+      "target": 5,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_25",
+      "target": 6,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_26",
+      "target": 5,
+      "ts": "1804"
+    },
+    {
+      "source": "_e_26",
+      "target": 7,
+      "ts": "1804"
+    }
+  ]
+}

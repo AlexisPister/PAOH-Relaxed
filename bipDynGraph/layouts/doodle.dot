@@ -1,0 +1,50 @@
+digraph G {
+nodesep=0.3;
+rankdir=LR;
+splines=False;
+    p6 [shape="box"];
+
+    p6 -> u1_1 [weight=10000000];
+    p3 -> u1_1 [weight=10000000];
+    p4 -> u1_1;
+
+    // subgraph cluster_a1 {
+    //     p1;
+    //     p2;
+    //     p3;
+    // }
+
+    // subgraph cluster_a2 {
+    //     p4;
+    //     p5;
+    //     p6;
+    // }
+
+
+    u1_0 -> u1_1 [minlen=1];
+    u1_1 -> u1_2;
+
+    subgraph test {
+        rank=same;
+        subgraph cluster_1 {
+            p4;
+            p5;
+            p6 [color=red];
+        }
+
+        subgraph cluster_2 {
+            p1;
+            p2;
+            p3;
+        }
+
+
+        rank1;
+    }
+
+
+    rank0 -> rank1;
+    rank1 -> rank2;
+    rank2 -> rank3;
+    p2 -> rank3;
+}

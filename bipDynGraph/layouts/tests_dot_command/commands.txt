@@ -1,0 +1,1 @@
+dot -v -O -Tplain layoutstest_bipartite_W1.dot
