@@ -152,8 +152,6 @@ class Generator:
 
         return hyperedge_created
 
-
-
     def create_hyperedge(self):
         hyperedge = "h" + str(self.counter)
         self.counter += 1

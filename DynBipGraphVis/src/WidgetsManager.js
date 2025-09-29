@@ -5,11 +5,12 @@ import PropertyPanelManager from "./Panels/PropertyPanelManager";
 import TeamsLegendPanelManager from "./Panels/TeamsLegendPanelManager";
 
 export default class WidgetsManager {
-    constructor(dynBipGraph, temporalLayoutGraph, dynGraphVis, interactionController, selectDatasetCb) {
+    constructor(dynBipGraph, temporalLayoutGraph, dynGraphVis, interactionController, selectDatasetCb, loadDatasetCb) {
         this.setGraphs(dynBipGraph, temporalLayoutGraph, dynGraphVis);
         this.interactionController = interactionController;
         this.datasetNames = ["Piemont", "MarieBoucher", "Inria", "Aviz", "French_Genealogy", "Thesis", "Buenos_Aires", "Vispubdata", "Generator"]
-        this.selectDatasetCb = selectDatasetCb
+        this.selectDatasetCb = selectDatasetCb;
+        this.loadDatasetCb = loadDatasetCb;
     }
 
     setGraphs(dynBipGraph, temporalLayoutGraph, dynGraphVis) {
@@ -32,6 +33,43 @@ export default class WidgetsManager {
             let name = e.target.value;
             this.selectDatasetCb(name)
         })
+    }
+
+    initDataFileImport() {
+        // let importDataButton = `
+        //  <button id="importBtn">Import File</button>
+        // `
+        let inputImport = `
+        <input type="file" id="fileInput" />
+        `
+
+        // this.$importDataButton = $(importDataButton);
+        this.$inputImport = $(inputImport);
+
+        // When button is clicked, trigger hidden file input
+        // this.$inputImport.on("click", function () {
+        //     this.$inputImport.change();
+        // });
+
+        // Handle file selection
+        this.$inputImport.on("change",  (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                alert(`You selected: ${file.name}`);
+
+                // Example: read file content
+                const reader = new FileReader();
+                reader.onload =  (e) => {
+                    let jsonData = JSON.parse(e.target.result);
+                    this.loadDatasetCb(jsonData)
+                };
+                let dataText = reader.readAsText(file); // Reads as text (use readAsDataURL for images, etc.)
+
+            }
+        });
+
+        // $("#data-import").append(this.$importDataButton);
+        $("#data-import").append(this.$inputImport);
     }
 
     initGeneralInfo() {

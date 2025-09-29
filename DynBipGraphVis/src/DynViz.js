@@ -37,9 +37,7 @@ export default class DynViz {
     }
 
     fetchDataset = (name) => {
-
         console.time("benchmark")
-
 
         // fetch(globals.route(`getData/${name}`), {method: "GET", credentials: 'include'})
         fetch(globals.route(`getData/${name}`), {credentials: "include"})
@@ -52,7 +50,17 @@ export default class DynViz {
     fetchDatasetUpdate = (name) => {
         fetch(globals.route(`getData/${name}`), {credentials: "include"})
         // fetch(globals.route(`getData/${name}`), {credentials: 'same-origin'})
-            // fetch(globals.route(`getData/${name}`))
+            .then(r => r.json())
+            .then(data => {
+                this.loadData(data);
+                this.update();
+            })
+    }
+
+    loadDataset = (jsonData) => {
+        fetch(globals.route(`uploadData`), {credentials: "include", method: "POST", headers: {
+                'Content-Type': 'application/json'
+            }, body: JSON.stringify(jsonData)})
             .then(r => r.json())
             .then(data => {
                 this.loadData(data);
@@ -82,8 +90,8 @@ export default class DynViz {
         // dont remember why, but needed
 
         // 80 for benchmark
-        // renderingParameters.RANK_GAP_SIZE = 80;
-        renderingParameters.RANK_GAP_SIZE = 200;
+        renderingParameters.RANK_GAP_SIZE = 80;
+        // renderingParameters.RANK_GAP_SIZE = 200;
 
         this.paohGraph.assignRankCoordinates(renderingParameters.RANK_GAP_SIZE, renderingParameters.RANK_SIZE);
 
@@ -91,7 +99,6 @@ export default class DynViz {
         this.dynGraphVis.init(this.graph, this.paohGraph, this.ossatureGraph);
 
         console.timeEnd("benchmark")
-
 
         this.aggregateVis = new AggregateVis(d3.select("#aggregate-svg"), this.graph, this.paohGraph);
 
@@ -227,8 +234,9 @@ export default class DynViz {
         // this.propertyPanelManager.render();
         // this.clusteringManager = new ClusteringManager(this.graph, this.documentCentricHypergraph, this.ossatureGraph, "#clustering-buttons", this.propertyPanelManager, this.dynGraphVis);
 
-        this.widgetManager = new WidgetsManager(this.graph, this.documentCentricHypergraph, this.dynGraphVis, this.interactionController, this.fetchDatasetUpdate);
+        this.widgetManager = new WidgetsManager(this.graph, this.documentCentricHypergraph, this.dynGraphVis, this.interactionController, this.fetchDatasetUpdate, this.loadDataset);
         this.widgetManager.initDataImport();
+        this.widgetManager.initDataFileImport();
         this.widgetManager.initGeneralInfo();
         this.widgetManager.initRoleLegend();
 

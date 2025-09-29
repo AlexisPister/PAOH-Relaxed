@@ -212,6 +212,20 @@ def get_data(dataset):
     resp = make_response(jsonify(json_data, dyn_graph))
     return resp
 
+
+@app.route("/uploadData", methods=["POST"])
+@cross_origin(supports_credentials=True)
+def upload_data():
+    json_data = request.json
+    dyn_graph = temporal_layout(json_data)
+
+    session["graph_json"] = json_data
+    session["data_name"] = "upload"
+
+    resp = make_response(jsonify(json_data, dyn_graph))
+    return resp
+
+
 @app.route("/updateLayout", methods=["POST"])
 @cross_origin(supports_credentials=True)
 def update_layout():
