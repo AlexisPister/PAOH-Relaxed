@@ -110,19 +110,57 @@ export default abstract class GraphRenderer {
             teams.sort();
         }
 
-        // Colorrs from PAOHVis
+        // 48 colori distinti, uno per nazionale
         const colors = [
-            "#b3cde3",
-            "#fbb4ae",
-    "#ccebc5",
-    "#decbe4",
-    "#fed9a6",
-    "#ffffcc",
-    "#8DD3C7",
-            "#fddaec",
-            "#FDB462",
-            "#BEBADA"
-]
+            "#030395",
+            "#602276",
+            "#762D22",
+            "#1F1FF9",
+            "#953403",
+            "#BB1A25",
+            "#337622",
+            "#1A70BB",
+            "#6B7622",
+            "#13856E",
+            "#F91F67",
+            "#1F84F9",
+            "#6E9503",
+            "#F91FF9",
+            "#30A65F",
+            "#E27B36",
+            "#EA70E2",
+            "#EAA170",
+            "#56D005",
+            "#80DAB6",
+            "#EAD270",
+            "#B9EA70",
+            "#5FFA74",
+            "#B0F91F",
+            "#133185",
+            "#762254",
+            "#224F76",
+            "#95038B",
+            "#0549D0",
+            "#BB1A65",
+            "#955B03",
+            "#A21FF9",
+            "#038195",
+            "#039503",
+            "#9D5FFA",
+            "#F91FA2",
+            "#F9591F",
+            "#A480DA",
+            "#EA7078",
+            "#DA80B6",
+            "#80A4DA",
+            "#BBBB1A",
+            "#F9B01F",
+            "#1FDCF9",
+            "#1FF91F",
+            "#1FF9B0",
+            "#1FF9EA",
+            "#F9F91F"
+        ]
 
         // PAOHVIS COLOR SCALE
         this.teamColorScale = d3.scaleOrdinal()
@@ -132,7 +170,9 @@ export default abstract class GraphRenderer {
 
 
         // USE THIS FOR MORE CONTRAST COLOR SCALE
-        this.teamColorScale.range(d3.schemeCategory10)
+        // this.teamColorScale.range(d3.schemeCategory10) // disattivato: solo 10 colori
+        // i dataset stratificati hanno pochi livelli: bastano i 10 colori di d3
+        if (this.modalitaStratificata()) this.teamColorScale.range(d3.schemeCategory10);
 
         // this.teamColorScale = d3.scaleOrdinal(d3.schemeCategory10)
         // this.teamColorScale = d3.scaleOrdinal(d3.schemePastel1)
@@ -162,112 +202,123 @@ export default abstract class GraphRenderer {
         // }
     }
 
+    // true con i dataset a livelli (vedi PaohRelaxedGraph.isStratifiedDataset)
+    modalitaStratificata(): boolean {
+        let g: any = this.graph;
+        return !!(g && g.isStratifiedDataset && g.isStratifiedDataset());
+    }
+
     setupZoom() {
+        let self = this;
         this.zoom = d3.zoom()
-            // .scaleExtent([0.02, 6])
-            // .on("zoom", this.zoomAction)
             .on("zoom", this.interactionController.zoomAction)
-            .filter((e) => { // allows mousedown event and thus the panning only with wheel. wheel event is for zoom
+            .filter((e) => { 
                 if (e.type === 'mousedown') {
-                    if (e.which == 2) {
-                        return true;
-                    }
+                    if (e.which == 2) return true;
                 } else if (e.type == "wheel") {
                     return true
                 }
                 return false;
-            })
-
+            });
 
         this.svg
             .call(this.zoom)
-            .on("dblclick.zoom", null)
-            // .on("mousedown.zoom", null)
-            // .on("touchstart.zoom", null)
-            // .on("touchmove.zoom", null)
-            // .on("touchend.zoom", null);
+            .on("dblclick.zoom", null);
+
+        // dataset stratificati: vista d'insieme, tutta la linea temporale entra nello schermo
+        // (ripetuta una volta dopo, se nel frattempo il layout non era ancora pronto e l'utente non ha mosso la vista)
+        let applicata: any = null;
+        const vistaStratificata = () => {
+            if (!self.graph || !self.modalitaStratificata()) return;
+            if (applicata && self.transform && (self.transform.k !== applicata.k || self.transform.x !== applicata.x || self.transform.y !== applicata.y)) return;
+            if ((self as any).adattaVista) (self as any).adattaVista(false, true);
+            applicata = self.transform;
+        };
+        setTimeout(vistaStratificata, 400);
+        setTimeout(vistaStratificata, 1500);
     }
 
+    // zoom e spostamento
+
+    // attesa in ms dopo l'ultimo zoom prima di riposizionare le etichette
+    RITARDO_OCCLUSIONE = 150;
+
+    private zoomFotogrammaInAttesa = false;
+    private ultimoKApplicato: number = NaN;
+    private timerOcclusione: any = null;
+
     zoomAction(e, d) {
+        // la trasformazione si salva sempre (la usano getTransform e pathSelectionner)
         this.transform = e.transform;
 
-        this.gBackground.attr("transform", e.transform);
-        this.gNodes.attr("transform", e.transform);
-        this.gLinks.attr("transform", e.transform);
-        this.gOthers.attr("transform", e.transform);
+        if (this.zoomFotogrammaInAttesa) return;
+        this.zoomFotogrammaInAttesa = true;
+        requestAnimationFrame(() => {
+            this.zoomFotogrammaInAttesa = false;
+            this.applicaZoom();
+        });
+    }
 
-        this.xAxisg.attr("transform", e.transform);
-        this.xAxisg.selectAll("text").attr("transform", `scale(${1 / this.transform.k})`) // axis label must always have the same size, even after zoom action
+    // applica la trasformazione corrente, al massimo una volta per frame
+    applicaZoom() {
+        let t = this.transform;
 
-        // this.gLinks.selectAll(".link")
-        //     .attr("stroke-width", this.linksStrokeWidth());
+        // spostamento e zoom dei gruppi
+        this.gBackground.attr("transform", t);
+        this.gNodes.attr("transform", t);
+        this.gLinks.attr("transform", t);
+        this.gOthers.attr("transform", t);
+        this.xAxisg.attr("transform", t);
 
-        // if (this.nodeLabels) {
-        //     // TODO CHANGE
-        //     this.nodeLabels
-        //         .style("font-size", `${16 / this.transform.k}px`)
-        //     // .attr("x", this.nodeLabelX(d))
-        //     // .attr("y", this.nodeLabelY(d))
-        //
-        //     this.occlusion.run(this.nodeLabels);
-        // }
+        // da qui in poi dipende solo dal fattore di zoom k
+        if (t.k !== this.ultimoKApplicato) {
+            this.ultimoKApplicato = t.k;
+            this.applicaDimensioniZoom();
+        }
 
-        this.nodeLabelsSelection()
-            .style("font-size", `${renderingParameters.TEXT_SIZE / this.transform.k}px`)
+        // etichette: riposizionate solo a zoom fermo
+        if (this.interactionController.forceShownLabels.length == 0 && !this.modalitaStratificata()) {
+            if (this.timerOcclusione) clearTimeout(this.timerOcclusione);
+            this.timerOcclusione = setTimeout(() => {
+                this.timerOcclusione = null;
+                (this as any).runOcclusion();
+            }, this.RITARDO_OCCLUSIONE);
+        }
+    }
+
+    // dimensioni che compensano lo zoom (testi di grandezza costante)
+    applicaDimensioniZoom() {
+        let k = this.transform.k;
+
+        // le etichette degli assi e dei nodi mantengono la stessa grandezza a schermo
+        this.xAxisg.selectAll("text").attr("transform", `scale(${1 / k})`);
+
+        (this as any).nodeLabelsSelection()
+            .style("font-size", `${renderingParameters.TEXT_SIZE / k}px`);
 
         this.gNodes.selectAll(".selLabel")
-            .style("font-size", d => {
-                return this.nodeLabelSize(d);
-            })
+            .style("font-size", d => (this as any).nodeLabelSize(d));
 
+        this.gLinks.selectAll(`.arcCrossTime`)
+            .attr("stroke-width", d => this.arcStrokeWidth(d));
 
-        // ZOOM ACTION ON SIZES
-        // const fZoom = (k) =>  Math.(Math.log10(this.transform.k) + 1)
+        // anche la seconda linea delle sostituzioni
+        this.gNodes.selectAll(`.${nodeTypes.HYPEREDGE}, .substitution-line`)
+            .attr("stroke-width", d => this.hyperedgeStrokeWidth());
+    }
 
+    // spessore del percorso di un calciatore allo zoom corrente (usato anche da PaohRelaxedVis)
+    arcStrokeWidth(d) {
+        let k = this.transform.k;
+        let base = this.interactionController.isPersonHighlighted(d[0])
+            ? renderingParameters.line_stroke_width_highlighted()
+            : renderingParameters.LINE_STROKE_WIDTH;
+        return k < 1 ? base / (k * 2.2) : base;
+    }
 
-
-        // this.gNodes.selectAll(`.${nodeTypes.HYPEREDGE}`)
-        //         .attr("stroke-width", d => renderingParameters.getPaohDocumentLineWidth() / this.transform.k)
-        //
-
-
-        // console.log(this.transform.k)
-        if (this.transform.k < 1) {
-            this.gNodes.selectAll(`.${nodeTypes.PERSON_OCCURENCE}`)
-                .attr("r", d => renderingParameters.getPaohPersonOccurrenceWidth() / (3 * this.transform.k))
-                // .attr("stroke-width", d => 2)
-                .attr("stroke-width", d => (this.interactionController.isPersonHighlighted(d.get("person")) ? 5 : 1) / (5 * this.transform.k))
-
-
-
-            this.gLinks.selectAll(`.arcCrossTime`)
-                .attr("stroke-width", (d) => {
-                    if (this.interactionController.isPersonHighlighted(d[0])) {
-                        return renderingParameters.line_stroke_width_highlighted() / (this.transform.k * 2.2)
-                    } else {
-                        return renderingParameters.LINE_STROKE_WIDTH / (this.transform.k * 2.2)
-                    }
-                })
-        } else {
-            this.gNodes.selectAll(`.${nodeTypes.PERSON_OCCURENCE}`)
-                .attr("r", d => renderingParameters.getPaohPersonOccurrenceWidth())
-
-            this.gLinks.selectAll(`.arcCrossTime`)
-                .attr("stroke-width", (d) => {
-                    if (this.interactionController.isPersonHighlighted(d[0])) {
-                        return renderingParameters.line_stroke_width_highlighted()
-                    } else {
-                        return renderingParameters.LINE_STROKE_WIDTH
-                    }
-                })
-        }
-        this.gNodes.selectAll(`.${nodeTypes.HYPEREDGE}`)
-                .attr("stroke-width", d => renderingParameters.getPaohDocumentLineWidth() / (this.transform.k * 1.3))
-
-
-        if (this.interactionController.forceShownLabels.length == 0) {
-            this.runOcclusion();
-        }
+    // spessore della linea di un iperarco allo zoom corrente
+    hyperedgeStrokeWidth() {
+        return renderingParameters.getPaohDocumentLineWidth() / (this.transform.k * 1.3);
     }
 
     nodesToRender() {
@@ -275,6 +326,7 @@ export default abstract class GraphRenderer {
     }
 
     render() {
+        this.ultimoKApplicato = NaN;
         this.backgroundRender();
         this.nodesRender();
         this.linksRender();
@@ -309,7 +361,7 @@ export default abstract class GraphRenderer {
     }
 
     refresh() {
-        this.occlusion.run();
+        if (this.occlusion.isInit() && !this.modalitaStratificata()) this.occlusion.run();
     }
 
     getHeight() {

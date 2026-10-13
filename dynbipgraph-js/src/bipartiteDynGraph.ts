@@ -153,14 +153,10 @@ export default class BipartiteDynGraph extends Graph {
 
     computeTimeSpan() {
         let allTimes: number[] = this.documents().map(d => d.time);
-        let allTimesNoNull = allTimes.filter(time => {
-            if (time) {
-                return true
-            } else {
-                return false
-            }
-        });
-        this.times = [...new Set(allTimesNoNull)].sort();
+        let allTimesNoNull = allTimes.filter(time => time !== undefined && time !== null);
+        
+        this.times = [...new Set(allTimesNoNull)].sort((a: number, b: number) => a - b);
+        
         this.timeMin = Math.min(...this.times);
         this.timeMax = Math.max(...this.times);
     }

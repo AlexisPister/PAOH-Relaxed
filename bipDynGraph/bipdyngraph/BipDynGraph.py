@@ -148,7 +148,8 @@ class BipartiteDynGraph(nx.MultiGraph):
 
         self.document_type = metadata["source_entity_type"]
         self.person_type = metadata["target_entity_type"]
-        self.node_type_key = metadata["entity_type"]
+        # alcuni dataset usano "entityType" (come nel formato json) invece di "entity_type"
+        self.node_type_key = metadata.get("entity_type", metadata.get("entityType", "label"))
         # self.time_key = metadata["time_slot"]
 
         # Time slots is always a "ts" key in PAOHVIS

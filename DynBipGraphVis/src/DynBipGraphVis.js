@@ -124,27 +124,53 @@ export default class DynBipGraphVis {
 
     setupAxis() {
         this.dateFormat = d3.timeFormat("%Y");
-        // console.log(this.dateFormat(this.bipDynGraph.timeMin), this.dateFormat(this.bipDynGraph.timeMax));
 
-        // this.x = d3.scaleTime()
         this.x = d3.scaleLinear()
-            // .domain([this.dateFormat(this.bipDynGraph.timeMin), this.dateFormat(this.bipDynGraph.timeMax)])
             .domain([this.bipDynGraph.timeMin, this.bipDynGraph.timeMax])
-            // .range([0, this.width])
-            .range([0, this.graph.getTotalSize()])
+            .range([0, this.graph.getTotalSize()]);
 
-        this.xAxis = g => g
-            // .attr("transform", `translate(0,${this.height - margin.bottom})`)
-            .attr("transform", `translate(0,0)`)
-            .call(g => g.append("text")
-                .attr("text-anchor", "end")
-                .attr("font-weight", "bold")
-                .text("Year"))
-            // .call(d3.axisBottom(this.x))
-        // .call(d3.axisBottom(this.x).tickFormat(d3.timeFormat("%Y")).ticks(6))
-        .call(d3.axisBottom(this.x).ticks(6))
+        let metadata = this.bipDynGraph.metadata || {};
+        let stratificato = metadata.layout === "stratified" ||
+            String(metadata.datasetName || "").toLowerCase().includes("mitre");
 
-        // this.xAxisg = this.svg.append("g");
+        if (stratificato) {
+            // dataset mitre: fasi della campagna di attacco al posto degli anni
+            const dizionarioFasi = {
+                1: "Reconnaissance", 2: "Resource Dev", 3: "Initial Access",
+                4: "Execution Foothold", 5: "Scheduled Tasks", 6: "Persistence",
+                7: "Privilege Escalation", 8: "Defense Evasion", 9: "Credential Access",
+                10: "Discovery Actions", 11: "Lateral Movement", 12: "Collection Capture",
+                13: "Command & Control", 14: "Exfiltration Impact"
+            };
+
+            this.x.tickFormat = function() {
+                return function(d) {
+                    var passo = Math.round(Number(d));
+                    return dizionarioFasi[passo] ? dizionarioFasi[passo] : "Step " + passo;
+                };
+            };
+
+            this.xAxis = function(g) {
+                return g
+                    .attr("transform", "translate(0,0)")
+                    .call(function(g) {
+                        return g.append("text")
+                            .attr("text-anchor", "end")
+                            .attr("font-weight", "bold")
+                            .text("Attack Campaign Timeline");
+                    })
+                    .call(d3.axisBottom(this.x).ticks(14).tickFormat(this.x.tickFormat()));
+            }.bind(this);
+        } else {
+            this.xAxis = g => g
+                .attr("transform", `translate(0,0)`)
+                .call(g => g.append("text")
+                    .attr("text-anchor", "end")
+                    .attr("font-weight", "bold")
+                    .text("Year"))
+                .call(d3.axisBottom(this.x).ticks(6))
+        }
+
         this.xAxisg.call(this.xAxis);
         if (this.transform) {
             this.xAxisg.attr("transform", this.transform);

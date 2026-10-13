@@ -202,3 +202,80 @@ td {
     -ms-user-select: none;
     user-select: none;
 }
+
+/* stile per i dataset stratificati (classe aggiunta al body da DynViz) */
+
+body.stratificato,
+body.stratificato * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+body.stratificato button:first-of-type:not(.property-button),
+body.stratificato #btn-group,
+body.stratificato #group {
+    display: none !important;
+}
+
+body.stratificato button:nth-of-type(2),
+body.stratificato button:nth-of-type(3) {
+    display: inline-block !important;
+}
+
+body.stratificato #general-info div {
+    font-size: 15px !important;
+    line-height: 1.3em !important;
+    white-space: nowrap !important;
+}
+
+body.stratificato #general-info strong,
+body.stratificato #general-info span {
+    font-size: 12px !important;
+}
+
+body.stratificato #general-info.widget {
+    flex-grow: 1.5 !important;
+    min-width: 150px !important;
+}
+
+body.stratificato #role-legend-panel,
+body.stratificato #team-legend-panel,
+body.stratificato #role-legend-panel *,
+body.stratificato #team-legend-panel * {
+    font-size: 15px !important;
+    line-height: 1.2em !important;
+}
+
+body.stratificato #role-legend-panel div,
+body.stratificato #team-legend-panel div,
+body.stratificato #role-legend-panel svg,
+body.stratificato #team-legend-panel svg {
+    margin-top: 1px !important;
+    margin-bottom: 1px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+body.stratificato .header {
+    min-height: 90px !important;
+    height: 90px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 10px 15px !important;
+}
+
+body.stratificato #general-info div,
+body.stratificato #general-info span,
+body.stratificato #general-info strong {
+    font-size: 13px !important;
+    line-height: 1.4em !important;
+}
+
+body.stratificato #gap-slider {
+    margin-left: 45px !important;
+}
+
+body.stratificato .histoValue {
+    text-anchor: middle !important;
+    fill: #000000 !important;
+    font-weight: bold !important;
+}
