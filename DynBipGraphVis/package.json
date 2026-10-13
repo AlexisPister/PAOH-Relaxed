@@ -24,7 +24,7 @@
     "dynbipgraph": "file:../dynbipgraph-js",
     "jquery": "^3.6.0",
     "jquery-ui-dist": "^1.13.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.18.1",
     "path-intersection": "^2.2.1",
     "paths-js": "file:../paths-js",
     "typescript": "^4.9.5",

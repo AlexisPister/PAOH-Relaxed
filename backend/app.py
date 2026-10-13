@@ -9,6 +9,10 @@ from flask import Flask, jsonify, request, session, make_response
 from flask_cors import CORS, cross_origin
 from flask_session import Session
 
+# usa sempre la libreria bipdyngraph di questo progetto (cartella ../bipDynGraph),
+# anche se nel python in uso ne e' installata un'altra copia
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "bipDynGraph"))
+
 import bipdyngraph.PyDotBipartiteLayout as PyDotBipartiteLayout
 import bipdyngraph.PydotBipartiteLayoutThreeLayers as PydotBipartiteLayoutThreeLayers
 import bipdyngraph.DotLayoutParser as DotLayoutParser
@@ -29,8 +33,7 @@ app.config["SESSION_COOKIE_SAMESITE"] = "None"
 app.config["SESSION_COOKIE_SECURE"] = True
 # app.config["SESSION_PERMANENT"] = True
 Session(app)
-CORS(app)
-# CORS(app, supports_credentials=True)
+CORS(app, supports_credentials=True)
 
 SAVE_LAYOUT = True
 # SAVE_LAYOUT = False
@@ -61,10 +64,18 @@ def process_data(json_data):
     print("TT ", end - start)
 
     print("set dotlayout session")
-    session["dotlayout"] = layout_bipartite.to_json()
-    if True:
+    try:
+        session["dotlayout"] = layout_bipartite.to_json()
+    except Exception as e:
+        # senza il layout in sessione non funziona solo /updateLayout
+        print("dotlayout non salvato in sessione:", e)
+        session["dotlayout"] = None
+    try:
         print("dump")
         layout_bipartite.dump_dot("./layouts/", True, extra_name=session.get("data_name"))
+    except Exception as e:
+        # il file .dot/.svg serve solo per controllo, il layout si calcola lo stesso
+        print("dump del layout non riuscito:", e)
 
     dot_parser = DotLayoutParser.DotLayoutParser(layout_bipartite, graph)
     print("compute layout")

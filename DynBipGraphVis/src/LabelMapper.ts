@@ -9,150 +9,145 @@ export enum Orientations {
 export default class LabelMapper {
     objects: (CoordinatedObject & Labelled)[];
     objectLabelOffset: number;
+    // centro e raggio del glifo: se c'e', l'etichetta va accanto al nodo, centrata in verticale
+    geometria: (o: any) => { cx: number, cy: number, r: number };
 
-    constructor(objects: (CoordinatedObject & Labelled)[], objectLabelOffset = 11) {
+    constructor(objects: (CoordinatedObject & Labelled)[], objectLabelOffset = 11,
+                geometria: (o: any) => { cx: number, cy: number, r: number } = null) {
         this.objects = objects;
         this.objectLabelOffset = objectLabelOffset
+        this.geometria = geometria;
     }
 
-    run(getLabelCb: Function, log = false) {
-        let i = 0;
-
-        let labelToDimensions = {};
+    // mette l'etichetta di ogni oggetto a sinistra o a destra evitando sovrapposizioni (con una griglia per andare piu' veloce)
+    run(getLabelCb?: Function, log = false) {
+        const CELLA = 128;
+        const griglia = new Map<string, CoordinatedObject[]>();
+        const celle = (r: CoordinatedObject, azione: (k: string) => void) => {
+            let x0 = Math.floor(r.x / CELLA), x1 = Math.floor((r.x + (r.width || 0)) / CELLA);
+            let y0 = Math.floor(r.y / CELLA), y1 = Math.floor((r.y + (r.height || 0)) / CELLA);
+            for (let cx = x0; cx <= x1; cx++) for (let cy = y0; cy <= y1; cy++) azione(cx + "," + cy);
+        };
+        const inserisci = (r: CoordinatedObject) => celle(r, k => {
+            let l = griglia.get(k);
+            if (l) l.push(r); else griglia.set(k, [r]);
+        });
+        const interseca = (r: CoordinatedObject): boolean => {
+            let trovato = false;
+            celle(r, k => {
+                if (trovato) return;
+                let l = griglia.get(k);
+                if (l) for (const r2 of l) { if (this.doObjectsIntersect(r, r2)) { trovato = true; return; } }
+            });
+            return trovato;
+        };
+        const dimensioni = {};
+        const misura = (testo) => dimensioni[testo] || (dimensioni[testo] = getStringSize(null, testo, 12));
 
         for (const object of this.objects) {
-            const label = object.label() || getLabelCb(object);
+            delete (object as any).labelX;
+            delete (object as any).labelY;
+            if (this.geometria) {
+                let g = this.geometria(object);
+                inserisci({x: g.cx - g.r, y: g.cy - g.r, width: 2 * g.r, height: 2 * g.r});
+            } else {
+                inserisci({x: object.x, y: object.y, width: object.width || 0, height: object.height || 0});
+            }
+        }
+
+        for (const object of this.objects) {
+            const label = object.label() || (getLabelCb ? getLabelCb(object) : "");
             let {x, y, width, height} = object;
+            if (!width) width = 0;
+            if (!height) height = 0;
+            let [objLeft, objRight, objTop] = [x, x + width, y];
+            let [textWidth, textHeight] = misura(label);
 
-            if (!width) width = 0
-            if (!height) height = 0
-
-            let [objLeft, objRight, objTop, objBottom] = [x, x + width, y, y + height]
-
-            // let [textWidth, textHeight] = getStringSize("svg", label, 12)
-            let [textWidth, textHeight] = getStringSize(null, label, 12)
-            // console.log(label, textWidth, textHeight)
-
-            const labelPosOptions = [
-                // {x: objRight + this.objectLabelOffset, y: objBottom}, // right
-                // {x: objLeft - this.objectLabelOffset, y: objBottom}, // left
-                // {x: objLeft, y: objTop - this.objectLabelOffset}, // top
-                // {x: objLeft, y: objBottom + this.objectLabelOffset}, // bottom
-                // {x: objLeft - this.objectLabelOffset, y: objBottom + this.objectLabelOffset}, // bottom left
-                // {x: objRight + this.objectLabelOffset, y: objBottom + this.objectLabelOffset}, // bottom right
-                // {x: objLeft - this.objectLabelOffset, y: objTop - this.objectLabelOffset}, // top left
+            let labelPosOptions = [
                 {x: objLeft - this.objectLabelOffset - textWidth, y: objTop - this.objectLabelOffset}, // top left
                 {x: objRight + this.objectLabelOffset, y: objTop - this.objectLabelOffset}, // top right
             ];
+            let centroY = null;
+            if (this.geometria) {
+                // etichetta alla stessa altezza del centro del glifo, a sinistra o a destra
+                let g = this.geometria(object);
+                let gap = g.r * 0.5 + 2;
+                centroY = g.cy;
+                labelPosOptions = [
+                    {x: g.cx - g.r - gap - textWidth, y: g.cy - textHeight / 2}, // sinistra
+                    {x: g.cx + g.r + gap, y: g.cy - textHeight / 2},             // destra
+                ];
+            }
 
-
-            positionLoop:
-                for (let j = 0; j < labelPosOptions.length; j++) {
-                    let pos = labelPosOptions[j];
-                    // let labelObject: CoordinatedObject = {x: pos.x, y: pos.y, width: 40, height: 15};
-                    let labelObject: CoordinatedObject = {x: pos.x, y: pos.y, width: textWidth, height: textHeight};
-
-                    // Check if this label position intersects with any other label or object
-                    let k = -1
-                    for (const object2 of this.objects) {
-                        k++;
-                        let [intersectLabels, intersectObject] = [false, false];
-                        // if (k != i) {
-                        intersectObject = this.doObjectsIntersect(labelObject, object2)
-
-                        const label2X = object2.labelX;
-                        const label2Y = object2.labelY;
-                        let labelObject2 = object2.label();
-
-                        let textWidth2, textHeight2;
-                        if (labelToDimensions[labelObject2]) {
-                            [textWidth2, textHeight2] = labelToDimensions[labelObject2];
-                        } else {
-                            // [textWidth2, textHeight2] = getStringSize("svg", labelObject2, 12)
-                            [textWidth2, textHeight2] = getStringSize(null, labelObject2, 12)
-                            labelToDimensions[labelObject2] = [textWidth2, textHeight2];
-                        }
-                        // let [textWidth2, textHeight2] = getStringSize("svg", labelObject2, 12)
-
-                        if (label2X && label2Y) {
-                            // let labelObject2 = {x: label2X, y: label2Y, width: textWidth, height: textHeight};
-                            let labelObject2 = {x: label2X, y: label2Y, width: textWidth2, height: textHeight2};
-                            // let labelObject2 = {x: label2X, y: label2Y, width: 40, height: 15};
-                            intersectLabels = this.doObjectsIntersect(labelObject, labelObject2);
-                        }
-
-                        // if (log) console.log(label, intersectLabels, intersectObject, object2)
-                        if (intersectObject || intersectLabels) {
-                            continue positionLoop;
-                        }
-                        // }
-                    }
-
-                    // console.log(label, "NO CROSS")
-                    // No crossing found
-                    object.labelX = labelObject.x;
-                    object.labelY = labelObject.y;
-
-                    if (j == 0) {
-                        object.position = Orientations.LEFT;
-                        object.labelX += textWidth;
-                    } else {
-                        object.position = Orientations.RIGHT;
-                    }
+            // vince l'ultima posizione libera (destra se sono libere tutte e due)
+            let scelta: CoordinatedObject = null, j = -1;
+            labelPosOptions.forEach((pos, i) => {
+                let r = {x: pos.x, y: pos.y, width: textWidth, height: textHeight};
+                if (!interseca(r)) { scelta = r; j = i; }
+            });
+            if (scelta) {
+                object.labelX = scelta.x;
+                object.labelY = centroY !== null ? centroY : scelta.y;
+                if (j == 0) {
+                    object.position = Orientations.LEFT;
+                    object.labelX += textWidth;
+                } else {
+                    object.position = Orientations.RIGHT;
                 }
-            i++;
+                inserisci(scelta);
+            }
         }
+    }
 
-        // Iterate through each path
-        // for (const path of paths-js) {
-        //     const {points} = path;
-        //
-        //     // Check if the label crosses the path
-        //     for (let i = 0; i < points.length - 1; i++) {
-        //         const {x: x1, y: y1} = points[i];
-        //         const {x: x2, y: y2} = points[i + 1];
-        //
-        //         // Calculate the intersection point between the path and the label line
-        //         const {
-        //             x: intX,
-        //             y: intY
-        //         } = calculateLineIntersection(centerX, centerY, labelObject.labelX!, labelObject.labelY!, x1, y1, x2, y2);
-        //
-        //         // If the intersection point is within the label or path bounds, move the label to a new position
-        //         if (
-        //             intX >= Math.min(centerX, labelObject.labelX!) &&
-        //             intX <= Math.max(centerX, labelObject.labelX!) &&
-        //             intY >= Math.min(centerY, labelObject.labelY!) &&
-        //             intY <= Math.max(centerY, labelObject.labelY!) &&
-        //             intX >= Math.min(x1, x
-        //
-        //
-        //             // If the intersection point is within the label or path bounds, move the label to a new position
-        //             if (
-        //                 intX >= Math.min(centerX, labelObject.labelX!) &&
-        //                 intX <= Math.max(centerX, labelObject.labelX!) &&
-        //                 intY >= Math.min(centerY, labelObject.labelY!) &&
-        //                 intY <= Math.max(centerY, labelObject.labelY!) &&
-        //                 intX >= Math.min(x1, x2) &&
-        //                 intX <= Math.max(x1, x2) &&
-        //                 intY >= Math.min(y1, y2) &&
-        //                 intY <= Math.max(y1, y2)
-        //             ) {
-        //                 overlapping = true;
-        //
-        //                 // Calculate the angle between the path and the label
-        //                 const angle = Math.atan2(centerY - labelObject.labelY!, centerX - labelObject.labelX!);
-        //
-        //                 // Calculate the new label coordinates
-        //                 const newLabelX = centerX + (width / 2 + 10) * Math.cos(angle);
-        //                 const newLabelY = centerY + (width / 2 + 10) * Math.sin(angle);
-        //
-        //                 // Update the label object with the new label coordinates
-        //                 labelObject.labelX = newLabelX;
-        //                 labelObject.labelY = newLabelY;
-        //             }
-        //     }
-        // }
+    // posizionamento per una selezione: ogni nodo selezionato ha il suo nome (destra, sinistra, poi sopra o sotto)
+    runSelezione(scalaTesto: number) {
+        if (!this.geometria) return;
+        const CELLA = 64;
+        const griglia = new Map<string, any[]>();
+        const celle = (r, azione: (k: string) => void) => {
+            let x0 = Math.floor(r.x / CELLA), x1 = Math.floor((r.x + r.width) / CELLA);
+            let y0 = Math.floor(r.y / CELLA), y1 = Math.floor((r.y + r.height) / CELLA);
+            for (let cx = x0; cx <= x1; cx++) for (let cy = y0; cy <= y1; cy++) azione(cx + "," + cy);
+        };
+        const inserisci = (r) => celle(r, k => { let l = griglia.get(k); if (l) l.push(r); else griglia.set(k, [r]); });
+        const interseca = (r): boolean => {
+            let trovato = false;
+            celle(r, k => {
+                if (trovato) return;
+                let l = griglia.get(k);
+                if (l) for (const r2 of l) { if (this.doObjectsIntersect(r, r2)) { trovato = true; return; } }
+            });
+            return trovato;
+        };
+        const dimensioni = {};
+        const misura = (t) => dimensioni[t] || (dimensioni[t] = getStringSize(null, t, 12));
+
+        // un oggetto puo' essere un gruppo di nodi sulla stessa riga (cx .. cx1)
+        for (const o of this.objects) {
+            let g: any = this.geometria(o);
+            let cx1 = g.cx1 !== undefined ? g.cx1 : g.cx;
+            inserisci({x: g.cx - g.r, y: g.cy - g.r, width: cx1 - g.cx + 2 * g.r, height: 2 * g.r});
+        }
+        for (const o of this.objects) {
+            const label = o.label() || "";
+            let [w0, h0] = misura(label);
+            let w = w0 * scalaTesto * 1.08, h = h0 * scalaTesto;   // +8%: il nome e' in grassetto
+            let g: any = this.geometria(o);
+            let cx1 = g.cx1 !== undefined ? g.cx1 : g.cx;
+            let gap = g.r * 0.5 + 2 * scalaTesto;
+            let dx = cx1 + g.r + gap, sx = g.cx - g.r - gap - w, y0 = g.cy - h / 2, sp = h * 0.8;
+            let opzioni = [
+                {x: dx, y: y0, lato: Orientations.RIGHT}, {x: sx, y: y0, lato: Orientations.LEFT},
+                {x: dx, y: y0 - sp, lato: Orientations.RIGHT}, {x: dx, y: y0 + sp, lato: Orientations.RIGHT},
+                {x: sx, y: y0 - sp, lato: Orientations.LEFT}, {x: sx, y: y0 + sp, lato: Orientations.LEFT},
+            ];
+            let scelta = opzioni.find(p => !interseca({x: p.x, y: p.y, width: w, height: h})) || opzioni[0];
+            let r = {x: scelta.x, y: scelta.y, width: w, height: h};
+            inserisci(r);
+            (o as any).labelY = scelta.y + h / 2;
+            (o as any).position = scelta.lato;
+            (o as any).labelX = scelta.lato === Orientations.LEFT ? scelta.x + w : scelta.x;
+        }
     }
 
     doObjectsIntersect(obj1: CoordinatedObject, obj2: CoordinatedObject): boolean {

@@ -92,6 +92,11 @@ export default class WidgetsManager {
                 let newRankGapSize = ui.value;
                 this.temporalLayoutGraph.assignRankCoordinates(newRankGapSize);
 
+                // le x dei nodi sono cambiate: va svuotata la cache dei percorsi
+                if (this.dynGraphVis.invalidatePathCache) {
+                    this.dynGraphVis.invalidatePathCache();
+                }
+
                 this.dynGraphVis.runLabeller();
                 this.dynGraphVis.interactionController.render();
 
@@ -131,8 +136,6 @@ export default class WidgetsManager {
             let teams = this.dynBipGraph.links.map(l => l.get("team"))
             teams = [...new Set(teams)]
 
-            console.log(121212, teams)
-            console.log(121212, this.dynBipGraph)
 
             if (this.dynBipGraph.metadata.teams) {
                 teams = teams.filter(t => this.dynBipGraph.metadata.teams.includes(t));
@@ -152,19 +155,57 @@ export default class WidgetsManager {
             //     .unknown("grey");
 
 
-            // Colorrs from PAOHVis
-            const colors = [
-                "#b3cde3",
-                "#fbb4ae",
-                "#ccebc5",
-                "#decbe4",
-                "#fed9a6",
-                "#ffffcc",
-                "#8DD3C7",
-                "#fddaec",
-                "#FDB462",
-                "#BEBADA"
-            ]
+        // 48 colori distinti, uno per nazionale
+        const colors = [
+            "#030395",
+            "#602276",
+            "#762D22",
+            "#1F1FF9",
+            "#953403",
+            "#BB1A25",
+            "#337622",
+            "#1A70BB",
+            "#6B7622",
+            "#13856E",
+            "#F91F67",
+            "#1F84F9",
+            "#6E9503",
+            "#F91FF9",
+            "#30A65F",
+            "#E27B36",
+            "#EA70E2",
+            "#EAA170",
+            "#56D005",
+            "#80DAB6",
+            "#EAD270",
+            "#B9EA70",
+            "#5FFA74",
+            "#B0F91F",
+            "#133185",
+            "#762254",
+            "#224F76",
+            "#95038B",
+            "#0549D0",
+            "#BB1A65",
+            "#955B03",
+            "#A21FF9",
+            "#038195",
+            "#039503",
+            "#9D5FFA",
+            "#F91FA2",
+            "#F9591F",
+            "#A480DA",
+            "#EA7078",
+            "#DA80B6",
+            "#80A4DA",
+            "#BBBB1A",
+            "#F9B01F",
+            "#1FDCF9",
+            "#1FF91F",
+            "#1FF9B0",
+            "#1FF9EA",
+            "#F9F91F"
+        ]
 
             // this.teamColorScale = d3.scaleOrdinal()
             //     .domain(teams)
@@ -177,7 +218,9 @@ export default class WidgetsManager {
                 .unknown("#DDDDDD");
 
             // USE THIS FOR MORE CONTRAST COLOR SCALE
-            this.teamColorScale.range(d3.schemeCategory10)
+            // this.teamColorScale.range(d3.schemeCategory10) // disattivato: solo 10 colori
+            // i dataset stratificati hanno pochi livelli: bastano i 10 colori di d3
+            if (document.body.classList.contains("stratificato")) this.teamColorScale.range(d3.schemeCategory10);
 
 
             this.roleLegendPanelManager = new TeamsLegendPanelManager("#team-legend-panel", this.teamColorScale);

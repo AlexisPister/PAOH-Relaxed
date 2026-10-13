@@ -260,3 +260,7 @@ cython_debug/
 ### Others
 .idea/
 flask_session
+
+# librerie locali gia' compilate, servono al frontend (file:../dynbipgraph-js e file:../paths-js)
+!dynbipgraph-js/dist/
+!paths-js/dist/

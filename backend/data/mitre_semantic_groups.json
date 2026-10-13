@@ -1,0 +1,4133 @@
+{
+  "metadata": {
+    "datasetName": "MITRE_Infrastructure_Numeric_Final",
+    "layout": "stratified",
+    "format": "2.1.0",
+    "nodes": "nodes",
+    "links": "links",
+    "times": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "timeLabels": [
+      "Reconnaissance",
+      "Resource Development",
+      "Initial Access",
+      "Execution",
+      "Persistence",
+      "Privilege Escalation",
+      "Defense Evasion",
+      "Credential Access",
+      "Discovery",
+      "Lateral Movement",
+      "Collection",
+      "Command and Control",
+      "Exfiltration",
+      "Impact"
+    ],
+    "teams": [
+      "01 External Perimeter",
+      "02 User Endpoints",
+      "03 Internal Network",
+      "04 Core Infrastructure",
+      "05 Critical Data Storage"
+    ],
+    "community": [
+      "team"
+    ],
+    "weight": "weight",
+    "edgeType": "edgeType",
+    "entityType": "label",
+    "source_entity_type": "document",
+    "target_entity_type": "person",
+    "time_key": "ts",
+    "timeSlot": "ts",
+    "group": "group"
+  },
+  "nodes": [
+    {
+      "id": "L1",
+      "name": "01 External Perimeter",
+      "label": "person",
+      "group": "01 External Perimeter",
+      "team": [
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter",
+        "01 External Perimeter"
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "02 User Endpoints",
+      "label": "person",
+      "group": "02 User Endpoints",
+      "team": [
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints",
+        "02 User Endpoints"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "03 Internal Network",
+      "label": "person",
+      "group": "03 Internal Network",
+      "team": [
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network",
+        "03 Internal Network"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "04 Core Infrastructure",
+      "label": "person",
+      "group": "04 Core Infrastructure",
+      "team": [
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure",
+        "04 Core Infrastructure"
+      ]
+    },
+    {
+      "id": "L5",
+      "name": "05 Critical Data Storage",
+      "label": "person",
+      "group": "05 Critical Data Storage",
+      "team": [
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage",
+        "05 Critical Data Storage"
+      ]
+    },
+    {
+      "id": "doc_0",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1047",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_1",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1687",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_2",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1113",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_3",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1037",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_4",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1557",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_5",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1033",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_6",
+      "ts": 2,
+      "label": "document",
+      "lieu": "T1583",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_7",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1613",
+      "type_travail": "Score 70",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_8",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1592",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_9",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1003",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_10",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1129",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_11",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1602",
+      "type_travail": "Score 100",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_12",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1006",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_13",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1666",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_14",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1014",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_15",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1123",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_16",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1543",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_17",
+      "ts": 3,
+      "label": "document",
+      "lieu": "T1133",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_18",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1539",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_19",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1682",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_20",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1578",
+      "type_travail": "Score 70",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_21",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1069",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_22",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1114",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_23",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1594",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_24",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1561",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_25",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1615",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_26",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1025",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_27",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1547",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_28",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1600",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_29",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1489",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_30",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1652",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_31",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1564",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_32",
+      "ts": 11,
+      "label": "document",
+      "lieu": "T1080",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_33",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1137",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_34",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1119",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_35",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1689",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_36",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1115",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_37",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1675",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_38",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1007",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_39",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1040",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_40",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1530",
+      "type_travail": "Score 100",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_41",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1135",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_42",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1120",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_43",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1082",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_44",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1071",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_45",
+      "ts": 5,
+      "label": "document",
+      "lieu": "T1053",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_46",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1176",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_47",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1106",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_48",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1202",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_49",
+      "ts": 11,
+      "label": "document",
+      "lieu": "T1091",
+      "type_travail": "Score 10",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_50",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1005",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_51",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1140",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_52",
+      "ts": 3,
+      "label": "document",
+      "lieu": "T1195",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_53",
+      "ts": 3,
+      "label": "document",
+      "lieu": "T1190",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_54",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1558",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_55",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1555",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_56",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1567",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_57",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1219",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_58",
+      "ts": 2,
+      "label": "document",
+      "lieu": "T1684",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_59",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1036",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_60",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1552",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_61",
+      "ts": 3,
+      "label": "document",
+      "lieu": "T1659",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_62",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1055",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_63",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1205",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_64",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1218",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_65",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1620",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_66",
+      "ts": 7,
+      "label": "document",
+      "lieu": "T1611",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_67",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1010",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_68",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1029",
+      "type_travail": "Score 100",
+      "group": "05 Critical Data Storage"
+    },
+    {
+      "id": "doc_69",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1525",
+      "type_travail": "Score 40",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_70",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1572",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_71",
+      "ts": 11,
+      "label": "document",
+      "lieu": "T1550",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_72",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1011",
+      "type_travail": "Score 100",
+      "group": "05 Critical Data Storage"
+    },
+    {
+      "id": "doc_73",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1589",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_74",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1560",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_75",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1185",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_76",
+      "ts": 11,
+      "label": "document",
+      "lieu": "T1021",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_77",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1596",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_78",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1207",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_79",
+      "ts": 5,
+      "label": "document",
+      "lieu": "T1610",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_80",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1112",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_81",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1580",
+      "type_travail": "Score 70",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_82",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1491",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_83",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1535",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_84",
+      "ts": 11,
+      "label": "document",
+      "lieu": "T1563",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_85",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1217",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_86",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1681",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_87",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1674",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_88",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1092",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_89",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1222",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_90",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1595",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_91",
+      "ts": 7,
+      "label": "document",
+      "lieu": "T1548",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_92",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1673",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_93",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1125",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_94",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1016",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_95",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1087",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_96",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1090",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_97",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1059",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_98",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1677",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_99",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1482",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_100",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1020",
+      "type_travail": "Score 100",
+      "group": "05 Critical Data Storage"
+    },
+    {
+      "id": "doc_101",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1070",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_102",
+      "ts": 5,
+      "label": "document",
+      "lieu": "T1609",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_103",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1083",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_104",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1568",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_105",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1647",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_106",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1074",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_107",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1649",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_108",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1049",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_109",
+      "ts": 2,
+      "label": "document",
+      "lieu": "T1584",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_110",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1542",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_111",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1612",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_112",
+      "ts": 2,
+      "label": "document",
+      "lieu": "T1586",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_113",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1497",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_114",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1102",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_115",
+      "ts": 2,
+      "label": "document",
+      "lieu": "T1608",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_116",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1104",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_117",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1657",
+      "type_travail": "Score 100",
+      "group": "05 Critical Data Storage"
+    },
+    {
+      "id": "doc_118",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1480",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_119",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1619",
+      "type_travail": "Score 70",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_120",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1654",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_121",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1528",
+      "type_travail": "Score 70",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_122",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1204",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_123",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1057",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_124",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1072",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_125",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1041",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_126",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1591",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_127",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1606",
+      "type_travail": "Score 70",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_128",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1621",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_129",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1554",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_130",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1679",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_131",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1212",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_132",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1590",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_133",
+      "ts": 11,
+      "label": "document",
+      "lieu": "T1210",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_134",
+      "ts": 11,
+      "label": "document",
+      "lieu": "T1534",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_135",
+      "ts": 3,
+      "label": "document",
+      "lieu": "T1199",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_136",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1593",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_137",
+      "ts": 7,
+      "label": "document",
+      "lieu": "T1098",
+      "type_travail": "Score 40",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_138",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1048",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_139",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1678",
+      "type_travail": "Score 100",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_140",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1597",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_141",
+      "ts": 3,
+      "label": "document",
+      "lieu": "T1566",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_142",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1110",
+      "type_travail": "Score 70",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_143",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1565",
+      "type_travail": "Score 100",
+      "group": "05 Critical Data Storage"
+    },
+    {
+      "id": "doc_144",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1559",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_145",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1001",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_146",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1039",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_147",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1601",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_148",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1574",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_149",
+      "ts": 3,
+      "label": "document",
+      "lieu": "T1078",
+      "type_travail": "Score 10",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_150",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1571",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_151",
+      "ts": 7,
+      "label": "document",
+      "lieu": "T1068",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_152",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1531",
+      "type_travail": "Score 100",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_153",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1027",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_154",
+      "ts": 2,
+      "label": "document",
+      "lieu": "T1683",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_155",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1201",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_156",
+      "ts": 7,
+      "label": "document",
+      "lieu": "T1546",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_157",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1187",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_158",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1599",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_159",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1486",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_160",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1690",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_161",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1553",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_162",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1573",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_163",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1056",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_164",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1685",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_165",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1203",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_166",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1667",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_167",
+      "ts": 11,
+      "label": "document",
+      "lieu": "T1570",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_168",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1095",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_169",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1671",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_170",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1012",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_171",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1030",
+      "type_travail": "Score 100",
+      "group": "05 Critical Data Storage"
+    },
+    {
+      "id": "doc_172",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1499",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_173",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1688",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_174",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1614",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_175",
+      "ts": 5,
+      "label": "document",
+      "lieu": "T1197",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_176",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1132",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_177",
+      "ts": 1,
+      "label": "document",
+      "lieu": "T1598",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_178",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1496",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_179",
+      "ts": 2,
+      "label": "document",
+      "lieu": "T1585",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_180",
+      "ts": 2,
+      "label": "document",
+      "lieu": "T1588",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_181",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1569",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_182",
+      "ts": 2,
+      "label": "document",
+      "lieu": "T1650",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_183",
+      "ts": 12,
+      "label": "document",
+      "lieu": "T1213",
+      "type_travail": "Score 100",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_184",
+      "ts": 3,
+      "label": "document",
+      "lieu": "T1200",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_185",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1505",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_186",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1485",
+      "type_travail": "Score 100",
+      "group": "05 Critical Data Storage"
+    },
+    {
+      "id": "doc_187",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1537",
+      "type_travail": "Score 100",
+      "group": "05 Critical Data Storage"
+    },
+    {
+      "id": "doc_188",
+      "ts": 3,
+      "label": "document",
+      "lieu": "T1189",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_189",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1498",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_190",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1651",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_191",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1221",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_192",
+      "ts": 7,
+      "label": "document",
+      "lieu": "T1134",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_193",
+      "ts": 9,
+      "label": "document",
+      "lieu": "T1111",
+      "type_travail": "Score 70",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_194",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1668",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_195",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1136",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_196",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1526",
+      "type_travail": "Score 70",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_197",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1018",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_198",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1046",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_199",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1518",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_200",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1538",
+      "type_travail": "Score 70",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_201",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1622",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_202",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1052",
+      "type_travail": "Score 100",
+      "group": "05 Critical Data Storage"
+    },
+    {
+      "id": "doc_203",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1105",
+      "type_travail": "Score 100",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_204",
+      "ts": 5,
+      "label": "document",
+      "lieu": "T1648",
+      "type_travail": "Score 40",
+      "group": "05 Critical Data Storage"
+    },
+    {
+      "id": "doc_205",
+      "ts": 6,
+      "label": "document",
+      "lieu": "T1653",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_206",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1665",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_207",
+      "ts": 7,
+      "label": "document",
+      "lieu": "T1484",
+      "type_travail": "Score 40",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_208",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1220",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_209",
+      "ts": 2,
+      "label": "document",
+      "lieu": "T1587",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_210",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1686",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_211",
+      "ts": 13,
+      "label": "document",
+      "lieu": "T1008",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_212",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1680",
+      "type_travail": "Score 70",
+      "group": "04 Core Infrastructure"
+    },
+    {
+      "id": "doc_213",
+      "ts": 10,
+      "label": "document",
+      "lieu": "T1124",
+      "type_travail": "Score 70",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_214",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1556",
+      "type_travail": "Score 40",
+      "group": "03 Internal Network"
+    },
+    {
+      "id": "doc_215",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1495",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_216",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1490",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_217",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1216",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_218",
+      "ts": 3,
+      "label": "document",
+      "lieu": "T1669",
+      "type_travail": "Score 10",
+      "group": "01 External Perimeter"
+    },
+    {
+      "id": "doc_219",
+      "ts": 8,
+      "label": "document",
+      "lieu": "T1211",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_220",
+      "ts": 4,
+      "label": "document",
+      "lieu": "T1127",
+      "type_travail": "Score 40",
+      "group": "02 User Endpoints"
+    },
+    {
+      "id": "doc_221",
+      "ts": 14,
+      "label": "document",
+      "lieu": "T1529",
+      "type_travail": "Score 100",
+      "group": "02 User Endpoints"
+    }
+  ],
+  "links": [
+    {
+      "source": "doc_0",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_1",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_1",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_2",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_3",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_4",
+      "target": "L3",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_5",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_6",
+      "target": "L1",
+      "ts": 2,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_7",
+      "target": "L4",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_8",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_9",
+      "target": "L3",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_10",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_11",
+      "target": "L4",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_12",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_13",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_14",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_15",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_16",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_16",
+      "target": "L3",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_17",
+      "target": "L1",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_18",
+      "target": "L2",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_19",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_20",
+      "target": "L4",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_21",
+      "target": "L3",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_22",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_22",
+      "target": "L4",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_23",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_24",
+      "target": "L2",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_24",
+      "target": "L3",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_24",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_25",
+      "target": "L3",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_26",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_27",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_28",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_28",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_29",
+      "target": "L2",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_29",
+      "target": "L3",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_29",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_30",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_31",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_32",
+      "target": "L3",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_33",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_34",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_34",
+      "target": "L4",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_35",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_36",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_37",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_38",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_39",
+      "target": "L3",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_40",
+      "target": "L4",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_41",
+      "target": "L3",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_42",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_43",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_44",
+      "target": "L1",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_44",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_45",
+      "target": "L2",
+      "ts": 5,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_45",
+      "target": "L3",
+      "ts": 5,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_46",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_47",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_48",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_49",
+      "target": "L2",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_50",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_51",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_52",
+      "target": "L1",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_52",
+      "target": "L2",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_53",
+      "target": "L1",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_54",
+      "target": "L3",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_55",
+      "target": "L2",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_56",
+      "target": "L1",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_56",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_57",
+      "target": "L1",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_57",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_58",
+      "target": "L1",
+      "ts": 2,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_59",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_60",
+      "target": "L2",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_61",
+      "target": "L1",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_62",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_63",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_64",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_65",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_66",
+      "target": "L2",
+      "ts": 7,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_67",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_68",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_69",
+      "target": "L4",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_70",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_71",
+      "target": "L2",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_71",
+      "target": "L3",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_72",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_73",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_74",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_74",
+      "target": "L4",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_75",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_76",
+      "target": "L2",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_76",
+      "target": "L3",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_77",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_78",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_79",
+      "target": "L2",
+      "ts": 5,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_80",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_80",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_81",
+      "target": "L4",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_82",
+      "target": "L1",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_83",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_83",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_84",
+      "target": "L2",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_85",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_86",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_87",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_88",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_89",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_89",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_90",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_91",
+      "target": "L2",
+      "ts": 7,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_92",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_93",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_94",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_94",
+      "target": "L3",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_95",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_95",
+      "target": "L3",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_96",
+      "target": "L1",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_96",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_97",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_98",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_99",
+      "target": "L3",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_100",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_101",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_101",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_102",
+      "target": "L2",
+      "ts": 5,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_103",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_104",
+      "target": "L1",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_104",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_105",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_106",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_107",
+      "target": "L3",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_108",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_109",
+      "target": "L1",
+      "ts": 2,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_110",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_111",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_112",
+      "target": "L1",
+      "ts": 2,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_113",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_114",
+      "target": "L1",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_114",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_115",
+      "target": "L1",
+      "ts": 2,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_116",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_117",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_118",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_119",
+      "target": "L4",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_120",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_121",
+      "target": "L4",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_122",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_123",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_124",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_125",
+      "target": "L2",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_125",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_126",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_127",
+      "target": "L4",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_128",
+      "target": "L3",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_129",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_130",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_131",
+      "target": "L3",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_132",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_133",
+      "target": "L2",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_133",
+      "target": "L3",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_134",
+      "target": "L2",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_135",
+      "target": "L1",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_136",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_137",
+      "target": "L3",
+      "ts": 7,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_138",
+      "target": "L1",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_138",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_139",
+      "target": "L4",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_140",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_141",
+      "target": "L1",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_141",
+      "target": "L2",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_142",
+      "target": "L1",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_142",
+      "target": "L3",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_143",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_144",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_145",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_146",
+      "target": "L2",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_146",
+      "target": "L4",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_147",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_147",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_148",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_149",
+      "target": "L2",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_149",
+      "target": "L4",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_149",
+      "target": "L5",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_150",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_151",
+      "target": "L2",
+      "ts": 7,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_151",
+      "target": "L3",
+      "ts": 7,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_152",
+      "target": "L3",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_152",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_153",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_154",
+      "target": "L1",
+      "ts": 2,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_155",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_156",
+      "target": "L2",
+      "ts": 7,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_157",
+      "target": "L3",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_158",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_159",
+      "target": "L2",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_159",
+      "target": "L3",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_159",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_160",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_161",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_161",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_162",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_163",
+      "target": "L2",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_164",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_165",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_166",
+      "target": "L2",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_166",
+      "target": "L3",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_167",
+      "target": "L2",
+      "ts": 11,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_168",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_169",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_170",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_171",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_172",
+      "target": "L2",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_172",
+      "target": "L3",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_173",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_173",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_174",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_175",
+      "target": "L2",
+      "ts": 5,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_176",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_177",
+      "target": "L1",
+      "ts": 1,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_178",
+      "target": "L2",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_178",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_179",
+      "target": "L1",
+      "ts": 2,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_180",
+      "target": "L1",
+      "ts": 2,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_181",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_182",
+      "target": "L1",
+      "ts": 2,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_183",
+      "target": "L4",
+      "ts": 12,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_184",
+      "target": "L1",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_185",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_186",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_187",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_188",
+      "target": "L1",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_188",
+      "target": "L2",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_189",
+      "target": "L1",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_190",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_191",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_192",
+      "target": "L2",
+      "ts": 7,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_192",
+      "target": "L3",
+      "ts": 7,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_193",
+      "target": "L3",
+      "ts": 9,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_194",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_195",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_195",
+      "target": "L3",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_196",
+      "target": "L4",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_197",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_198",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_199",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_200",
+      "target": "L4",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_201",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_202",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_203",
+      "target": "L1",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_203",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_204",
+      "target": "L5",
+      "ts": 5,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "05 Critical Data Storage"
+    },
+    {
+      "source": "doc_205",
+      "target": "L2",
+      "ts": 6,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_206",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_207",
+      "target": "L3",
+      "ts": 7,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_208",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_209",
+      "target": "L1",
+      "ts": 2,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_210",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_211",
+      "target": "L2",
+      "ts": 13,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_212",
+      "target": "L4",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "04 Core Infrastructure"
+    },
+    {
+      "source": "doc_213",
+      "target": "L2",
+      "ts": 10,
+      "edgeType": "compromises",
+      "weight": 70,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_214",
+      "target": "L3",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_215",
+      "target": "L2",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_216",
+      "target": "L2",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_216",
+      "target": "L3",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_217",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_218",
+      "target": "L1",
+      "ts": 3,
+      "edgeType": "compromises",
+      "weight": 10,
+      "team": "01 External Perimeter"
+    },
+    {
+      "source": "doc_219",
+      "target": "L2",
+      "ts": 8,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_220",
+      "target": "L2",
+      "ts": 4,
+      "edgeType": "compromises",
+      "weight": 40,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_221",
+      "target": "L2",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "02 User Endpoints"
+    },
+    {
+      "source": "doc_221",
+      "target": "L3",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "03 Internal Network"
+    },
+    {
+      "source": "doc_221",
+      "target": "L5",
+      "ts": 14,
+      "edgeType": "compromises",
+      "weight": 100,
+      "team": "05 Critical Data Storage"
+    }
+  ]
+}

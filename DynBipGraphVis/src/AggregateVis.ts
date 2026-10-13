@@ -99,6 +99,7 @@ export default class AggregateVis {
     }
 
     zoomAction = (e, d) => {
+        if (this.stratificato()) return this.zoomActionStratificato(e, d);
         this.transform = e.transform;
         this.mainG.attr("transform", `translate(${this.transform.x}, 0) scale(${this.transform.k})`); // works but change the height
         // this.render();
@@ -128,6 +129,56 @@ export default class AggregateVis {
             .attr("x", (this.selectMeasureFOX * this.transform.k) - 160)
     }
 
+    // dataset stratificati: etichette delle fasi centrate sotto le barre
+    zoomActionStratificato(e, d) {
+        this.transform = e.transform;
+        this.mainG.attr("transform", `translate(${this.transform.x}, 0) scale(${this.transform.k})`);
+
+        let self = this;
+        this.mainG
+            .selectAll(".timeLegend")
+            .style("font-size", `${10 / this.transform.k}px`)
+            .attr("y", 85 / this.transform.k) 
+            .each(function(this: SVGTextElement, d: any) {
+                let xPos = self.graph.timeToPosition(d) + 50;
+                let yPos = 85 / self.transform.k;
+                
+                d3.select(this).selectAll("tspan")
+                    .attr("x", xPos)
+                    .attr("y", yPos);
+            });
+
+        this.mainG
+            .selectAll(".histogramBar")
+            .attr("x", function(this: any, d: any) { return self.graph.timeToPosition(d); })
+            .attr("y", function(this: any, d: any) { return self.histogramBarY(d); })
+            .attr("height", function(this: any, d: any) { return self.histogramBarHeight(d); })
+
+        this.mainG
+            .selectAll(".histoValue")
+            .attr("x", function(this: any, d: any) { return self.graph.timeToPosition(d) + 50; })
+            .attr("y", function(this: any, d: any) { return self.yMaxBar(); })
+            .style("font-size", `${(self.fontSize - 2) / self.transform.k}px`)
+            .style("text-anchor", "middle")
+            .style("fill", "#000000");
+
+        this.mainG
+            .selectAll(".roleBar")
+            .attr("y", function(this: any, d: any) { return self.barY(d[0][1]); })
+            .attr("height", function(this: any, d: any) { return self.barY(d[0][0]) - self.barY(d[0][1]); })
+
+        this.selectMeasureFO
+            .attr("transform", `translate(0, 0) scale(${1 / this.transform.k})`)
+            .attr("x", (this.selectMeasureFOX * this.transform.k) - 160)
+    }
+
+    // dataset a livelli (vedi PaohRelaxedGraph.datasetStratificato)
+    stratificato(): boolean {
+        let metadata: any = (this.bipDynGraph as any)?.metadata;
+        if (metadata?.layout === "stratified") return true;
+        return !!(metadata?.datasetName && String(metadata.datasetName).toLowerCase().includes("mitre"));
+    }
+
     textFontSize() {
         return `${this.fontSize / this.transform.k}px`
         // return `${this.fontSize / (this.transform.k * 1.5)}px`
@@ -136,6 +187,7 @@ export default class AggregateVis {
 
     // TODO : finish
     render() {
+        if (this.stratificato()) return this.renderStratificato();
         let rolesDist = this.bipDynGraph.timeToRolesDist();
         let rolesDistFlat = []
         for (let [a, b] of Object.entries(rolesDist)) {
@@ -163,6 +215,9 @@ export default class AggregateVis {
             .join("text")
             .text((d) => d)
             .classed("timeLegend", true)
+            .style("text-anchor", null)
+            .style("font-weight", null)
+            .style("fill", null)
             .attr("x", d => {
                 return this.graph.timeToPosition(d)
             })
@@ -188,6 +243,8 @@ export default class AggregateVis {
             .join("text")
             .text((d) => this.histoText(d))
             .classed("histoValue", true)
+            .style("text-anchor", null)
+            .style("font-weight", null)
             .attr("x", d => this.graph.timeToPosition(d) + 100)
             .attr("y", d => this.yMaxBar())
             .style("font-size", `${(this.fontSize - 2) / this.transform.k}px`)
@@ -211,6 +268,111 @@ export default class AggregateVis {
             .attr("height", d => this.barY(d[0][0]) - this.barY(d[0][1]))
             .classed("roleBar", true)
             .style("fill", (d, i) => {
+                return this.bipDynGraph.rolesColorScale()(this.bipDynGraph.roles[i])
+            })
+            .style("display", () => this.selectedMeasure == NetworkMeasures.rolesDistribution ? "" : "none")
+    }
+
+    renderStratificato() {
+        const metaLabels = this.bipDynGraph?.metadata?.timeLabels 
+                        || this.bipDynGraph?.metadata?.times_labels;
+
+        let rolesDist = this.bipDynGraph.timeToRolesDist();
+        let rolesDistFlat = []
+        for (let [a, b] of Object.entries(rolesDist)) {
+            let item = {time: a}
+            for (let [role, freq] of Object.entries(b)) {
+                item[role] = freq
+            }
+            rolesDistFlat.push(item)
+        }
+
+        let stackData = d3.stack()
+            .keys(this.bipDynGraph.roles)
+            (rolesDistFlat)
+
+        this.timeGroups = this.mainG
+            .selectAll(".timeGroup")
+            .data(this.bipDynGraph.times, function(d: any) { return d; })
+            .join("g")
+            .classed("timeGroup", true)
+
+        let self = this;
+        this.timeGroups
+            .selectAll(".timeLegend")
+            .data(this.bipDynGraph.times, function(d: any) { return d; })
+            .join("text")
+            .classed("timeLegend", true)
+            .attr("x", function(d: any) { return self.graph.timeToPosition(d) + 50; })
+            .attr("y", function() { return 85 / self.transform.k; }) 
+            .style("font-size", `${10 / this.transform.k}px`)
+            .style("font-weight", "400")                  
+            .style("text-anchor", "middle")
+            .style("fill", "#000000")
+            .attr("transform", "") 
+            .each(function(this: SVGTextElement, d: any, i: number) {
+                let textNode = d3.select(this);
+                let xPos = self.graph.timeToPosition(d) + 50;
+                let yPos = 85 / self.transform.k; 
+                let testoCompleto = (metaLabels && metaLabels[i] !== undefined) 
+                    ? String(metaLabels[i]) 
+                    : String(d);
+
+                let parole = testoCompleto.split(" "); 
+                
+                textNode.selectAll("*").remove(); 
+                textNode.text(""); 
+
+                parole.forEach((parola, index) => {
+                    textNode.append("tspan")
+                        .text(parola)
+                        .attr("x", xPos)
+                        .attr("y", yPos) 
+                        .attr("dy", index === 0 ? "0" : "1.1em") 
+                        .style("text-anchor", "middle");
+                });
+            });
+
+        this.timeGroups
+            .selectAll(".histogramBar")
+            .data(this.bipDynGraph.times, function(d: any) { return d; })
+            .join("rect")
+            .attr("x", function(d: any) { return self.graph.timeToPosition(d); })
+            .attr("y", function(d: any) { return self.histogramBarY(d); })
+            .attr("width", function(d: any) { return 100; })
+            .attr("height", function(d: any) { return self.histogramBarHeight(d); })
+            .classed("histogramBar", true)
+            .style("fill", this.histoBarColor)
+            .style("display", () => this.selectedMeasure == NetworkMeasures.rolesDistribution ? "none" : "")
+
+        this.timeGroups
+            .selectAll(".histoValue")
+            .data(this.bipDynGraph.times, function(d: any) { return d; })
+            .join("text")
+            .text((d: any) => this.histoText(d))
+            .classed("histoValue", true)
+            .attr("x", function(d: any) { return self.graph.timeToPosition(d) + 50; })
+            .attr("y", function() { return self.yMaxBar(); })
+            .style("font-size", `${(this.fontSize - 2) / this.transform.k}px`)
+            .style("font-weight", "bold")          
+            .style("text-anchor", "middle")       
+            .style("fill", "#000000")     
+            .style("display", () => this.selectedMeasure == NetworkMeasures.rolesDistribution ? "none" : "")
+
+        this.timeGroups
+            .selectAll(".roleBar")
+            .data((d: any) => stackData.map(s => s.filter(t => t.data ? t.data.time == d : false)))
+            .join("rect")
+            .attr("x", function(d: any) {
+                return self.graph.timeToPosition(Number(d[0].data.time))
+            })
+            .attr("y", function(d: any) {
+                return self.barY(d[0][1])
+            })
+            .attr("width", 100)
+            .attr("height", function(d: any) { return self.barY(d[0][0]) - self.barY(d[0][1]); })
+            .classed("roleBar", true)
+            .style("fill", (d: any, i: number) => {
                 return this.bipDynGraph.rolesColorScale()(this.bipDynGraph.roles[i])
             })
             .style("display", () => this.selectedMeasure == NetworkMeasures.rolesDistribution ? "" : "none")

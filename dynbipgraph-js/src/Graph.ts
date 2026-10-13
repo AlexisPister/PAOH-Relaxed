@@ -77,6 +77,10 @@ export default class Graph {
             this.nodeTypeKey = null;
         }
 
+        // nodes e links possono mancare nel json
+        if (!jsonData["nodes"]) jsonData["nodes"] = [];
+        if (!jsonData["links"]) jsonData["links"] = [];
+
         this.processNodes(jsonData["nodes"]);
         this.processLinks(jsonData["links"]);
 

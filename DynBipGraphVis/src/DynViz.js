@@ -28,6 +28,7 @@ export default class DynViz {
 
         // for scrolling
         this.svg.height(`7000px`)
+        this.svg.width(`7000px`)
 
         // First dataset loaded
         // this.fetchDataset("Piemont");
@@ -77,6 +78,10 @@ export default class DynViz {
     loadData(data) {
         [this.graphData, this.temporalLayoutData] = [data[0], data[1]];
         this.graph = new BipartiteDynGraph(this.graphData);
+        // i dataset stratificati usano colonne e nodi piu' piccoli e uno stile dedicato
+        let stratificato = PaohRelaxedGraph.datasetStratificato(this.graph);
+        renderingParameters.applicaProfilo(stratificato);
+        document.body.classList.toggle("stratificato", stratificato);
     }
 
     startVis() {

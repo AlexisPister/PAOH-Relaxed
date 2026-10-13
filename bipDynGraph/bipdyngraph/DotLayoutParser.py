@@ -60,7 +60,10 @@ class DotLayoutParser:
         print("Parse Svg")
         start = timer()
         # soup = BeautifulSoup(svg, 'html.parser')
-        soup = BeautifulSoup(svg, 'lxml')
+        try:
+            soup = BeautifulSoup(svg, 'lxml')
+        except Exception:
+            soup = BeautifulSoup(svg, 'html.parser')
         end = timer()
         print(end - start)
 
@@ -240,7 +243,7 @@ class DotLayoutParser:
         # nodes = self.process_nodes()
         # edges = self.process_edges()
 
-        self.json_data = nx.node_link_data(self.graph)
+        self.json_data = nx.node_link_data(self.graph, edges="links")
         self.json_data["metadata"] = {
             "entityType": ENTITYTYPE_KEY,
             "edgeType": EDGETYPE_KEY
